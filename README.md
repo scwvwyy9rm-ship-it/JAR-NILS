@@ -26,6 +26,22 @@ Development work includes:
 
 These areas have different levels of integration and maturity. Their presence does not mean that every capability is available in one finished product. A complete autonomous programming loop and general self-improvement are longer-term goals.
 
+## App screenshots — 2 November 2026
+
+Screenshots supplied by the founder from the running JAR-NILS Workspace. They show the interface and displayed runtime state at capture time; they are not an end-to-end programming benchmark or a software release.
+
+### Workspace and local conversation
+
+![JAR-NILS Workspace with local conversation, runtime inspector, model stack and capability status](assets/workspace-2026-11-02.png)
+
+The native desktop workspace shows the local model, conversation area, inspector, and explicit capability states. No development task is active in this capture. Some navigation areas are marked as not implemented.
+
+### Self-Development workspace
+
+![JAR-NILS Self-Development view in an idle state with task fields and review controls](assets/self-development-2026-11-02.png)
+
+The Self-Development view is idle. It displays fields for an objective, repository path, constraints, and base revision, alongside controls for activity, diffs, evidence, and review. This screenshot demonstrates the current interface; it does not establish that a task has run successfully.
+
 ## Examples of the work
 
 | Area | Concrete focus | Why it matters |
