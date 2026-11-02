@@ -5,6 +5,31 @@
 
 [Meet the founder on LinkedIn](https://www.linkedin.com/in/christoffer-runnholm-4269a3448/) · [GitHub profile](https://github.com/scwvwyy9rm-ship-it)
 
+## Latest update: a simpler workflow, a clearer learning path
+
+**Development checkpoint · 2 November 2026**
+
+The next goal is to make local AI-assisted development easier to operate: describe an improvement, review a prepared task card, explicitly press **Start**, and follow progress in a compact activity view. Existing approval and verification boundaries remain in place.
+
+### Work in progress
+
+The first UI checkpoint focuses on everyday Windows interaction:
+- Mouse-wheel scrolling across content and dynamically created components.
+- Small wheel increments and nested scroll areas.
+- Selectable, read-only factual text with copying and a context menu.
+
+The latest handoff reports **17 targeted tests passed and 1 skipped because of the Tk test environment**. Import origin was checked against the intended worktree; affected Python files passed compilation and the diff check passed. This is a development checkpoint. Full regression, mutation checks, and independent final review remain outstanding. No release or activation is claimed.
+
+Next comes the task card and activity view on top of the existing orchestration: show the verified repository and revision, current activity, blockers, and the decisions the operator needs to make.
+
+### LEAN, 5S, ENIGMA and learning
+
+A separate architecture study is being prepared to apply LEAN and 5S across workflows, ENIGMA, context, and memory. The question is how to reduce duplicate work and resource use while keeping information useful, traceable, and correct.
+
+The longer-term learning goal is to distil verified experience into compact local lessons with source provenance and separately approved activation. This remains a design goal. The study itself does not activate learning or change the product, and no new performance improvement is claimed.
+
+[Read the development update on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523118724736835584/)
+
 ## Why JAR-NILS?
 
 Writing code is only one part of programming. Understanding the project, knowing what may change, testing a proposed solution, and recovering when something fails matter just as much.
