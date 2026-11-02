@@ -26,21 +26,31 @@ Development work includes:
 
 These areas have different levels of integration and maturity. Their presence does not mean that every capability is available in one finished product. A complete autonomous programming loop and general self-improvement are longer-term goals.
 
-## App screenshots — 2 November 2026
+## Current app — 2 November 2026
 
-Screenshots supplied by the founder from the running JAR-NILS Workspace. They show the interface and displayed runtime state at capture time; they are not an end-to-end programming benchmark or a software release.
+### Workspace
+![Current JAR-NILS Workspace](assets/workspace-2026-11-02.png)
 
-### Workspace and local conversation
+The running native app shows its local model, conversation, runtime inspector and capability states. No development task is active at capture time; some navigation areas remain unimplemented.
 
-![JAR-NILS Workspace with local conversation, runtime inspector, model stack and capability status](assets/workspace-2026-11-02.png)
+### Self-Development
+![Current Self-Development view](assets/self-development-2026-11-02.png)
 
-The native desktop workspace shows the local model, conversation area, inspector, and explicit capability states. No development task is active in this capture. Some navigation areas are marked as not implemented.
+The view is idle at capture time and displays persistent task creation, progress, diff, evidence and review controls. This does not imply that no previous development attempts have run.
 
-### Self-Development workspace
+## Documented local-model development trials
 
-![JAR-NILS Self-Development view in an idle state with task fields and review controls](assets/self-development-2026-11-02.png)
+The private implementation repository's Local Developer acceptance record reports three real trials on **Windows 11 with Ollama and qwen3-coder:30b**:
 
-The Self-Development view is idle. It displays fields for an objective, repository path, constraints, and base revision, alongside controls for activity, diffs, evidence, and review. This screenshot demonstrates the current interface; it does not establish that a task has run successfully.
+- **Read-only investigation:** exact-commit reads, with the repository reported unchanged.
+- **Small code patch:** only the requested parser changed; required checks passed and the result reached `ready_for_review` under required Windows process containment.
+- **Failure and correction:** the first iteration failed its test; a corrected second iteration passed.
+
+These are documented historical acceptance results, not a new benchmark run for this page. They demonstrate bounded model-driven development attempts.
+
+Separate orchestration tests exercise S1–S6 workflow services with deterministic model/operator fixtures. Installed end-to-end Self-Development acceptance is a separate check and is not established by those tests or these screenshots.
+
+*Basis: Local Developer acceptance record, orchestration delivery notes and installed S7 acceptance specification, reviewed on 2 November 2026. Raw private records remain private.*
 
 ## Examples of the work
 
