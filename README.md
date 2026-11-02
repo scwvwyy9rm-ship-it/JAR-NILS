@@ -123,6 +123,15 @@ I'm interested in exchanging experience with people working on **local AI, progr
 
 Follow this repository for public project updates. Questions and constructive feedback are welcome through GitHub Issues.
 
+## Support JAR-NILS
+
+If you'd like to help JAR-NILS move forward, you can support its independent development through either platform:
+
+- [Ko-fi](https://ko-fi.com/jarnils)
+- [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
+
+Support is entirely voluntary and helps cover development tools, hardware, testing, and research. Contributions are project support, not software license purchases, and do not guarantee product delivery.
+
 ---
 
 *JAR-NILS is an independent project in active development. Roadmap items describe direction, not delivery commitments.*
