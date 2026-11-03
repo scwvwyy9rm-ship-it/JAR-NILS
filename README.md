@@ -5,6 +5,12 @@
 
 [Meet the founder on LinkedIn](https://www.linkedin.com/in/christoffer-runnholm-4269a3448/) · [GitHub profile](https://github.com/scwvwyy9rm-ship-it)
 
+### Support independent development
+
+I'm developing JAR-NILS independently. If you'd like to support the work, voluntary contributions help cover hardware, development tools, testing, and research.
+
+[Ko-fi](https://ko-fi.com/jarnils) · [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
+
 ## Latest update: a simpler workflow, a clearer learning path
 
 **Development checkpoint · 2 November 2026**
