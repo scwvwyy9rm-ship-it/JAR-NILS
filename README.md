@@ -114,6 +114,12 @@ I'm **Christoffer Runnholm**, founder and developer of JAR-NILS. The project gre
 
 I lead the project's direction and development, using AI-assisted workflows alongside testing, review, and explicit acceptance criteria.
 
+I'm also motivated by who holds power over AI and what the technology demands from the environment. I want to explore how useful AI can become more accessible and less dependent on a few large providers, while giving people more control over their own computers and data.
+
+For JAR-NILS, that means aiming to use smaller models when they are sufficient, avoid repeated processing, and make better use of hardware people already own. Local AI is not automatically greener: resource use and environmental benefits need to be measured. These are goals I am working towards, not problems JAR-NILS has already solved.
+
+[Read more about these motivations on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523147284172349440/)
+
 ## Connect
 
 I'm interested in exchanging experience with people working on **local AI, programming agents, developer tools, and reliable human–AI workflows**.
