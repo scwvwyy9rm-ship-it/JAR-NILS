@@ -11,7 +11,24 @@ I'm developing JAR-NILS independently. If you'd like to support the work, volunt
 
 [Ko-fi](https://ko-fi.com/jarnils) · [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
 
-## Latest update: a simpler workflow, a clearer learning path
+## Latest update: LEAN/5S review — ENIGMA, memory and duplicate work
+
+**Architecture review · 3 November 2026 · read-only**
+
+A second LEAN/5S review has identified concrete sources of repeated computation in JAR-NILS. This is a **code-review finding, not an implemented optimization or a performance benchmark**. The findings below refer to the reviewed private implementation revision `main@2ddddbe5c4b7c4851ffc2a2e92d756a88e2e77fb`; later revisions may differ.
+
+- **Verified in reviewed code:** The knowledge index only reuses embeddings when an entire file is unchanged. Editing one line can trigger re-embedding of all its chunks, and identical content at different paths may be computed more than once. File paths and source hashes remain important for provenance.
+- **Verified in reviewed code:** ENIGMA's main-branch context compiler applies strict size limits and evidence-ID deduplication; it does **not** silently shorten or compress context. When the current chat budget is exceeded, the request fails closed rather than silently discarding history.
+- **Proposed, not shipped:** A content-addressed embedding cache could reuse work for unchanged chunks and identical content across paths **while retaining separate source/provenance records**. Improving chunk boundaries and verified token budgeting are related candidates.
+- **Not yet measured:** Time, GPU memory use, power consumption, cache-hit improvements, and savings per completed task. These need controlled tests on the intended Windows/local-model setup.
+
+The guiding constraint remains unchanged: **make computation cheaper without removing scope checks, operator approvals, independent review, or fail-closed safety boundaries.**
+
+The goal is to test whether the system can do more useful work with less repeated computation, not to claim energy or performance savings before evidence exists.
+
+---
+
+## Previous update: a simpler workflow, a clearer learning path
 
 **Development checkpoint · 2 November 2026**
 
