@@ -1,7 +1,15 @@
 # JAR-NILS
 ### Local knowledge. Controlled action. Verifiable progress.
 
-**JAR-NILS is a local-first AI programming project founded by Christoffer Runnholm in August 2026.** It explores how a programming assistant can build useful project knowledge, work within explicit boundaries, and check its results against the real project.
+**JAR-NILS is a local-first AI programming project I founded in August 2026.** I'm Christoffer Runnholm, and I want to make useful AI programming assistance possible on hardware people already own, with greater control over their tools, computers, and data.
+
+Three connected principles guide my work:
+
+- **Resource-efficient local AI.** I aim to make better use of existing hardware, choose smaller models when they are sufficient, and avoid unnecessary repeated processing.
+- **Responsible use of energy and natural resources.** I want resource use to inform development choices, including how much computation a task needs and whether existing equipment can meet that need. Local AI is not automatically greener; any claim of environmental benefit needs measurement and evidence. JAR-NILS does not yet demonstrate such a benefit.
+- **Greater individual independence.** I want people to have more choice in how they use AI and to depend less on a few centralized technology giants. Local execution and explicit human control are central to that direction, while selective cloud reasoning remains part of the longer-term plan.
+
+These principles describe my motivation and development goals, not a claim that the project has already achieved them. The technical work explores how a programming assistant can build useful project knowledge, work within explicit boundaries, and check its results against the real project. The sections below distinguish documented results, work in progress, and longer-term goals.
 
 [Meet the founder on LinkedIn](https://www.linkedin.com/in/christoffer-runnholm-4269a3448/) · [GitHub profile](https://github.com/scwvwyy9rm-ship-it)
 
