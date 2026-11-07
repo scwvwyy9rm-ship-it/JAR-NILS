@@ -40,8 +40,6 @@ On **6 November 2026**, an **opt-in** hybrid projection for chat and a bounded W
 
 A separate, **unmerged research draft** (EV1-M-HR) removed three redundant outer metadata copies from WEB context serialization while retaining the underlying provenance and citation checks. Across 12 offline baseline/candidate pairs, the measured serialized request size fell by **369 bytes per WEB source** (738 bytes with two sources). This measures **serialized JSON size only**, not model tokens, network traffic, latency, GPU load or energy use.
 
-Another **unmerged**, real-local-model experiment comparing the earlier ENIGMA WEB candidate with raw context on small fact-retrieval tasks found **slower** median execution with ENIGMA: approximately **58% slower for short** and **32% slower for long** fixtures. Its reported model prompt-token totals were also higher in those tests. These findings do not establish general results for other tasks, but **they do not support claiming a resource advantage at this stage**. The newer metadata-size experiment did not demonstrate that this regression was resolved.
-
 ### Forward research: ENIGMA Evolution and Native Model N0
 
 A **draft documentation handoff** outlines two separate first steps:
