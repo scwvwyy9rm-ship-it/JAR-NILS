@@ -40,6 +40,23 @@ On **6 November 2026**, an **opt-in** hybrid projection for chat and a bounded W
 
 A separate, **unmerged research draft** (EV1-M-HR) removed three redundant outer metadata copies from WEB context serialization while retaining the underlying provenance and citation checks. Across 12 offline baseline/candidate pairs, the measured serialized request size fell by **369 bytes per WEB source** (738 bytes with two sources). This measures **serialized JSON size only**, not model tokens, network traffic, latency, GPU load or energy use.
 
+### Planned knowledge base: source-grounded answers through ENIGMA
+
+A **7 November design plan** proposes linking the existing local `knowledge/` index to JAR-NILS chat through a dedicated, controlled knowledge-context bridge. The index already supports hybrid keyword/semantic retrieval from approved folders and tracks the source of retrieved passages; **automatic retrieval into chat is not yet connected**.
+
+The planned flow is: **approved local documents → indexed retrieval → selected relevant passages → ENIGMA E1/E2 evidence packaging → bounded, source-grounded model context → answer with checkable citations**.
+
+The distinctive design choice is to put ENIGMA **between retrieval and the model**, rather than claiming it performs the search itself. Retrieved text would be treated as **untrusted evidence, never instructions or permission to act**. Proposed safeguards include source/hash checks, rejection of outdated source excerpts, existing evidence-size and chat-budget limits, and explicit opt-in. The existing chat budget would **not** be increased merely because a representation becomes more compact.
+
+The plan separates four proposed implementation episodes:
+
+1. **Document corpus:** curate Markdown folders for FAQ, troubleshooting, policy, product information and notes, plus controlled document imports.
+2. **Knowledge bridge:** connect retrieval and source-bound evidence to chat, behind an ENIGMA and knowledge opt-in; this is **not implemented yet**.
+3. **Evaluation:** establish a 30–50-question baseline for retrieval accuracy, citations and answer grounding, including Swedish-language searches.
+4. **Evidence-turn compression:** only explore compacting retrieved evidence across turns after new paired tests; existing no-evidence results do **not** establish safety or quality on evidence-bearing turns.
+
+This is an **architecture and verification plan**, not a claim that the knowledge base can already answer questions automatically or that evidence compression has been validated. It is intended to make local project knowledge more useful **without transferring authority from the operator to retrieved text**.
+
 ### Forward research: ENIGMA Evolution and Native Model N0
 
 A **draft documentation handoff** outlines two separate first steps:
