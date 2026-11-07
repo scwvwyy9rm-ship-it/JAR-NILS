@@ -11,7 +11,21 @@ I'm developing JAR-NILS independently. If you'd like to support the work, volunt
 
 [Ko-fi](https://ko-fi.com/jarnils) · [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
 
-## Latest update: LEAN/5S review — ENIGMA, memory and duplicate work
+## Latest update: real Workspace UI test screenshots and product focus
+
+**7 November 2026 · native Windows interface development**
+
+JAR-NILS now has a tested, terminal-inspired **Workspace UI v0.4** implementation in a development branch. The **six screenshots were captured from actual UI tests**, not generated as concept designs. Five themes are implemented: **Terminal Green, Amber, Nordic Light, Midnight Purple and Teal**. The screenshots' **Demo/Mock** labels identify displayed sample runtime data; they do **not** mean the interface code is fictional. The UI design PR is still in draft, and full live integration and Windows acceptance remain separate milestones.
+
+Recent main-branch work also adds **Local Developer verification receipts**, native startup readiness feedback and a passive Resume preview. Further user-facing verification and task-card features are being integrated. ENIGMA's hybrid context path has been added behind an **opt-in switch** and is off by default.
+
+**Next milestone:** turn the technical foundation into an externally usable, verifiable local programming product. No commercial release or completed original language model is claimed.
+
+[Read the complete 7 November development update](updates/2026-11-07-workspace-ui-and-productization.md)
+
+---
+
+## Earlier update: LEAN/5S review — ENIGMA, memory and duplicate work
 
 **Architecture review · 3 November 2026 · read-only**
 
