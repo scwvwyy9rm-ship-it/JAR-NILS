@@ -28,11 +28,32 @@ Recent changes merged into the private implementation's main branch include:
 
 Further work remains in development branches, including a native tab to display Local Developer runs and receipts, a read-only task card reviewed before starting work, and cooperative stop handling. These should **not** be presented as shipped or fully integrated features.
 
-## ENIGMA and memory research
+## ENIGMA: implementation, research and measured results
 
-ENIGMA remains JAR-NILS' own research and architecture track for structured, bounded context between local models and supporting system components. The existing implementation has gained an **opt-in** hybrid context path and a bounded WEB excerpt bridge; both are **off by default**. This is not a claim that JAR-NILS has completed training an original language model, nor proof of general performance or energy gains.
+ENIGMA is JAR-NILS' own architecture and research direction for structured, bounded information exchange between local models and supporting tools. It is separate from the longer-term exploration of training an original small language model. **No JAR-NILS-native language model has yet been trained and validated.**
 
-Related draft work explores source-linked chat/project working memory and a larger frozen routing evaluation suite. Those experiments are **not yet active product capabilities**.
+### Implemented in the private development main branch
+
+On **6 November 2026**, an **opt-in** hybrid projection for chat and a bounded WEB context bridge for `/agent` were merged. The bridge lets the agent use a size-limited, source-bound excerpt after a current-run WEB fetch and requires citations to the verified original source. These paths retain existing permissions and security checks. **ENIGMA is off by default** and these merges do not amount to a finished commercial feature or a general performance improvement.
+
+### Research results: useful evidence, not yet a proven speedup
+
+A separate, **unmerged research draft** (EV1-M-HR) removed three redundant outer metadata copies from WEB context serialization while retaining the underlying provenance and citation checks. Across 12 offline baseline/candidate pairs, the measured serialized request size fell by **369 bytes per WEB source** (738 bytes with two sources). This measures **serialized JSON size only**, not model tokens, network traffic, latency, GPU load or energy use.
+
+Another **unmerged**, real-local-model experiment comparing the earlier ENIGMA WEB candidate with raw context on small fact-retrieval tasks found **slower** median execution with ENIGMA: approximately **58% slower for short** and **32% slower for long** fixtures. Its reported model prompt-token totals were also higher in those tests. These findings do not establish general results for other tasks, but **they do not support claiming a resource advantage at this stage**. The newer metadata-size experiment did not demonstrate that this regression was resolved.
+
+### Forward research: ENIGMA Evolution and Native Model N0
+
+A **draft documentation handoff** outlines two separate first steps:
+
+- **ENIGMA Evolution EV0:** catalogue existing components, examine metadata/context overhead, reuse available selectors and decide on bounded deterministic optimization experiments.
+- **Native Model N0-F0:** draft a protocol, map it to the existing planner/decision schema and design simulator, dataset, small-model and training-environment options before authorizing training.
+
+These are **research/design proposals**, not new active product features, validated savings or approval to train a model.
+
+Related development includes a source-linked chat/project memory validator and an expanded frozen routing evaluation suite (**339 generated cases**); both were still in separate, unmerged development work as of **7 November 2026**.
+
+**Bottom line:** ENIGMA's implementation has advanced, and the experiments are becoming more measurable. The near-term product remains Local Developer; research results are evaluated separately rather than presented as proven commercial capabilities.
 
 ## Why it matters
 
