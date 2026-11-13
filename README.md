@@ -11,7 +11,24 @@ I'm developing JAR-NILS independently. If you'd like to support the work, volunt
 
 [Ko-fi](https://ko-fi.com/jarnils) · [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
 
-## Latest update: real Workspace UI test screenshots and product focus
+## Latest update: verification, ENIGMA research and Linux groundwork
+
+**13 November 2026 · product and research checkpoint**
+
+JAR-NILS is making progress on three fronts: stronger evidence for AI-assisted code changes, model-specific ENIGMA experiments and an initial Linux Workspace integration.
+
+- **Verification:** a locally integrated, **uncommitted** proof/stop package reported **186 passed targeted tests**. It distinguishes insufficient evidence (`UNPROVEN`) and operator stops from review-ready results. It is **not merged or activated**.
+- **ENIGMA:** an isolated compact-model experiment reported **27–28% fewer prompt tokens without losing correct answers on its bounded cases** with one representation; other methods and models regressed. A separate anchored variant produced mixed model-dependent results. No general speedup is claimed.
+- **New research directions:** Enigma Core's possible small specialist model, a language-aware bridge for Swedish/Nordic text, and distinct approaches to exact evidence, compression and protected storage. **These are parked proposals, not trained models or shipped features.**
+- **Linux:** the planned Kubuntu/KDE Retro Desktop now has a first **draft** read-only Workspace app-window implementation with targeted Linux tests. It is not a released Linux app.
+
+The priority remains a usable, verifiable Local Developer product. Research, unmerged work and future capabilities are explicitly separated from available functionality.
+
+[Read the 13 November research, verification and Linux update](updates/2026-11-13-research-verification-and-linux.md)
+
+---
+
+## Previous update: real Workspace UI test screenshots and product focus
 
 **7 November 2026 · native Windows interface development**
 
