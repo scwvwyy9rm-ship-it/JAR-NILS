@@ -9,7 +9,9 @@
 
 I'm developing JAR-NILS independently. If you'd like to support the work, voluntary contributions help cover hardware, development tools, testing, and research.
 
-[Ko-fi](https://ko-fi.com/jarnils) · [Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O6P829YF6T)
+
+[Buy Me a Coffee](https://www.buymeacoffee.com/jarnils)
 
 ## Latest update: real Workspace UI test screenshots and product focus
 
