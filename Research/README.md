@@ -12,11 +12,11 @@ Det här avsnittet är JAR-NILS löpande forskningslogg för **resurssnåla, lok
 
 ## Rapporter
 
-Publiceras normalt på fredagar kl. 17.00 svensk tid. Varje rapport avser **enbart nya artiklar, tekniska rapporter eller benchmarkresultat publicerade under de föregående sju dagarna**. Om inget relevant nytt material hittas ska det framgå uttryckligen.
+Startomgång 21 november 2026. Ordinarie rapporter publiceras på fredagar kl. 17.00 svensk tid. Varje rapport avser **enbart nya artiklar, tekniska rapporter eller benchmarkresultat publicerade under de föregående sju dagarna**. Om inget relevant nytt material hittas ska det framgå uttryckligen.
 
 | Vecka | Rapport |
 | --- | --- |
-| – | Första planerade rapport: 2026-11-27 |
+| 2026-11-21 (extra startomgång) | [Första forskningsrapporten](2026-11-21.md) |
 
 ## Filformat
 
