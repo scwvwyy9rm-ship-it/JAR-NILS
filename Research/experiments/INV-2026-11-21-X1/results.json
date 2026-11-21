@@ -1,0 +1,175 @@
+{
+ "K1_logs": {
+  "objekt": 320,
+  "raw_byte": 4458875,
+  "R2": {
+   "zstd19": 536436,
+   "zstd19+historik": 348852,
+   "xdelta3": 608227,
+   "TPL-kolumn (CLP-lik)": 451123,
+   "CRG{COPY}": 638307,
+   "CRG{PATCH}": 576253,
+   "CRG{TEMPLATE}": 500780,
+   "CRG{ALL}": 502629
+  },
+  "tid_baslinjer_s": 161.7,
+  "tid_s": {
+   "CRG{COPY}": {
+    "kodning": 1.4,
+    "avkodning": 0.2
+   },
+   "CRG{PATCH}": {
+    "kodning": 2.1,
+    "avkodning": 0.0
+   },
+   "CRG{TEMPLATE}": {
+    "kodning": 1.2,
+    "avkodning": 0.2
+   },
+   "CRG{ALL}": {
+    "kodning": 4.9,
+    "avkodning": 0.1
+   }
+  },
+  "förlustfri": {
+   "CRG{COPY}": "320/320",
+   "CRG{PATCH}": "320/320",
+   "CRG{TEMPLATE}": "320/320",
+   "CRG{ALL}": "320/320"
+  },
+  "CRG{ALL}_val": {
+   "CRG{PATCH}": 94,
+   "CRG{COPY}": 63,
+   "CRG{TEMPLATE}": 163
+  },
+  "tokens_qwen2": {
+   "RAW": 2355972,
+   "CRG{ALL}-rendering": 2084761
+  },
+  "R1": {
+   "zstd19 --long=27": 330635,
+   "xz -9e": 303960,
+   "TPL-kolumn (CLP-lik)": 329400,
+   "CRG{COPY}": 470473,
+   "CRG{PATCH}": 354139,
+   "CRG{TEMPLATE}": 373770,
+   "CRG{ALL}": 381163
+  },
+  "total_tid_s": 187.3
+ },
+ "K2_code": {
+  "objekt": 203,
+  "raw_byte": 10197665,
+  "R2": {
+   "zstd19": 2392858,
+   "zstd19+historik": 124613,
+   "xdelta3": 184747,
+   "TPL-kolumn (CLP-lik)": 587507,
+   "CRG{COPY}": 215947,
+   "CRG{PATCH}": 186333,
+   "CRG{TEMPLATE}": 696996,
+   "CRG{ALL}": 184795
+  },
+  "tid_baslinjer_s": 70.8,
+  "tid_s": {
+   "CRG{COPY}": {
+    "kodning": 2.2,
+    "avkodning": 0.1
+   },
+   "CRG{PATCH}": {
+    "kodning": 3.2,
+    "avkodning": 0.1
+   },
+   "CRG{TEMPLATE}": {
+    "kodning": 1.1,
+    "avkodning": 0.2
+   },
+   "CRG{ALL}": {
+    "kodning": 9.8,
+    "avkodning": 0.1
+   }
+  },
+  "förlustfri": {
+   "CRG{COPY}": "203/203",
+   "CRG{PATCH}": "203/203",
+   "CRG{TEMPLATE}": "203/203",
+   "CRG{ALL}": "203/203"
+  },
+  "CRG{ALL}_val": {
+   "CRG{PATCH}": 174,
+   "CRG{COPY}": 29
+  },
+  "tokens_qwen2": {
+   "RAW": 2242506,
+   "CRG{ALL}-rendering": 136801
+  },
+  "R1": {
+   "zstd19 --long=27": 118189,
+   "xz -9e": 113228,
+   "TPL-kolumn (CLP-lik)": 141187,
+   "CRG{COPY}": 138837,
+   "CRG{PATCH}": 122417,
+   "CRG{TEMPLATE}": 189383,
+   "CRG{ALL}": 122976
+  },
+  "total_tid_s": 100.3
+ },
+ "K3_agent": {
+  "objekt": 671,
+  "raw_byte": 12389620,
+  "R2": {
+   "zstd19": 3259548,
+   "zstd19+historik": 457683,
+   "xdelta3": 976761,
+   "TPL-kolumn (CLP-lik)": 1087311,
+   "CRG{COPY}": 1399726,
+   "CRG{PATCH}": 1909192,
+   "CRG{TEMPLATE}": 1337213,
+   "CRG{ALL}": 1373578
+  },
+  "tid_baslinjer_s": 965.9,
+  "tid_s": {
+   "CRG{COPY}": {
+    "kodning": 4.8,
+    "avkodning": 0.5
+   },
+   "CRG{PATCH}": {
+    "kodning": 3.2,
+    "avkodning": 0.1
+   },
+   "CRG{TEMPLATE}": {
+    "kodning": 2.2,
+    "avkodning": 0.5
+   },
+   "CRG{ALL}": {
+    "kodning": 13.8,
+    "avkodning": 0.5
+   }
+  },
+  "förlustfri": {
+   "CRG{COPY}": "671/671",
+   "CRG{PATCH}": "671/671",
+   "CRG{TEMPLATE}": "671/671",
+   "CRG{ALL}": "671/671"
+  },
+  "CRG{ALL}_val": {
+   "CRG{COPY}": 470,
+   "CRG{PATCH}": 146,
+   "CRG{TEMPLATE}": 55
+  },
+  "tokens_qwen2": {
+   "RAW": 3856372,
+   "CRG{ALL}-rendering": 2523330
+  },
+  "R1": {
+   "zstd19 --long=27": 437171,
+   "xz -9e": 388224,
+   "TPL-kolumn (CLP-lik)": 272060,
+   "CRG{COPY}": 855053,
+   "CRG{PATCH}": 520911,
+   "CRG{TEMPLATE}": 506443,
+   "CRG{ALL}": 846381
+  },
+  "total_tid_s": 1029.4
+ }
+}

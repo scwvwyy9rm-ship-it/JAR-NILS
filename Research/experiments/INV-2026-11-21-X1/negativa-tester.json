@@ -1,0 +1,19 @@
+{
+ "manipulerat H-objekt (hash stämmer inte)": "avvisad (H-objektets hash stämmer inte)",
+ "saknad referens / framtida objekt": "avvisad (referens saknas i H (framtida/okänt objekt))",
+ "självreferens via cid (cykel)": "avvisad (referens saknas i H (framtida/okänt objekt))",
+ "trunkerad ström": "avvisad (trunkerad data)",
+ "manipulerad nyttolast (utdatahash)": "avvisad (utdatans hash stämmer inte)",
+ "fel magic": "avvisad (fel magic)",
+ "okänd operation": "avvisad (okänd operation)",
+ "COPY utanför källans gränser": "avvisad (COPY utanför källans gränser)",
+ "självkopia av ännu ej avkodad data": "avvisad (COPY utanför egen utdata)",
+ "expansionsbudget: deklarerad längd": "avvisad (deklarerad längd över budget)",
+ "expansionsbudget: överlappande självkopia": "avvisad (COPY utanför egen utdata)",
+ "PATCH täcker inte basen": "avvisad (PATCH täcker inte basen exakt)",
+ "okänd mall": "avvisad (okänd mall)",
+ "exakt rundtur: whitespace/tabbar/CRLF": "OK (COPY, PATCH, TEMPLATE)",
+ "exakt rundtur: ogiltig UTF-8": "OK (COPY, PATCH, TEMPLATE)",
+ "exakt rundtur: negation": "OK (COPY, PATCH, TEMPLATE)",
+ "exakt rundtur: NUL-bytes": "OK (COPY, PATCH, TEMPLATE)"
+}
