@@ -17,6 +17,11 @@ import crg
 import llama_cpp as L
 from llama_cpp import Llama
 
+_orig_defaults = L.llama_context_default_params
+def _defaults():
+    p = _orig_defaults(); p.n_seq_max = 2; p.kv_unified = True; return p
+L.llama_context_default_params = _defaults  # två sekvenser: 0 = arbetskontext, 1 = tillfällig parkering
+
 MODEL, TASKS, OUT = sys.argv[1:4]
 SELFTEST = '--selftest' in sys.argv
 llm = Llama(model_path=MODEL, n_ctx=8192, n_threads=4, n_batch=512, seed=0, verbose=False)
@@ -31,18 +36,24 @@ def tk(s, special=False):
     return llm.tokenize(s.encode(), add_bos=False, special=special)
 
 
-def seq_rm(p0, p1):
-    if MEM is not None:
-        L.llama_memory_seq_rm(MEM, 0, p0, p1)
-    else:
-        L.llama_kv_self_seq_rm(CTX, 0, p0, p1)
+def seq_rm(p0, p1, sid=0):
+    L.llama_memory_seq_rm(MEM, sid, p0, p1)
 
 
-def seq_add(p0, p1, d):
-    if MEM is not None:
-        L.llama_memory_seq_add(MEM, 0, p0, p1, d)
-    else:
-        L.llama_kv_self_seq_add(CTX, 0, p0, p1, d)
+def seq_add(p0, p1, d, sid=0):
+    L.llama_memory_seq_add(MEM, sid, p0, p1, d)
+
+
+def seq_cp(src, dst, p0, p1):
+    L.llama_memory_seq_cp(MEM, src, dst, p0, p1)
+
+
+def insert_at(tokens, p0):
+    """Infoga tokens på positionerna p0.. i sekvens 0 när senare celler redan finns:
+    parkera cellerna med pos >= p0 i sekvens 1, beräkna, flytta tillbaka."""
+    seq_cp(0, 1, p0, -1); seq_rm(p0, -1, 0)
+    decode(tokens, list(range(p0, p0 + len(tokens))))
+    seq_cp(1, 0, p0 + len(tokens), -1); seq_rm(-1, -1, 1)
 
 
 def clear():
@@ -245,8 +256,8 @@ def arm_reuse(t, nbr):
             if p[0] == 'old' and p[1] not in recompute:
                 n = layout[p[1]][1]
                 seq_add(OFF + np_, OFF + np_ + n, -OFF)
-        # 3) beräkna infogade och omberäknade rader på sina positioner, i positionsordning
-        toks, poss = [], []
+        # 3) beräkna infogade och omberäknade rader på sina positioner, i positionsordning, en lucka i taget
+        gaps = []  # sammanhängande luckor (start, tokens)
         for p, np_ in zip(kept, newpos):
             if p[0] == 'new':
                 lt = tk(p[1])
@@ -254,9 +265,12 @@ def arm_reuse(t, nbr):
                 lt = tk(t['old_excerpt'].splitlines(keepends=True)[p[1]])
             else:
                 continue
-            toks += lt; poss += list(range(np_, np_ + len(lt)))
-        if toks:
-            decode(toks, poss); computed += len(toks)
+            if gaps and gaps[-1][0] + len(gaps[-1][1]) == np_:
+                gaps[-1][1].extend(lt)
+            else:
+                gaps.append([np_, list(lt)])
+        for g0, gt in gaps:
+            insert_at(gt, g0); computed += len(gt)
         q = tk(question(t), special=True)
         lg = decode(q, list(range(new_end, new_end + len(q))), want_logits=True); computed += len(q)
         txt, ng = generate(lg, new_end + len(q))
@@ -288,7 +302,24 @@ def selftest(t):
     hlen, layout, end = base_cache(t)
     seq_add(hlen, end, 1000); seq_add(hlen + 1000, end + 1000, -1000)
     y = decode(q, list(range(end, end + len(q))), want_logits=True)
+    # riktigt flytt-test: hela cachen evaluerad från pos 0 och flyttad +5, jämfört med direkt evaluering från pos 5
+    hlen, layout, end = base_cache(t)
+    seq_add(0, end, 5)
+    u = decode(q, list(range(end + 5, end + 5 + len(q))), want_logits=True)
+    clear(); h = tk(header(t), special=True)
+    old = [x for l in t['old_excerpt'].splitlines(keepends=True) for x in tk(l)]
+    decode(h + old, list(range(5, 5 + len(h) + len(old))))
+    v = decode(q, list(range(end + 5, end + 5 + len(q))), want_logits=True)
+    # infognings-test: REUSE-mekanismen med en tom ändring (infoga och ta bort samma rad) ska ge samma argmax
+    hlen, layout, end = base_cache(t)
+    s5, n5 = layout[5]
+    line5 = tk(t['old_excerpt'].splitlines(keepends=True)[5])
+    seq_rm(s5, s5 + n5); insert_at(line5, s5)
+    w = decode(q, list(range(end, end + len(q))), want_logits=True)
     return {'omberäkning_vs_full_maxdiff': d, 'flytt_rundtur_maxdiff': float(np.max(np.abs(x - y))),
+            'flytt5_vs_direkt_maxdiff': float(np.max(np.abs(u - v))), 'flytt5_argmax_lika': int(np.argmax(u)) == int(np.argmax(v)),
+            'flytt5_vs_ingen_flytt_maxdiff': float(np.max(np.abs(u - x))),
+            'infoga_rad5_vs_original_maxdiff': float(np.max(np.abs(w - x))), 'infoga_argmax_lika': int(np.argmax(w)) == int(np.argmax(x)),
             'argmax_lika': int(np.argmax(a)) == int(np.argmax(b))}
 
 

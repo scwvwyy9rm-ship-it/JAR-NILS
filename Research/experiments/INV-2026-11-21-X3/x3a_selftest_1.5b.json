@@ -1,0 +1,32 @@
+[
+ {
+  "omber\u00e4kning_vs_full_maxdiff": 0.0,
+  "flytt_rundtur_maxdiff": 0.0,
+  "flytt5_vs_direkt_maxdiff": 0.6900193691253662,
+  "flytt5_argmax_lika": true,
+  "flytt5_vs_ingen_flytt_maxdiff": 0.6925361752510071,
+  "infoga_rad5_vs_original_maxdiff": 0.0,
+  "infoga_argmax_lika": true,
+  "argmax_lika": true
+ },
+ {
+  "omber\u00e4kning_vs_full_maxdiff": 0.0,
+  "flytt_rundtur_maxdiff": 0.0,
+  "flytt5_vs_direkt_maxdiff": 0.6601290702819824,
+  "flytt5_argmax_lika": true,
+  "flytt5_vs_ingen_flytt_maxdiff": 0.42508935928344727,
+  "infoga_rad5_vs_original_maxdiff": 0.0,
+  "infoga_argmax_lika": true,
+  "argmax_lika": true
+ },
+ {
+  "omber\u00e4kning_vs_full_maxdiff": 0.0,
+  "flytt_rundtur_maxdiff": 0.0,
+  "flytt5_vs_direkt_maxdiff": 0.5687484741210938,
+  "flytt5_argmax_lika": true,
+  "flytt5_vs_ingen_flytt_maxdiff": 0.6890199184417725,
+  "infoga_rad5_vs_original_maxdiff": 0.0,
+  "infoga_argmax_lika": true,
+  "argmax_lika": true
+ }
+]
