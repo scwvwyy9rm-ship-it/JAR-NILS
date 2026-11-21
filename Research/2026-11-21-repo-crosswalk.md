@@ -27,6 +27,8 @@
 
 ## Föreslagen testordning – inga körgodkännanden
 
+> Den här testordningen **ersätter** prioriteringen i veckorapporten. Där heter AMD-offload `R-2026-11-21-E1`, nu P2, och verktygsgränsen `R-2026-11-21-E2`, nu P2 och endast gap-analys. Beteckningarna E1/E2/E3 i det här dokumentet avser ENIGMA-stegen.
+
 1. **P1 – Modellbunden kontextkvalitet:** återanvänd frysta ENIGMA-sviter, verifiera att faktiskt insända prompts skiljer sig, mät kvalitetsfall och uppgiftsframgång per modell. *Avbryt vid ny säkerhetsavvikelse; aktivera inte en svagare representation automatiskt.* Mål för vidare utredning: inga ytterligare regressionsfall på förregistrerad kritisk uppgiftsmängd och mätbar minskning av total resurskostnad.
 2. **P1 – Liten-modell-först-eskalering:** jämför aktuell fasta modellväg med en experimentell tids-/verifieringsbaserad kaskad; lås samma uppgifter, maxantal försök och modellparametrar. Mät **verifierade godkännanden per timme och joule**, inklusive omkörningar och felslagna fall. Förhandsregistrera stopp/eskalering; ingen ändring i operativa rättigheter.
 3. **P2 – AMD-offload, endast om tekniskt möjligt:** kompatibilitetsgrind före inferens. Ingen överflyttning av CECAR:s NVIDIA-/annan hårdvarumätning till AMD. Samma precision och kvalitetsgrind för jämförelser.
