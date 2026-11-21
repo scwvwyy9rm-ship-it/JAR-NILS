@@ -1,0 +1,1873 @@
+[
+ {
+  "id": "T000",
+  "kind": "oförändrad",
+  "facit": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+  "A_RAW": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "nya_tokens": 1611,
+   "gen_tokens": 26,
+   "cpu_s": 46.0,
+   "wall_s": 12.12,
+   "tokens_tot": 1611,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "nya_tokens": 754,
+   "gen_tokens": 26,
+   "cpu_s": 26.48,
+   "wall_s": 6.97,
+   "tokens_tot": 1611,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "nya_tokens": 132,
+   "gen_tokens": 26,
+   "cpu_s": 9.8,
+   "wall_s": 2.5,
+   "tokens_tot": 989,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "nya_tokens": 132,
+   "gen_tokens": 26,
+   "cpu_s": 9.8,
+   "wall_s": 2.5,
+   "tokens_tot": 989,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T001",
+  "kind": "oförändrad",
+  "facit": "    def writable(self) -> t.Literal[True]:",
+  "A_RAW": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "nya_tokens": 1301,
+   "gen_tokens": 11,
+   "cpu_s": 31.83,
+   "wall_s": 8.39,
+   "tokens_tot": 1301,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "nya_tokens": 604,
+   "gen_tokens": 11,
+   "cpu_s": 17.69,
+   "wall_s": 4.58,
+   "tokens_tot": 1301,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "nya_tokens": 148,
+   "gen_tokens": 11,
+   "cpu_s": 6.17,
+   "wall_s": 1.55,
+   "tokens_tot": 845,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "nya_tokens": 148,
+   "gen_tokens": 11,
+   "cpu_s": 6.17,
+   "wall_s": 1.55,
+   "tokens_tot": 845,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T002",
+  "kind": "oförändrad",
+  "facit": "    def readlines(self) -> list[bytes]:",
+  "A_RAW": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "nya_tokens": 1501,
+   "gen_tokens": 10,
+   "cpu_s": 36.27,
+   "wall_s": 9.66,
+   "tokens_tot": 1501,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "nya_tokens": 715,
+   "gen_tokens": 10,
+   "cpu_s": 20.81,
+   "wall_s": 5.43,
+   "tokens_tot": 1501,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "nya_tokens": 345,
+   "gen_tokens": 10,
+   "cpu_s": 10.77,
+   "wall_s": 2.81,
+   "tokens_tot": 1131,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "nya_tokens": 345,
+   "gen_tokens": 10,
+   "cpu_s": 10.77,
+   "wall_s": 2.81,
+   "tokens_tot": 1131,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T003",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> t.Self:",
+  "A_RAW": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 1424,
+   "gen_tokens": 11,
+   "cpu_s": 32.85,
+   "wall_s": 8.54,
+   "tokens_tot": 1424,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 664,
+   "gen_tokens": 11,
+   "cpu_s": 18.23,
+   "wall_s": 4.69,
+   "tokens_tot": 1424,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 117,
+   "gen_tokens": 11,
+   "cpu_s": 5.07,
+   "wall_s": 1.27,
+   "tokens_tot": 877,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 117,
+   "gen_tokens": 11,
+   "cpu_s": 5.07,
+   "wall_s": 1.27,
+   "tokens_tot": 877,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T004",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> Self:",
+  "A_RAW": {
+   "svar": "def __enter__(self) -> Self:",
+   "nya_tokens": 1441,
+   "gen_tokens": 9,
+   "cpu_s": 35.28,
+   "wall_s": 9.27,
+   "tokens_tot": 1441,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def __enter__(self) -> Self:",
+   "nya_tokens": 669,
+   "gen_tokens": 9,
+   "cpu_s": 19.29,
+   "wall_s": 5.09,
+   "tokens_tot": 1441,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def __enter__(self) -> Self:",
+   "nya_tokens": 162,
+   "gen_tokens": 9,
+   "cpu_s": 6.26,
+   "wall_s": 1.58,
+   "tokens_tot": 934,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def __enter__(self) -> Self:",
+   "nya_tokens": 162,
+   "gen_tokens": 9,
+   "cpu_s": 6.26,
+   "wall_s": 1.58,
+   "tokens_tot": 934,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T005",
+  "kind": "ändrad",
+  "facit": "    def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+  "A_RAW": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "nya_tokens": 1466,
+   "gen_tokens": 18,
+   "cpu_s": 38.88,
+   "wall_s": 10.17,
+   "tokens_tot": 1466,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "nya_tokens": 681,
+   "gen_tokens": 18,
+   "cpu_s": 21.4,
+   "wall_s": 5.53,
+   "tokens_tot": 1466,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "nya_tokens": 295,
+   "gen_tokens": 18,
+   "cpu_s": 11.6,
+   "wall_s": 2.95,
+   "tokens_tot": 1080,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "nya_tokens": 295,
+   "gen_tokens": 18,
+   "cpu_s": 11.6,
+   "wall_s": 2.95,
+   "tokens_tot": 1080,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T006",
+  "kind": "oförändrad",
+  "facit": "    def readline(self, n: int = -1) -> bytes:",
+  "A_RAW": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "nya_tokens": 1381,
+   "gen_tokens": 14,
+   "cpu_s": 36.51,
+   "wall_s": 9.6,
+   "tokens_tot": 1381,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "nya_tokens": 650,
+   "gen_tokens": 14,
+   "cpu_s": 20.44,
+   "wall_s": 5.35,
+   "tokens_tot": 1381,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "nya_tokens": 255,
+   "gen_tokens": 14,
+   "cpu_s": 9.72,
+   "wall_s": 2.45,
+   "tokens_tot": 986,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "nya_tokens": 255,
+   "gen_tokens": 14,
+   "cpu_s": 9.72,
+   "wall_s": 2.45,
+   "tokens_tot": 986,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T007",
+  "kind": "ändrad",
+  "facit": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+  "A_RAW": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "nya_tokens": 1585,
+   "gen_tokens": 18,
+   "cpu_s": 44.01,
+   "wall_s": 11.76,
+   "tokens_tot": 1585,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "nya_tokens": 742,
+   "gen_tokens": 18,
+   "cpu_s": 25.18,
+   "wall_s": 6.52,
+   "tokens_tot": 1585,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "nya_tokens": 141,
+   "gen_tokens": 18,
+   "cpu_s": 8.46,
+   "wall_s": 2.13,
+   "tokens_tot": 984,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "nya_tokens": 141,
+   "gen_tokens": 18,
+   "cpu_s": 8.46,
+   "wall_s": 2.13,
+   "tokens_tot": 984,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T008",
+  "kind": "oförändrad",
+  "facit": "    def exit(self, code: int = 0) -> t.NoReturn:",
+  "A_RAW": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "nya_tokens": 1432,
+   "gen_tokens": 16,
+   "cpu_s": 37.11,
+   "wall_s": 9.79,
+   "tokens_tot": 1432,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "nya_tokens": 664,
+   "gen_tokens": 16,
+   "cpu_s": 20.05,
+   "wall_s": 5.21,
+   "tokens_tot": 1432,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "nya_tokens": 127,
+   "gen_tokens": 16,
+   "cpu_s": 6.68,
+   "wall_s": 1.68,
+   "tokens_tot": 895,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "nya_tokens": 127,
+   "gen_tokens": 16,
+   "cpu_s": 6.68,
+   "wall_s": 1.68,
+   "tokens_tot": 895,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T009",
+  "kind": "ändrad",
+  "facit": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+  "A_RAW": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "nya_tokens": 1383,
+   "gen_tokens": 26,
+   "cpu_s": 37.56,
+   "wall_s": 9.99,
+   "tokens_tot": 1383,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "nya_tokens": 644,
+   "gen_tokens": 26,
+   "cpu_s": 21.58,
+   "wall_s": 5.56,
+   "tokens_tot": 1383,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "nya_tokens": 318,
+   "gen_tokens": 26,
+   "cpu_s": 12.83,
+   "wall_s": 3.3,
+   "tokens_tot": 1057,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "nya_tokens": 318,
+   "gen_tokens": 26,
+   "cpu_s": 12.83,
+   "wall_s": 3.3,
+   "tokens_tot": 1057,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T010",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> t.Self:",
+  "A_RAW": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 1502,
+   "gen_tokens": 11,
+   "cpu_s": 38.11,
+   "wall_s": 10.11,
+   "tokens_tot": 1502,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 702,
+   "gen_tokens": 11,
+   "cpu_s": 19.91,
+   "wall_s": 5.24,
+   "tokens_tot": 1502,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 116,
+   "gen_tokens": 11,
+   "cpu_s": 5.54,
+   "wall_s": 1.39,
+   "tokens_tot": 916,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "nya_tokens": 116,
+   "gen_tokens": 11,
+   "cpu_s": 5.54,
+   "wall_s": 1.39,
+   "tokens_tot": 916,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T011",
+  "kind": "oförändrad",
+  "facit": "    def _get_value_from_state(",
+  "A_RAW": {
+   "svar": "def _get_value_from_state(self, option_name: str, option: _Option, state: _ParsingState)",
+   "nya_tokens": 1464,
+   "gen_tokens": 24,
+   "cpu_s": 39.21,
+   "wall_s": 10.29,
+   "tokens_tot": 1464,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def _get_value_from_state(self, option_name: str, option: _Option, state: _ParsingState)",
+   "nya_tokens": 685,
+   "gen_tokens": 24,
+   "cpu_s": 21.77,
+   "wall_s": 5.61,
+   "tokens_tot": 1464,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def _get_value_from_state(self, option_name: str, option: _Option, state: _ParsingState) -> str | cabc.Sequence[str] | T_FLAG_NEEDS_VALUE:",
+   "nya_tokens": 126,
+   "gen_tokens": 39,
+   "cpu_s": 11.66,
+   "wall_s": 2.95,
+   "tokens_tot": 905,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _get_value_from_state(self, option_name: str, option: _Option, state: _ParsingState) -> str | cabc.Sequence[str] | T_FLAG_NEEDS_VALUE:",
+   "eskalerad": true,
+   "nya_tokens": 883,
+   "gen_tokens": 78,
+   "cpu_s": 40.85,
+   "wall_s": 10.42,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T012",
+  "kind": "ändrad",
+  "facit": "    def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+  "A_RAW": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "nya_tokens": 1370,
+   "gen_tokens": 21,
+   "cpu_s": 38.3,
+   "wall_s": 10.12,
+   "tokens_tot": 1370,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "nya_tokens": 646,
+   "gen_tokens": 21,
+   "cpu_s": 21.42,
+   "wall_s": 5.65,
+   "tokens_tot": 1370,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "nya_tokens": 308,
+   "gen_tokens": 21,
+   "cpu_s": 12.31,
+   "wall_s": 3.13,
+   "tokens_tot": 1032,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "nya_tokens": 308,
+   "gen_tokens": 21,
+   "cpu_s": 12.31,
+   "wall_s": 3.13,
+   "tokens_tot": 1032,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T013",
+  "kind": "ändrad",
+  "facit": "    def indentation(self) -> cabc.Generator[None]:",
+  "A_RAW": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "nya_tokens": 1259,
+   "gen_tokens": 12,
+   "cpu_s": 31.97,
+   "wall_s": 8.3,
+   "tokens_tot": 1259,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "nya_tokens": 580,
+   "gen_tokens": 12,
+   "cpu_s": 17.72,
+   "wall_s": 4.59,
+   "tokens_tot": 1259,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "nya_tokens": 173,
+   "gen_tokens": 12,
+   "cpu_s": 7.77,
+   "wall_s": 1.95,
+   "tokens_tot": 852,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "nya_tokens": 173,
+   "gen_tokens": 12,
+   "cpu_s": 7.77,
+   "wall_s": 1.95,
+   "tokens_tot": 852,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T014",
+  "kind": "oförändrad",
+  "facit": "    def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+  "A_RAW": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "nya_tokens": 1377,
+   "gen_tokens": 18,
+   "cpu_s": 39.6,
+   "wall_s": 10.47,
+   "tokens_tot": 1377,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "nya_tokens": 640,
+   "gen_tokens": 18,
+   "cpu_s": 20.49,
+   "wall_s": 5.31,
+   "tokens_tot": 1377,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "nya_tokens": 184,
+   "gen_tokens": 16,
+   "cpu_s": 7.98,
+   "wall_s": 2.01,
+   "tokens_tot": 921,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "nya_tokens": 184,
+   "gen_tokens": 16,
+   "cpu_s": 7.98,
+   "wall_s": 2.01,
+   "tokens_tot": 921,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T015",
+  "kind": "ändrad",
+  "facit": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+  "A_RAW": {
+   "svar": "def join_options(options: cabc.Iterable[str])",
+   "nya_tokens": 1037,
+   "gen_tokens": 11,
+   "cpu_s": 26.71,
+   "wall_s": 7.07,
+   "tokens_tot": 1037,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def join_options(options: cabc.Iterable[str])",
+   "nya_tokens": 470,
+   "gen_tokens": 11,
+   "cpu_s": 14.43,
+   "wall_s": 3.74,
+   "tokens_tot": 1037,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "nya_tokens": 173,
+   "gen_tokens": 17,
+   "cpu_s": 8.44,
+   "wall_s": 2.12,
+   "tokens_tot": 740,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "nya_tokens": 173,
+   "gen_tokens": 17,
+   "cpu_s": 8.44,
+   "wall_s": 2.12,
+   "tokens_tot": 740,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T016",
+  "kind": "oförändrad",
+  "facit": "    def __getattr__(self, x: str) -> t.Any:",
+  "A_RAW": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "nya_tokens": 1286,
+   "gen_tokens": 14,
+   "cpu_s": 32.97,
+   "wall_s": 8.64,
+   "tokens_tot": 1286,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "nya_tokens": 615,
+   "gen_tokens": 14,
+   "cpu_s": 18.7,
+   "wall_s": 4.93,
+   "tokens_tot": 1286,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "nya_tokens": 181,
+   "gen_tokens": 14,
+   "cpu_s": 7.98,
+   "wall_s": 2.01,
+   "tokens_tot": 852,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "nya_tokens": 181,
+   "gen_tokens": 14,
+   "cpu_s": 7.98,
+   "wall_s": 2.01,
+   "tokens_tot": 852,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T017",
+  "kind": "ändrad",
+  "facit": "    def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+  "A_RAW": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "nya_tokens": 1376,
+   "gen_tokens": 18,
+   "cpu_s": 37.48,
+   "wall_s": 9.79,
+   "tokens_tot": 1376,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "nya_tokens": 638,
+   "gen_tokens": 18,
+   "cpu_s": 21.13,
+   "wall_s": 5.61,
+   "tokens_tot": 1376,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "nya_tokens": 145,
+   "gen_tokens": 18,
+   "cpu_s": 7.66,
+   "wall_s": 1.92,
+   "tokens_tot": 883,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "nya_tokens": 145,
+   "gen_tokens": 18,
+   "cpu_s": 7.66,
+   "wall_s": 1.92,
+   "tokens_tot": 883,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T018",
+  "kind": "oförändrad",
+  "facit": "    def resolve_command(",
+  "A_RAW": {
+   "svar": "def resolve_command(self, ctx: Context, args: list[str]) -> tuple[str | None, Command | None, list[str]]:",
+   "nya_tokens": 1658,
+   "gen_tokens": 28,
+   "cpu_s": 46.35,
+   "wall_s": 12.1,
+   "tokens_tot": 1658,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def resolve_command(self, ctx: Context, args: list[str]) -> tuple[str | None, Command | None, list[str]]:",
+   "nya_tokens": 780,
+   "gen_tokens": 28,
+   "cpu_s": 28.51,
+   "wall_s": 7.43,
+   "tokens_tot": 1658,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def resolve_command(self, ctx: Context, args: list[str]) -> tuple[str | None, Command | None, list[str]]:",
+   "nya_tokens": 152,
+   "gen_tokens": 27,
+   "cpu_s": 11.75,
+   "wall_s": 3.03,
+   "tokens_tot": 1030,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def resolve_command(self, ctx: Context, args: list[str]) -> tuple[str | None, Command | None, list[str]]:",
+   "eskalerad": true,
+   "nya_tokens": 993,
+   "gen_tokens": 55,
+   "cpu_s": 41.38,
+   "wall_s": 10.85,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T019",
+  "kind": "oförändrad",
+  "facit": "def _complete_visible_commands(",
+  "A_RAW": {
+   "svar": "def _complete_visible_commands(ctx: Context, incomplete: str) -> cabc.Iterator[tuple[str, Command]]:",
+   "nya_tokens": 1360,
+   "gen_tokens": 24,
+   "cpu_s": 36.72,
+   "wall_s": 9.66,
+   "tokens_tot": 1360,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def _complete_visible_commands(ctx: Context, incomplete: str) -> cabc.Iterator[tuple[str, Command]]:",
+   "nya_tokens": 632,
+   "gen_tokens": 24,
+   "cpu_s": 22.09,
+   "wall_s": 5.92,
+   "tokens_tot": 1360,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def _complete_visible_commands(ctx: Context, incomplete: str) -> cabc.Iterator[tuple[str, Command]]:",
+   "nya_tokens": 123,
+   "gen_tokens": 24,
+   "cpu_s": 9.3,
+   "wall_s": 2.39,
+   "tokens_tot": 851,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _complete_visible_commands(ctx: Context, incomplete: str) -> cabc.Iterator[tuple[str, Command]]:",
+   "eskalerad": true,
+   "nya_tokens": 812,
+   "gen_tokens": 48,
+   "cpu_s": 33.35,
+   "wall_s": 8.58,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T020",
+  "kind": "oförändrad",
+  "facit": "    def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+  "A_RAW": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "nya_tokens": 1422,
+   "gen_tokens": 27,
+   "cpu_s": 40.59,
+   "wall_s": 10.71,
+   "tokens_tot": 1422,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "nya_tokens": 663,
+   "gen_tokens": 27,
+   "cpu_s": 23.78,
+   "wall_s": 6.28,
+   "tokens_tot": 1422,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "nya_tokens": 120,
+   "gen_tokens": 25,
+   "cpu_s": 8.5,
+   "wall_s": 2.14,
+   "tokens_tot": 879,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "nya_tokens": 120,
+   "gen_tokens": 25,
+   "cpu_s": 8.5,
+   "wall_s": 2.14,
+   "tokens_tot": 879,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T021",
+  "kind": "ändrad",
+  "facit": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+  "A_RAW": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "nya_tokens": 1493,
+   "gen_tokens": 21,
+   "cpu_s": 40.58,
+   "wall_s": 10.62,
+   "tokens_tot": 1493,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "nya_tokens": 694,
+   "gen_tokens": 21,
+   "cpu_s": 23.84,
+   "wall_s": 6.19,
+   "tokens_tot": 1493,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "nya_tokens": 234,
+   "gen_tokens": 21,
+   "cpu_s": 10.22,
+   "wall_s": 2.6,
+   "tokens_tot": 1033,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "nya_tokens": 234,
+   "gen_tokens": 21,
+   "cpu_s": 10.22,
+   "wall_s": 2.6,
+   "tokens_tot": 1033,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T022",
+  "kind": "ändrad",
+  "facit": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+  "A_RAW": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 1238,
+   "gen_tokens": 26,
+   "cpu_s": 33.96,
+   "wall_s": 8.91,
+   "tokens_tot": 1238,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 560,
+   "gen_tokens": 26,
+   "cpu_s": 19.25,
+   "wall_s": 4.98,
+   "tokens_tot": 1238,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 219,
+   "gen_tokens": 26,
+   "cpu_s": 11.34,
+   "wall_s": 2.88,
+   "tokens_tot": 897,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 219,
+   "gen_tokens": 26,
+   "cpu_s": 11.34,
+   "wall_s": 2.88,
+   "tokens_tot": 897,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T023",
+  "kind": "ändrad",
+  "facit": "    def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+  "A_RAW": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "nya_tokens": 1424,
+   "gen_tokens": 21,
+   "cpu_s": 38.46,
+   "wall_s": 10.21,
+   "tokens_tot": 1424,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "nya_tokens": 664,
+   "gen_tokens": 21,
+   "cpu_s": 21.18,
+   "wall_s": 5.51,
+   "tokens_tot": 1424,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "nya_tokens": 127,
+   "gen_tokens": 21,
+   "cpu_s": 7.42,
+   "wall_s": 1.87,
+   "tokens_tot": 887,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "nya_tokens": 127,
+   "gen_tokens": 21,
+   "cpu_s": 7.42,
+   "wall_s": 1.87,
+   "tokens_tot": 887,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T024",
+  "kind": "oförändrad",
+  "facit": "    def indent(self) -> None:",
+  "A_RAW": {
+   "svar": "def indent(self) -> None:",
+   "nya_tokens": 1430,
+   "gen_tokens": 7,
+   "cpu_s": 35.4,
+   "wall_s": 9.25,
+   "tokens_tot": 1430,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def indent(self) -> None:",
+   "nya_tokens": 666,
+   "gen_tokens": 7,
+   "cpu_s": 18.51,
+   "wall_s": 4.8,
+   "tokens_tot": 1430,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def indent(self) -> None:",
+   "nya_tokens": 158,
+   "gen_tokens": 7,
+   "cpu_s": 5.77,
+   "wall_s": 1.48,
+   "tokens_tot": 922,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def indent(self) -> None:",
+   "nya_tokens": 158,
+   "gen_tokens": 7,
+   "cpu_s": 5.77,
+   "wall_s": 1.48,
+   "tokens_tot": 922,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T025",
+  "kind": "oförändrad",
+  "facit": "def format_filename(",
+  "A_RAW": {
+   "svar": "def format_filename",
+   "nya_tokens": 1734,
+   "gen_tokens": 3,
+   "cpu_s": 42.34,
+   "wall_s": 11.35,
+   "tokens_tot": 1734,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def format_filename",
+   "nya_tokens": 818,
+   "gen_tokens": 3,
+   "cpu_s": 23.28,
+   "wall_s": 6.14,
+   "tokens_tot": 1734,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def format_filename(self, filename: str | bytes | os.PathLike[str] | os.PathLike[bytes], shorten: bool = False) -> str:",
+   "nya_tokens": 155,
+   "gen_tokens": 32,
+   "cpu_s": 11.06,
+   "wall_s": 2.79,
+   "tokens_tot": 1071,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def format_filename(self, filename: str | bytes | os.PathLike[str] | os.PathLike[bytes], shorten: bool = False) -> str:",
+   "eskalerad": true,
+   "nya_tokens": 1038,
+   "gen_tokens": 64,
+   "cpu_s": 42.35,
+   "wall_s": 10.86,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T026",
+  "kind": "oförändrad",
+  "facit": "    def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+  "A_RAW": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "nya_tokens": 1364,
+   "gen_tokens": 17,
+   "cpu_s": 34.41,
+   "wall_s": 8.94,
+   "tokens_tot": 1364,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "nya_tokens": 637,
+   "gen_tokens": 17,
+   "cpu_s": 18.51,
+   "wall_s": 4.78,
+   "tokens_tot": 1364,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "nya_tokens": 181,
+   "gen_tokens": 17,
+   "cpu_s": 7.74,
+   "wall_s": 1.94,
+   "tokens_tot": 908,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "nya_tokens": 181,
+   "gen_tokens": 17,
+   "cpu_s": 7.74,
+   "wall_s": 1.94,
+   "tokens_tot": 908,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T027",
+  "kind": "ändrad",
+  "facit": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+  "A_RAW": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 1462,
+   "gen_tokens": 25,
+   "cpu_s": 38.6,
+   "wall_s": 10.08,
+   "tokens_tot": 1462,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 671,
+   "gen_tokens": 25,
+   "cpu_s": 21.24,
+   "wall_s": 5.44,
+   "tokens_tot": 1462,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 254,
+   "gen_tokens": 25,
+   "cpu_s": 12.46,
+   "wall_s": 3.15,
+   "tokens_tot": 1045,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "nya_tokens": 254,
+   "gen_tokens": 25,
+   "cpu_s": 12.46,
+   "wall_s": 3.15,
+   "tokens_tot": 1045,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T028",
+  "kind": "oförändrad",
+  "facit": "        def hidden_input(prompt: str | None = None) -> str:",
+  "A_RAW": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "nya_tokens": 1459,
+   "gen_tokens": 16,
+   "cpu_s": 39.24,
+   "wall_s": 10.24,
+   "tokens_tot": 1459,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "nya_tokens": 669,
+   "gen_tokens": 16,
+   "cpu_s": 21.41,
+   "wall_s": 5.54,
+   "tokens_tot": 1459,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "nya_tokens": 159,
+   "gen_tokens": 16,
+   "cpu_s": 7.32,
+   "wall_s": 1.85,
+   "tokens_tot": 949,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "nya_tokens": 159,
+   "gen_tokens": 16,
+   "cpu_s": 7.32,
+   "wall_s": 1.85,
+   "tokens_tot": 949,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T029",
+  "kind": "ändrad",
+  "facit": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+  "A_RAW": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "nya_tokens": 1361,
+   "gen_tokens": 18,
+   "cpu_s": 38.15,
+   "wall_s": 10.11,
+   "tokens_tot": 1361,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "nya_tokens": 641,
+   "gen_tokens": 18,
+   "cpu_s": 22.16,
+   "wall_s": 5.97,
+   "tokens_tot": 1361,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "nya_tokens": 219,
+   "gen_tokens": 18,
+   "cpu_s": 9.62,
+   "wall_s": 2.43,
+   "tokens_tot": 939,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "nya_tokens": 219,
+   "gen_tokens": 18,
+   "cpu_s": 9.62,
+   "wall_s": 2.43,
+   "tokens_tot": 939,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T030",
+  "kind": "oförändrad",
+  "facit": "def _tempfilepager(",
+  "A_RAW": {
+   "svar": "def _tempfilepager(generator: cabc.Iterable[str], cmd_parts: list[str], color: bool | None) -> bool:",
+   "nya_tokens": 1459,
+   "gen_tokens": 28,
+   "cpu_s": 41.0,
+   "wall_s": 10.73,
+   "tokens_tot": 1459,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def _tempfilepager(generator: cabc.Iterable[str], cmd_parts: list[str], color: bool | None) -> bool:",
+   "nya_tokens": 695,
+   "gen_tokens": 28,
+   "cpu_s": 26.76,
+   "wall_s": 7.02,
+   "tokens_tot": 1459,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def _tempfilepager(generator: cabc.Iterable[str], cmd_parts: list[str], color: bool | None) -> bool:",
+   "nya_tokens": 197,
+   "gen_tokens": 28,
+   "cpu_s": 11.83,
+   "wall_s": 3.0,
+   "tokens_tot": 961,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _tempfilepager(generator: cabc.Iterable[str], cmd_parts: list[str], color: bool | None) -> bool:",
+   "eskalerad": true,
+   "nya_tokens": 953,
+   "gen_tokens": 56,
+   "cpu_s": 41.57,
+   "wall_s": 10.67,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T031",
+  "kind": "oförändrad",
+  "facit": "def _make_text_stream(",
+  "A_RAW": {
+   "svar": "def _make_text_stream(",
+   "nya_tokens": 965,
+   "gen_tokens": 8,
+   "cpu_s": 27.06,
+   "wall_s": 7.26,
+   "tokens_tot": 965,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _make_text_stream(",
+   "nya_tokens": 422,
+   "gen_tokens": 8,
+   "cpu_s": 12.65,
+   "wall_s": 3.26,
+   "tokens_tot": 965,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _make_text_stream(stream: t.BinaryIO, encoding: str | None, errors: str | None, force_readable: bool = False, force_writable: bool = False) -> t.TextIO:",
+   "nya_tokens": 108,
+   "gen_tokens": 43,
+   "cpu_s": 12.36,
+   "wall_s": 3.11,
+   "tokens_tot": 651,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _make_text_stream(stream: t.BinaryIO, encoding: str | None, errors: str | None, force_readable: bool = False, force_writable: bool = False) -> t.TextIO:",
+   "eskalerad": true,
+   "nya_tokens": 606,
+   "gen_tokens": 86,
+   "cpu_s": 35.99,
+   "wall_s": 9.16,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T032",
+  "kind": "oförändrad",
+  "facit": "    def abort(self) -> t.NoReturn:",
+  "A_RAW": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "nya_tokens": 1343,
+   "gen_tokens": 9,
+   "cpu_s": 37.92,
+   "wall_s": 10.08,
+   "tokens_tot": 1343,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "nya_tokens": 620,
+   "gen_tokens": 9,
+   "cpu_s": 19.55,
+   "wall_s": 5.03,
+   "tokens_tot": 1343,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "nya_tokens": 126,
+   "gen_tokens": 9,
+   "cpu_s": 5.19,
+   "wall_s": 1.3,
+   "tokens_tot": 849,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "nya_tokens": 126,
+   "gen_tokens": 9,
+   "cpu_s": 5.19,
+   "wall_s": 1.3,
+   "tokens_tot": 849,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T033",
+  "kind": "oförändrad",
+  "facit": "def _resolve_context(",
+  "A_RAW": {
+   "svar": "def _resolve_context(cli: Command, ctx_args: cabc.MutableMapping[str, t.Any], prog_name: str, args: list[str]) -> Context:",
+   "nya_tokens": 1275,
+   "gen_tokens": 33,
+   "cpu_s": 42.47,
+   "wall_s": 10.99,
+   "tokens_tot": 1275,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def _resolve_context(cli: Command, ctx_args: cabc.MutableMapping[str, t.Any], prog_name: str, args: list[str]) -> Context:",
+   "nya_tokens": 585,
+   "gen_tokens": 33,
+   "cpu_s": 24.41,
+   "wall_s": 6.27,
+   "tokens_tot": 1275,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def _resolve_context(cli: Command, ctx_args: cabc.MutableMapping[str, t.Any], prog_name: str, args: list[str]) -> Context:",
+   "nya_tokens": 119,
+   "gen_tokens": 33,
+   "cpu_s": 13.27,
+   "wall_s": 3.35,
+   "tokens_tot": 809,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _resolve_context(cli: Command, ctx_args: cabc.MutableMapping[str, t.Any], prog_name: str, args: list[str]) -> Context:",
+   "eskalerad": true,
+   "nya_tokens": 770,
+   "gen_tokens": 66,
+   "cpu_s": 40.62,
+   "wall_s": 10.43,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T034",
+  "kind": "oförändrad",
+  "facit": "def _has_binary_buffer(",
+  "A_RAW": {
+   "svar": "def _has_binary_buffer(stream: t.BinaryIO | t.TextIO) -> t.TypeGuard[_BufferedTextPagerStream]:",
+   "nya_tokens": 1336,
+   "gen_tokens": 26,
+   "cpu_s": 38.11,
+   "wall_s": 9.92,
+   "tokens_tot": 1336,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def _has_binary_buffer(stream: t.BinaryIO | t.TextIO) -> t.TypeGuard[_BufferedTextPagerStream]:",
+   "nya_tokens": 622,
+   "gen_tokens": 26,
+   "cpu_s": 21.25,
+   "wall_s": 5.5,
+   "tokens_tot": 1336,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def _has_binary_buffer(stream: t.BinaryIO | t.TextIO) -> t.TypeGuard[_BufferedTextPagerStream]:",
+   "nya_tokens": 116,
+   "gen_tokens": 26,
+   "cpu_s": 10.17,
+   "wall_s": 2.59,
+   "tokens_tot": 830,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def _has_binary_buffer(stream: t.BinaryIO | t.TextIO) -> t.TypeGuard[_BufferedTextPagerStream]:",
+   "eskalerad": true,
+   "nya_tokens": 797,
+   "gen_tokens": 52,
+   "cpu_s": 34.72,
+   "wall_s": 8.91,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T035",
+  "kind": "ändrad",
+  "facit": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+  "A_RAW": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "nya_tokens": 1662,
+   "gen_tokens": 20,
+   "cpu_s": 47.82,
+   "wall_s": 12.66,
+   "tokens_tot": 1662,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "nya_tokens": 783,
+   "gen_tokens": 20,
+   "cpu_s": 26.56,
+   "wall_s": 7.02,
+   "tokens_tot": 1662,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "nya_tokens": 126,
+   "gen_tokens": 20,
+   "cpu_s": 8.42,
+   "wall_s": 2.12,
+   "tokens_tot": 1005,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "nya_tokens": 126,
+   "gen_tokens": 20,
+   "cpu_s": 8.42,
+   "wall_s": 2.12,
+   "tokens_tot": 1005,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T036",
+  "kind": "ändrad",
+  "facit": "    def _fetch(c: deque[V]) -> V | T_UNSET:",
+  "A_RAW": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "nya_tokens": 1375,
+   "gen_tokens": 15,
+   "cpu_s": 36.54,
+   "wall_s": 9.63,
+   "tokens_tot": 1375,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "nya_tokens": 646,
+   "gen_tokens": 15,
+   "cpu_s": 21.27,
+   "wall_s": 5.57,
+   "tokens_tot": 1375,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "nya_tokens": 303,
+   "gen_tokens": 15,
+   "cpu_s": 12.88,
+   "wall_s": 3.31,
+   "tokens_tot": 1032,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "nya_tokens": 303,
+   "gen_tokens": 15,
+   "cpu_s": 12.88,
+   "wall_s": 3.31,
+   "tokens_tot": 1032,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T037",
+  "kind": "ändrad",
+  "facit": "def _format_default(default: V) -> V | str:",
+  "A_RAW": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "nya_tokens": 1566,
+   "gen_tokens": 13,
+   "cpu_s": 42.39,
+   "wall_s": 11.18,
+   "tokens_tot": 1566,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "nya_tokens": 654,
+   "gen_tokens": 13,
+   "cpu_s": 21.26,
+   "wall_s": 5.5,
+   "tokens_tot": 1566,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "nya_tokens": 477,
+   "gen_tokens": 13,
+   "cpu_s": 16.37,
+   "wall_s": 4.27,
+   "tokens_tot": 1389,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "nya_tokens": 477,
+   "gen_tokens": 13,
+   "cpu_s": 16.37,
+   "wall_s": 4.27,
+   "tokens_tot": 1389,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T038",
+  "kind": "ändrad",
+  "facit": "    def source_vars(self) -> _SourceVarsDict:",
+  "A_RAW": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "nya_tokens": 1452,
+   "gen_tokens": 11,
+   "cpu_s": 39.5,
+   "wall_s": 10.45,
+   "tokens_tot": 1452,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "B_RAW_cache": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "nya_tokens": 671,
+   "gen_tokens": 11,
+   "cpu_s": 20.24,
+   "wall_s": 5.26,
+   "tokens_tot": 1452,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "C_IR_cache": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "nya_tokens": 164,
+   "gen_tokens": 11,
+   "cpu_s": 7.25,
+   "wall_s": 1.83,
+   "tokens_tot": 945,
+   "korrekt": true,
+   "verifierad": true
+  },
+  "D_kaskad": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "nya_tokens": 164,
+   "gen_tokens": 11,
+   "cpu_s": 7.25,
+   "wall_s": 1.83,
+   "tokens_tot": 945,
+   "eskalerad": false,
+   "korrekt": true,
+   "verifierad": true,
+   "missad_återhämtning": false
+  }
+ },
+ {
+  "id": "T039",
+  "kind": "ändrad",
+  "facit": "    def get_completions(",
+  "A_RAW": {
+   "svar": "def get_completions(self, args: list[str], incomplete: str) -> list[CompletionItem[str]]:",
+   "nya_tokens": 1507,
+   "gen_tokens": 24,
+   "cpu_s": 44.82,
+   "wall_s": 11.78,
+   "tokens_tot": 1507,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "B_RAW_cache": {
+   "svar": "def get_completions(self, args: list[str], incomplete: str) -> list[CompletionItem[str]]:",
+   "nya_tokens": 705,
+   "gen_tokens": 24,
+   "cpu_s": 24.87,
+   "wall_s": 6.47,
+   "tokens_tot": 1507,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "C_IR_cache": {
+   "svar": "def get_completions(self, args: list[str], incomplete: str) -> list[CompletionItem[str]]:",
+   "nya_tokens": 192,
+   "gen_tokens": 24,
+   "cpu_s": 11.81,
+   "wall_s": 2.98,
+   "tokens_tot": 994,
+   "korrekt": false,
+   "verifierad": false
+  },
+  "D_kaskad": {
+   "svar": "def get_completions(self, args: list[str], incomplete: str) -> list[CompletionItem[str]]:",
+   "eskalerad": true,
+   "nya_tokens": 954,
+   "gen_tokens": 48,
+   "cpu_s": 38.68,
+   "wall_s": 9.94,
+   "korrekt": false,
+   "verifierad": false,
+   "missad_återhämtning": false
+  }
+ }
+]
