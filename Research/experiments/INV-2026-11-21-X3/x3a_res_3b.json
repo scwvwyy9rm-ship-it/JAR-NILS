@@ -1,0 +1,1682 @@
+[
+ {
+  "id": "T000",
+  "kind": "oförändrad",
+  "facit": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+  "gammal": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+  "FULL": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "beräknade_tokens": 756,
+   "gen_tokens": 28,
+   "cpu_s": 45.09,
+   "wall_s": 11.88,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "beräknade_tokens": 138,
+   "gen_tokens": 28,
+   "cpu_s": 18.06,
+   "wall_s": 4.58,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "beräknade_tokens": 85,
+   "gen_tokens": 28,
+   "cpu_s": 17.13,
+   "wall_s": 4.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _readline_prompt(func: t.Callable[[str], str], text: str, err: bool) -> str:",
+   "beräknade_tokens": 112,
+   "gen_tokens": 28,
+   "cpu_s": 17.39,
+   "wall_s": 4.38,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T001",
+  "kind": "oförändrad",
+  "facit": "    def writable(self) -> t.Literal[True]:",
+  "gammal": "    def writable(self) -> t.Literal[True]:",
+  "FULL": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "beräknade_tokens": 607,
+   "gen_tokens": 14,
+   "cpu_s": 31.6,
+   "wall_s": 8.38,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "beräknade_tokens": 154,
+   "gen_tokens": 14,
+   "cpu_s": 13.0,
+   "wall_s": 3.28,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "beräknade_tokens": 90,
+   "gen_tokens": 14,
+   "cpu_s": 12.03,
+   "wall_s": 3.09,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def writable(self) -> t.Literal[True]:",
+   "beräknade_tokens": 106,
+   "gen_tokens": 14,
+   "cpu_s": 12.48,
+   "wall_s": 3.14,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T002",
+  "kind": "oförändrad",
+  "facit": "    def readlines(self) -> list[bytes]:",
+  "gammal": "    def readlines(self) -> list[bytes]:",
+  "FULL": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "beräknade_tokens": 722,
+   "gen_tokens": 12,
+   "cpu_s": 36.37,
+   "wall_s": 9.64,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "beräknade_tokens": 351,
+   "gen_tokens": 12,
+   "cpu_s": 21.16,
+   "wall_s": 5.46,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "beräknade_tokens": 253,
+   "gen_tokens": 12,
+   "cpu_s": 19.15,
+   "wall_s": 4.84,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def readlines(self) -> list[bytes]:",
+   "beräknade_tokens": 316,
+   "gen_tokens": 12,
+   "cpu_s": 22.48,
+   "wall_s": 5.72,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T003",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> t.Self:",
+  "gammal": "    def __enter__(self) -> Self:",
+  "FULL": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 667,
+   "gen_tokens": 13,
+   "cpu_s": 33.49,
+   "wall_s": 8.8,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 123,
+   "gen_tokens": 13,
+   "cpu_s": 9.9,
+   "wall_s": 2.5,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 71,
+   "gen_tokens": 13,
+   "cpu_s": 8.87,
+   "wall_s": 2.3,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 80,
+   "gen_tokens": 13,
+   "cpu_s": 9.63,
+   "wall_s": 2.43,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T004",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> Self:",
+  "gammal": "    def __enter__(self) -> Context:",
+  "FULL": {
+   "svar": "def __enter__(self) -> Self:",
+   "beräknade_tokens": 672,
+   "gen_tokens": 11,
+   "cpu_s": 32.73,
+   "wall_s": 8.61,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def __enter__(self) -> Self:",
+   "beräknade_tokens": 168,
+   "gen_tokens": 11,
+   "cpu_s": 12.72,
+   "wall_s": 3.26,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def __enter__(self) -> Self:",
+   "beräknade_tokens": 97,
+   "gen_tokens": 11,
+   "cpu_s": 11.65,
+   "wall_s": 2.93,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def __enter__(self) -> Self:",
+   "beräknade_tokens": 156,
+   "gen_tokens": 11,
+   "cpu_s": 14.72,
+   "wall_s": 3.73,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T005",
+  "kind": "ändrad",
+  "facit": "    def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+  "gammal": "    def normalize_choice(self, choice: ParamTypeValue, ctx: Context | None) -> str:",
+  "FULL": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "beräknade_tokens": 684,
+   "gen_tokens": 21,
+   "cpu_s": 38.11,
+   "wall_s": 10.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "beräknade_tokens": 301,
+   "gen_tokens": 21,
+   "cpu_s": 23.75,
+   "wall_s": 6.31,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "beräknade_tokens": 185,
+   "gen_tokens": 20,
+   "cpu_s": 19.78,
+   "wall_s": 4.97,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def normalize_choice(self, choice: object, ctx: Context | None) -> str:",
+   "beräknade_tokens": 264,
+   "gen_tokens": 21,
+   "cpu_s": 23.8,
+   "wall_s": 6.08,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T006",
+  "kind": "oförändrad",
+  "facit": "    def readline(self, n: int = -1) -> bytes:",
+  "gammal": "    def readline(self, n: int = -1) -> bytes:",
+  "FULL": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "beräknade_tokens": 660,
+   "gen_tokens": 16,
+   "cpu_s": 36.02,
+   "wall_s": 9.65,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "beräknade_tokens": 261,
+   "gen_tokens": 16,
+   "cpu_s": 20.0,
+   "wall_s": 5.15,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "beräknade_tokens": 163,
+   "gen_tokens": 16,
+   "cpu_s": 15.28,
+   "wall_s": 3.85,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def readline(self, n: int = -1) -> bytes:",
+   "beräknade_tokens": 236,
+   "gen_tokens": 16,
+   "cpu_s": 22.89,
+   "wall_s": 5.8,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T007",
+  "kind": "ändrad",
+  "facit": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+  "gammal": "def _check_iter(value: t.Any) -> cabc.Iterator[t.Any]:",
+  "FULL": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "beräknade_tokens": 746,
+   "gen_tokens": 20,
+   "cpu_s": 40.92,
+   "wall_s": 10.84,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "beräknade_tokens": 147,
+   "gen_tokens": 20,
+   "cpu_s": 14.82,
+   "wall_s": 3.76,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "beräknade_tokens": 85,
+   "gen_tokens": 20,
+   "cpu_s": 13.63,
+   "wall_s": 3.44,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _check_iter(value: cabc.Iterable[V]) -> cabc.Iterator[V]:",
+   "beräknade_tokens": 112,
+   "gen_tokens": 20,
+   "cpu_s": 14.95,
+   "wall_s": 3.78,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T008",
+  "kind": "oförändrad",
+  "facit": "    def exit(self, code: int = 0) -> t.NoReturn:",
+  "gammal": "    def exit(self, code: int = 0) -> t.NoReturn:",
+  "FULL": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "beräknade_tokens": 670,
+   "gen_tokens": 18,
+   "cpu_s": 37.03,
+   "wall_s": 9.85,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "beräknade_tokens": 133,
+   "gen_tokens": 18,
+   "cpu_s": 14.8,
+   "wall_s": 3.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "beräknade_tokens": 71,
+   "gen_tokens": 18,
+   "cpu_s": 10.98,
+   "wall_s": 2.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def exit(self, code: int = 0) -> t.NoReturn:",
+   "beräknade_tokens": 83,
+   "gen_tokens": 18,
+   "cpu_s": 11.62,
+   "wall_s": 2.92,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T009",
+  "kind": "ändrad",
+  "facit": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+  "gammal": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType:",
+  "FULL": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "beräknade_tokens": 648,
+   "gen_tokens": 28,
+   "cpu_s": 38.76,
+   "wall_s": 10.27,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "beräknade_tokens": 324,
+   "gen_tokens": 28,
+   "cpu_s": 28.22,
+   "wall_s": 7.34,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "beräknade_tokens": 217,
+   "gen_tokens": 28,
+   "cpu_s": 24.15,
+   "wall_s": 6.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def convert_type(ty: t.Any | None, default: t.Any | None = None) -> ParamType[t.Any]:",
+   "beräknade_tokens": 297,
+   "gen_tokens": 28,
+   "cpu_s": 27.61,
+   "wall_s": 7.03,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T010",
+  "kind": "ändrad",
+  "facit": "    def __enter__(self) -> t.Self:",
+  "gammal": "    def __enter__(self) -> ProgressBar[V]:",
+  "FULL": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 700,
+   "gen_tokens": 13,
+   "cpu_s": 35.87,
+   "wall_s": 9.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 122,
+   "gen_tokens": 13,
+   "cpu_s": 11.37,
+   "wall_s": 2.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 71,
+   "gen_tokens": 13,
+   "cpu_s": 9.51,
+   "wall_s": 2.4,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def __enter__(self) -> t.Self:",
+   "beräknade_tokens": 79,
+   "gen_tokens": 13,
+   "cpu_s": 9.38,
+   "wall_s": 2.36,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T011",
+  "kind": "oförändrad",
+  "facit": "    def _get_value_from_state(",
+  "gammal": "    def _get_value_from_state(",
+  "FULL": {
+   "svar": "def _get_value_from_state(",
+   "beräknade_tokens": 685,
+   "gen_tokens": 9,
+   "cpu_s": 32.62,
+   "wall_s": 8.64,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _get_value_from_state(",
+   "beräknade_tokens": 132,
+   "gen_tokens": 9,
+   "cpu_s": 9.99,
+   "wall_s": 2.56,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _get_value_from_state(",
+   "beräknade_tokens": 81,
+   "gen_tokens": 9,
+   "cpu_s": 7.58,
+   "wall_s": 1.91,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _get_value_from_state(",
+   "beräknade_tokens": 108,
+   "gen_tokens": 9,
+   "cpu_s": 10.39,
+   "wall_s": 2.61,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T012",
+  "kind": "ändrad",
+  "facit": "    def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+  "gammal": "    def coerce_path_result(",
+  "FULL": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "beräknade_tokens": 642,
+   "gen_tokens": 24,
+   "cpu_s": 40.19,
+   "wall_s": 10.76,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "beräknade_tokens": 314,
+   "gen_tokens": 24,
+   "cpu_s": 24.61,
+   "wall_s": 6.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "beräknade_tokens": 207,
+   "gen_tokens": 24,
+   "cpu_s": 22.35,
+   "wall_s": 5.62,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def coerce_path_result(self, value: str | os.PathLike[str]) -> _PathT_co:",
+   "beräknade_tokens": 252,
+   "gen_tokens": 24,
+   "cpu_s": 22.28,
+   "wall_s": 5.67,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T013",
+  "kind": "ändrad",
+  "facit": "    def indentation(self) -> cabc.Generator[None]:",
+  "gammal": "    def indentation(self) -> cabc.Iterator[None]:",
+  "FULL": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "beräknade_tokens": 581,
+   "gen_tokens": 18,
+   "cpu_s": 31.87,
+   "wall_s": 8.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "beräknade_tokens": 179,
+   "gen_tokens": 14,
+   "cpu_s": 12.93,
+   "wall_s": 3.25,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "beräknade_tokens": 105,
+   "gen_tokens": 18,
+   "cpu_s": 13.93,
+   "wall_s": 3.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def indentation(self) -> cabc.Generator[None]:",
+   "beräknade_tokens": 156,
+   "gen_tokens": 18,
+   "cpu_s": 16.43,
+   "wall_s": 4.17,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T014",
+  "kind": "oförändrad",
+  "facit": "    def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+  "gammal": "    def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+  "FULL": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "beräknade_tokens": 643,
+   "gen_tokens": 18,
+   "cpu_s": 35.45,
+   "wall_s": 9.55,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "beräknade_tokens": 190,
+   "gen_tokens": 18,
+   "cpu_s": 14.84,
+   "wall_s": 3.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "beräknade_tokens": 119,
+   "gen_tokens": 18,
+   "cpu_s": 13.67,
+   "wall_s": 3.46,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def get_help_extra(self, ctx: Context) -> types.OptionHelpExtra:",
+   "beräknade_tokens": 138,
+   "gen_tokens": 18,
+   "cpu_s": 15.35,
+   "wall_s": 3.92,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T015",
+  "kind": "ändrad",
+  "facit": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+  "gammal": "def join_options(options: cabc.Sequence[str]) -> tuple[str, bool]:",
+  "FULL": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "beräknade_tokens": 469,
+   "gen_tokens": 19,
+   "cpu_s": 28.46,
+   "wall_s": 7.69,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "beräknade_tokens": 179,
+   "gen_tokens": 19,
+   "cpu_s": 14.78,
+   "wall_s": 3.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "beräknade_tokens": 106,
+   "gen_tokens": 19,
+   "cpu_s": 13.55,
+   "wall_s": 3.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def join_options(options: cabc.Iterable[str]) -> tuple[str, bool]:",
+   "beräknade_tokens": 157,
+   "gen_tokens": 19,
+   "cpu_s": 16.69,
+   "wall_s": 4.25,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T016",
+  "kind": "oförändrad",
+  "facit": "    def __getattr__(self, x: str) -> t.Any:",
+  "gammal": "    def __getattr__(self, x: str) -> t.Any:",
+  "FULL": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "beräknade_tokens": 623,
+   "gen_tokens": 16,
+   "cpu_s": 32.97,
+   "wall_s": 8.88,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "beräknade_tokens": 187,
+   "gen_tokens": 16,
+   "cpu_s": 14.52,
+   "wall_s": 3.68,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "beräknade_tokens": 125,
+   "gen_tokens": 16,
+   "cpu_s": 13.59,
+   "wall_s": 3.46,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def __getattr__(self, x: str) -> t.Any:",
+   "beräknade_tokens": 147,
+   "gen_tokens": 16,
+   "cpu_s": 14.21,
+   "wall_s": 3.59,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T017",
+  "kind": "ändrad",
+  "facit": "    def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+  "gammal": "    def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+  "FULL": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "beräknade_tokens": 640,
+   "gen_tokens": 26,
+   "cpu_s": 36.94,
+   "wall_s": 9.85,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "beräknade_tokens": 151,
+   "gen_tokens": 21,
+   "cpu_s": 14.94,
+   "wall_s": 3.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "beräknade_tokens": 87,
+   "gen_tokens": 26,
+   "cpu_s": 14.56,
+   "wall_s": 3.68,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Generator[Context]:",
+   "beräknade_tokens": 116,
+   "gen_tokens": 26,
+   "cpu_s": 16.41,
+   "wall_s": 4.13,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T018",
+  "kind": "oförändrad",
+  "facit": "    def resolve_command(",
+  "gammal": "    def resolve_command(",
+  "FULL": {
+   "svar": "def resolve_command(",
+   "beräknade_tokens": 778,
+   "gen_tokens": 6,
+   "cpu_s": 36.91,
+   "wall_s": 9.99,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def resolve_command(",
+   "beräknade_tokens": 158,
+   "gen_tokens": 6,
+   "cpu_s": 10.65,
+   "wall_s": 2.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def resolve_command(",
+   "beräknade_tokens": 87,
+   "gen_tokens": 6,
+   "cpu_s": 8.47,
+   "wall_s": 2.14,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def resolve_command(",
+   "beräknade_tokens": 125,
+   "gen_tokens": 6,
+   "cpu_s": 11.16,
+   "wall_s": 2.83,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T019",
+  "kind": "oförändrad",
+  "facit": "def _complete_visible_commands(",
+  "gammal": "def _complete_visible_commands(",
+  "FULL": {
+   "svar": "def _complete_visible_commands(",
+   "beräknade_tokens": 634,
+   "gen_tokens": 8,
+   "cpu_s": 31.13,
+   "wall_s": 8.31,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _complete_visible_commands(",
+   "beräknade_tokens": 129,
+   "gen_tokens": 8,
+   "cpu_s": 10.04,
+   "wall_s": 2.63,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _complete_visible_commands(",
+   "beräknade_tokens": 69,
+   "gen_tokens": 8,
+   "cpu_s": 6.94,
+   "wall_s": 1.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _complete_visible_commands(",
+   "beräknade_tokens": 89,
+   "gen_tokens": 8,
+   "cpu_s": 8.0,
+   "wall_s": 2.01,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T020",
+  "kind": "oförändrad",
+  "facit": "    def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+  "gammal": "    def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+  "FULL": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "beräknade_tokens": 663,
+   "gen_tokens": 27,
+   "cpu_s": 37.23,
+   "wall_s": 9.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "beräknade_tokens": 126,
+   "gen_tokens": 27,
+   "cpu_s": 14.79,
+   "wall_s": 3.72,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "beräknade_tokens": 73,
+   "gen_tokens": 27,
+   "cpu_s": 13.85,
+   "wall_s": 3.49,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def write_usage(self, prog: str, args: str = \"\", prefix: str | None = None) -> None:",
+   "beräknade_tokens": 80,
+   "gen_tokens": 27,
+   "cpu_s": 14.16,
+   "wall_s": 3.57,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T021",
+  "kind": "ändrad",
+  "facit": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+  "gammal": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Iterator[None]:",
+  "FULL": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "beräknade_tokens": 702,
+   "gen_tokens": 29,
+   "cpu_s": 39.53,
+   "wall_s": 10.4,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "beräknade_tokens": 240,
+   "gen_tokens": 23,
+   "cpu_s": 18.82,
+   "wall_s": 4.8,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "beräknade_tokens": 145,
+   "gen_tokens": 29,
+   "cpu_s": 19.03,
+   "wall_s": 4.8,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _pause_echo(stream: EchoingStdin | None) -> cabc.Generator[None]:",
+   "beräknade_tokens": 221,
+   "gen_tokens": 29,
+   "cpu_s": 23.58,
+   "wall_s": 6.05,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T022",
+  "kind": "ändrad",
+  "facit": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+  "gammal": "def pass_context(f: t.Callable[te.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+  "FULL": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 563,
+   "gen_tokens": 28,
+   "cpu_s": 33.61,
+   "wall_s": 9.02,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 225,
+   "gen_tokens": 28,
+   "cpu_s": 23.84,
+   "wall_s": 6.18,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 143,
+   "gen_tokens": 28,
+   "cpu_s": 19.58,
+   "wall_s": 4.95,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def pass_context(f: t.Callable[t.Concatenate[Context, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 212,
+   "gen_tokens": 28,
+   "cpu_s": 24.3,
+   "wall_s": 6.16,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T023",
+  "kind": "ändrad",
+  "facit": "    def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+  "gammal": "    def edit_files(self, filenames: cabc.Iterable[str]) -> None:",
+  "FULL": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "beräknade_tokens": 664,
+   "gen_tokens": 23,
+   "cpu_s": 36.57,
+   "wall_s": 9.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "beräknade_tokens": 133,
+   "gen_tokens": 23,
+   "cpu_s": 15.98,
+   "wall_s": 4.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "beräknade_tokens": 81,
+   "gen_tokens": 23,
+   "cpu_s": 14.15,
+   "wall_s": 3.58,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def edit_files(self, filenames: cabc.Iterable[str | os.PathLike[str]]) -> None:",
+   "beräknade_tokens": 92,
+   "gen_tokens": 23,
+   "cpu_s": 13.86,
+   "wall_s": 3.49,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T024",
+  "kind": "oförändrad",
+  "facit": "    def indent(self) -> None:",
+  "gammal": "    def indent(self) -> None:",
+  "FULL": {
+   "svar": "def indent(self) -> None:",
+   "beräknade_tokens": 666,
+   "gen_tokens": 9,
+   "cpu_s": 32.75,
+   "wall_s": 8.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def indent(self) -> None:",
+   "beräknade_tokens": 164,
+   "gen_tokens": 9,
+   "cpu_s": 11.28,
+   "wall_s": 2.9,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def indent(self) -> None:",
+   "beräknade_tokens": 95,
+   "gen_tokens": 9,
+   "cpu_s": 9.75,
+   "wall_s": 2.47,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def indent(self) -> None:",
+   "beräknade_tokens": 109,
+   "gen_tokens": 9,
+   "cpu_s": 10.01,
+   "wall_s": 2.53,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T025",
+  "kind": "oförändrad",
+  "facit": "def format_filename(",
+  "gammal": "def format_filename(",
+  "FULL": {
+   "svar": "def format_filename(",
+   "beräknade_tokens": 821,
+   "gen_tokens": 6,
+   "cpu_s": 36.38,
+   "wall_s": 9.71,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def format_filename(",
+   "beräknade_tokens": 161,
+   "gen_tokens": 6,
+   "cpu_s": 10.39,
+   "wall_s": 2.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def format_filename(",
+   "beräknade_tokens": 98,
+   "gen_tokens": 6,
+   "cpu_s": 8.19,
+   "wall_s": 2.06,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def format_filename(",
+   "beräknade_tokens": 112,
+   "gen_tokens": 6,
+   "cpu_s": 8.43,
+   "wall_s": 2.12,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T026",
+  "kind": "oförändrad",
+  "facit": "    def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+  "gammal": "    def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+  "FULL": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "beräknade_tokens": 639,
+   "gen_tokens": 25,
+   "cpu_s": 35.83,
+   "wall_s": 9.65,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "beräknade_tokens": 187,
+   "gen_tokens": 25,
+   "cpu_s": 16.72,
+   "wall_s": 4.21,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "beräknade_tokens": 99,
+   "gen_tokens": 23,
+   "cpu_s": 14.89,
+   "wall_s": 3.76,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def scope(self, cleanup: bool = True) -> cabc.Iterator[Context]:",
+   "beräknade_tokens": 144,
+   "gen_tokens": 25,
+   "cpu_s": 17.07,
+   "wall_s": 4.31,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T027",
+  "kind": "ändrad",
+  "facit": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+  "gammal": "def pass_obj(f: t.Callable[te.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+  "FULL": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 676,
+   "gen_tokens": 27,
+   "cpu_s": 38.38,
+   "wall_s": 10.22,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 260,
+   "gen_tokens": 27,
+   "cpu_s": 22.1,
+   "wall_s": 5.74,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 168,
+   "gen_tokens": 27,
+   "cpu_s": 19.54,
+   "wall_s": 4.94,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def pass_obj(f: t.Callable[t.Concatenate[T, P], R]) -> t.Callable[P, R]:",
+   "beräknade_tokens": 257,
+   "gen_tokens": 27,
+   "cpu_s": 25.65,
+   "wall_s": 6.51,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T028",
+  "kind": "oförändrad",
+  "facit": "        def hidden_input(prompt: str | None = None) -> str:",
+  "gammal": "        def hidden_input(prompt: str | None = None) -> str:",
+  "FULL": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "beräknade_tokens": 669,
+   "gen_tokens": 17,
+   "cpu_s": 34.81,
+   "wall_s": 9.35,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "beräknade_tokens": 165,
+   "gen_tokens": 16,
+   "cpu_s": 14.23,
+   "wall_s": 3.69,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "beräknade_tokens": 96,
+   "gen_tokens": 16,
+   "cpu_s": 11.18,
+   "wall_s": 2.82,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def hidden_input(prompt: str | None = None) -> str:",
+   "beräknade_tokens": 120,
+   "gen_tokens": 16,
+   "cpu_s": 13.32,
+   "wall_s": 3.36,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T029",
+  "kind": "ändrad",
+  "facit": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+  "gammal": "def _outside_click_stacklevel() -> int:",
+  "FULL": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "beräknade_tokens": 649,
+   "gen_tokens": 20,
+   "cpu_s": 34.66,
+   "wall_s": 9.35,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "beräknade_tokens": 225,
+   "gen_tokens": 20,
+   "cpu_s": 17.87,
+   "wall_s": 4.62,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "beräknade_tokens": 146,
+   "gen_tokens": 20,
+   "cpu_s": 16.13,
+   "wall_s": 4.09,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _outside_click_stacklevel(skip: cabc.Container[str] = ()) -> int:",
+   "beräknade_tokens": 165,
+   "gen_tokens": 20,
+   "cpu_s": 16.25,
+   "wall_s": 4.13,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T030",
+  "kind": "oförändrad",
+  "facit": "def _tempfilepager(",
+  "gammal": "def _tempfilepager(",
+  "FULL": {
+   "svar": "def _tempfilepager(",
+   "beräknade_tokens": 694,
+   "gen_tokens": 8,
+   "cpu_s": 31.97,
+   "wall_s": 8.63,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _tempfilepager(",
+   "beräknade_tokens": 203,
+   "gen_tokens": 8,
+   "cpu_s": 12.08,
+   "wall_s": 3.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _tempfilepager(",
+   "beräknade_tokens": 143,
+   "gen_tokens": 8,
+   "cpu_s": 10.73,
+   "wall_s": 2.72,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _tempfilepager(",
+   "beräknade_tokens": 153,
+   "gen_tokens": 8,
+   "cpu_s": 11.47,
+   "wall_s": 3.08,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T031",
+  "kind": "oförändrad",
+  "facit": "def _make_text_stream(",
+  "gammal": "def _make_text_stream(",
+  "FULL": {
+   "svar": "def _make_text_stream(",
+   "beräknade_tokens": 418,
+   "gen_tokens": 8,
+   "cpu_s": 19.66,
+   "wall_s": 5.35,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _make_text_stream(",
+   "beräknade_tokens": 114,
+   "gen_tokens": 8,
+   "cpu_s": 7.38,
+   "wall_s": 1.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _make_text_stream(",
+   "beräknade_tokens": 61,
+   "gen_tokens": 8,
+   "cpu_s": 5.94,
+   "wall_s": 1.49,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _make_text_stream(",
+   "beräknade_tokens": 93,
+   "gen_tokens": 8,
+   "cpu_s": 7.11,
+   "wall_s": 1.79,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T032",
+  "kind": "oförändrad",
+  "facit": "    def abort(self) -> t.NoReturn:",
+  "gammal": "    def abort(self) -> t.NoReturn:",
+  "FULL": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "beräknade_tokens": 626,
+   "gen_tokens": 11,
+   "cpu_s": 30.15,
+   "wall_s": 8.12,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "beräknade_tokens": 132,
+   "gen_tokens": 11,
+   "cpu_s": 11.25,
+   "wall_s": 2.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "beräknade_tokens": 71,
+   "gen_tokens": 11,
+   "cpu_s": 8.28,
+   "wall_s": 2.08,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def abort(self) -> t.NoReturn:",
+   "beräknade_tokens": 83,
+   "gen_tokens": 11,
+   "cpu_s": 9.28,
+   "wall_s": 2.34,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T033",
+  "kind": "oförändrad",
+  "facit": "def _resolve_context(",
+  "gammal": "def _resolve_context(",
+  "FULL": {
+   "svar": "def _resolve_context(",
+   "beräknade_tokens": 592,
+   "gen_tokens": 7,
+   "cpu_s": 26.46,
+   "wall_s": 7.05,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _resolve_context(",
+   "beräknade_tokens": 125,
+   "gen_tokens": 7,
+   "cpu_s": 7.3,
+   "wall_s": 1.84,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _resolve_context(",
+   "beräknade_tokens": 63,
+   "gen_tokens": 7,
+   "cpu_s": 5.9,
+   "wall_s": 1.48,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _resolve_context(",
+   "beräknade_tokens": 80,
+   "gen_tokens": 7,
+   "cpu_s": 8.0,
+   "wall_s": 2.05,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T034",
+  "kind": "oförändrad",
+  "facit": "def _has_binary_buffer(",
+  "gammal": "def _has_binary_buffer(",
+  "FULL": {
+   "svar": "def _has_binary_buffer(",
+   "beräknade_tokens": 621,
+   "gen_tokens": 8,
+   "cpu_s": 27.8,
+   "wall_s": 7.37,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _has_binary_buffer(",
+   "beräknade_tokens": 122,
+   "gen_tokens": 8,
+   "cpu_s": 8.03,
+   "wall_s": 2.02,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _has_binary_buffer(",
+   "beräknade_tokens": 69,
+   "gen_tokens": 8,
+   "cpu_s": 6.56,
+   "wall_s": 1.64,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _has_binary_buffer(",
+   "beräknade_tokens": 76,
+   "gen_tokens": 8,
+   "cpu_s": 7.41,
+   "wall_s": 1.88,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T035",
+  "kind": "ändrad",
+  "facit": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+  "gammal": "def _is_file_like(value: t.Any) -> te.TypeGuard[t.IO[t.Any]]:",
+  "FULL": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "beräknade_tokens": 784,
+   "gen_tokens": 21,
+   "cpu_s": 40.64,
+   "wall_s": 11.05,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "beräknade_tokens": 132,
+   "gen_tokens": 21,
+   "cpu_s": 15.16,
+   "wall_s": 3.95,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "beräknade_tokens": 80,
+   "gen_tokens": 21,
+   "cpu_s": 11.92,
+   "wall_s": 3.02,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _is_file_like(value: t.Any) -> te.TypeIs[t.IO[t.Any]]:",
+   "beräknade_tokens": 96,
+   "gen_tokens": 21,
+   "cpu_s": 13.63,
+   "wall_s": 3.48,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T036",
+  "kind": "ändrad",
+  "facit": "    def _fetch(c: deque[V]) -> V | T_UNSET:",
+  "gammal": "    def _fetch(c: deque[V]) -> V | None:",
+  "FULL": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "beräknade_tokens": 649,
+   "gen_tokens": 17,
+   "cpu_s": 32.83,
+   "wall_s": 8.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "beräknade_tokens": 309,
+   "gen_tokens": 17,
+   "cpu_s": 20.53,
+   "wall_s": 5.39,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "beräknade_tokens": 176,
+   "gen_tokens": 17,
+   "cpu_s": 19.23,
+   "wall_s": 4.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _fetch(c: deque[V]) -> V | T_UNSET:",
+   "beräknade_tokens": 266,
+   "gen_tokens": 17,
+   "cpu_s": 22.4,
+   "wall_s": 5.69,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T037",
+  "kind": "ändrad",
+  "facit": "def _format_default(default: V) -> V | str:",
+  "gammal": "def _format_default(default: t.Any) -> t.Any:",
+  "FULL": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "beräknade_tokens": 653,
+   "gen_tokens": 15,
+   "cpu_s": 32.18,
+   "wall_s": 8.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "beräknade_tokens": 483,
+   "gen_tokens": 15,
+   "cpu_s": 29.02,
+   "wall_s": 8.03,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "beräknade_tokens": 341,
+   "gen_tokens": 15,
+   "cpu_s": 26.62,
+   "wall_s": 6.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def _format_default(default: V) -> V | str:",
+   "beräknade_tokens": 428,
+   "gen_tokens": 15,
+   "cpu_s": 31.04,
+   "wall_s": 8.42,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T038",
+  "kind": "ändrad",
+  "facit": "    def source_vars(self) -> _SourceVarsDict:",
+  "gammal": "    def source_vars(self) -> dict[str, t.Any]:",
+  "FULL": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "beräknade_tokens": 670,
+   "gen_tokens": 13,
+   "cpu_s": 34.85,
+   "wall_s": 9.46,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "beräknade_tokens": 170,
+   "gen_tokens": 13,
+   "cpu_s": 12.4,
+   "wall_s": 3.22,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "beräknade_tokens": 99,
+   "gen_tokens": 13,
+   "cpu_s": 10.59,
+   "wall_s": 2.67,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def source_vars(self) -> _SourceVarsDict:",
+   "beräknade_tokens": 134,
+   "gen_tokens": 13,
+   "cpu_s": 12.96,
+   "wall_s": 3.28,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "T039",
+  "kind": "ändrad",
+  "facit": "    def get_completions(",
+  "gammal": "    def get_completions(self, args: list[str], incomplete: str) -> list[CompletionItem]:",
+  "FULL": {
+   "svar": "def get_completions(",
+   "beräknade_tokens": 706,
+   "gen_tokens": 8,
+   "cpu_s": 33.28,
+   "wall_s": 9.01,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "def get_completions(",
+   "beräknade_tokens": 198,
+   "gen_tokens": 8,
+   "cpu_s": 12.68,
+   "wall_s": 3.26,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "def get_completions(",
+   "beräknade_tokens": 116,
+   "gen_tokens": 8,
+   "cpu_s": 10.01,
+   "wall_s": 2.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "def get_completions(",
+   "beräknade_tokens": 171,
+   "gen_tokens": 8,
+   "cpu_s": 12.61,
+   "wall_s": 3.19,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ }
+]
