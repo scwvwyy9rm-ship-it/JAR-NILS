@@ -1,0 +1,3602 @@
+[
+ {
+  "id": "P000",
+  "kind": "const",
+  "facit": "105",
+  "gammal": "106",
+  "FULL": {
+   "svar": "105",
+   "beräknade_tokens": 384,
+   "gen_tokens": 141,
+   "cpu_s": 33.88,
+   "wall_s": 8.65,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "105",
+   "beräknade_tokens": 92,
+   "gen_tokens": 117,
+   "cpu_s": 23.45,
+   "wall_s": 5.94,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "105",
+   "beräknade_tokens": 45,
+   "gen_tokens": 141,
+   "cpu_s": 27.14,
+   "wall_s": 6.82,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "111",
+   "beräknade_tokens": 52,
+   "gen_tokens": 154,
+   "cpu_s": 32.63,
+   "wall_s": 8.21,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "105",
+   "beräknade_tokens": 59,
+   "gen_tokens": 141,
+   "cpu_s": 30.88,
+   "wall_s": 7.8,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "105",
+   "beräknade_tokens": 68,
+   "gen_tokens": 128,
+   "cpu_s": 26.96,
+   "wall_s": 6.77,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P001",
+  "kind": "control",
+  "facit": "15",
+  "gammal": "15",
+  "FULL": {
+   "svar": "15",
+   "beräknade_tokens": 382,
+   "gen_tokens": 144,
+   "cpu_s": 35.26,
+   "wall_s": 8.96,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "15",
+   "beräknade_tokens": 94,
+   "gen_tokens": 133,
+   "cpu_s": 27.69,
+   "wall_s": 6.99,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "15",
+   "beräknade_tokens": 46,
+   "gen_tokens": 144,
+   "cpu_s": 29.86,
+   "wall_s": 7.51,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "15",
+   "beräknade_tokens": 62,
+   "gen_tokens": 144,
+   "cpu_s": 30.81,
+   "wall_s": 7.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "15",
+   "beräknade_tokens": 54,
+   "gen_tokens": 144,
+   "cpu_s": 29.28,
+   "wall_s": 7.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "15",
+   "beräknade_tokens": 69,
+   "gen_tokens": 130,
+   "cpu_s": 27.63,
+   "wall_s": 6.97,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P002",
+  "kind": "default",
+  "facit": "12",
+  "gammal": "11",
+  "FULL": {
+   "svar": "12",
+   "beräknade_tokens": 344,
+   "gen_tokens": 125,
+   "cpu_s": 32.66,
+   "wall_s": 8.34,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "12",
+   "beräknade_tokens": 95,
+   "gen_tokens": 113,
+   "cpu_s": 23.42,
+   "wall_s": 5.88,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "12",
+   "beräknade_tokens": 46,
+   "gen_tokens": 125,
+   "cpu_s": 25.86,
+   "wall_s": 6.51,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "12",
+   "beräknade_tokens": 56,
+   "gen_tokens": 125,
+   "cpu_s": 25.53,
+   "wall_s": 6.43,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "12",
+   "beräknade_tokens": 77,
+   "gen_tokens": 125,
+   "cpu_s": 25.03,
+   "wall_s": 6.28,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "12",
+   "beräknade_tokens": 73,
+   "gen_tokens": 133,
+   "cpu_s": 27.2,
+   "wall_s": 6.84,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P003",
+  "kind": "control",
+  "facit": "40",
+  "gammal": "40",
+  "FULL": {
+   "svar": "40",
+   "beräknade_tokens": 413,
+   "gen_tokens": 143,
+   "cpu_s": 34.0,
+   "wall_s": 8.61,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "40",
+   "beräknade_tokens": 93,
+   "gen_tokens": 143,
+   "cpu_s": 28.87,
+   "wall_s": 7.26,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "40",
+   "beräknade_tokens": 46,
+   "gen_tokens": 143,
+   "cpu_s": 29.93,
+   "wall_s": 7.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "40",
+   "beräknade_tokens": 61,
+   "gen_tokens": 143,
+   "cpu_s": 29.07,
+   "wall_s": 7.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "40",
+   "beräknade_tokens": 53,
+   "gen_tokens": 143,
+   "cpu_s": 29.69,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "40",
+   "beräknade_tokens": 69,
+   "gen_tokens": 158,
+   "cpu_s": 30.83,
+   "wall_s": 7.79,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P004",
+  "kind": "default",
+  "facit": "38",
+  "gammal": "36",
+  "FULL": {
+   "svar": "38",
+   "beräknade_tokens": 306,
+   "gen_tokens": 143,
+   "cpu_s": 32.29,
+   "wall_s": 8.13,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "38",
+   "beräknade_tokens": 96,
+   "gen_tokens": 143,
+   "cpu_s": 29.74,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "38",
+   "beräknade_tokens": 46,
+   "gen_tokens": 143,
+   "cpu_s": 27.4,
+   "wall_s": 6.89,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "38",
+   "beräknade_tokens": 55,
+   "gen_tokens": 143,
+   "cpu_s": 26.3,
+   "wall_s": 6.59,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "38",
+   "beräknade_tokens": 58,
+   "gen_tokens": 143,
+   "cpu_s": 27.92,
+   "wall_s": 7.0,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "38",
+   "beräknade_tokens": 73,
+   "gen_tokens": 143,
+   "cpu_s": 29.67,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P005",
+  "kind": "control",
+  "facit": "76",
+  "gammal": "76",
+  "FULL": {
+   "svar": "76",
+   "beräknade_tokens": 377,
+   "gen_tokens": 145,
+   "cpu_s": 33.34,
+   "wall_s": 8.52,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "76",
+   "beräknade_tokens": 99,
+   "gen_tokens": 134,
+   "cpu_s": 25.91,
+   "wall_s": 6.5,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "76",
+   "beräknade_tokens": 50,
+   "gen_tokens": 145,
+   "cpu_s": 30.11,
+   "wall_s": 7.61,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "76",
+   "beräknade_tokens": 58,
+   "gen_tokens": 145,
+   "cpu_s": 32.28,
+   "wall_s": 8.14,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "76",
+   "beräknade_tokens": 113,
+   "gen_tokens": 145,
+   "cpu_s": 33.68,
+   "wall_s": 8.48,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "76",
+   "beräknade_tokens": 81,
+   "gen_tokens": 148,
+   "cpu_s": 29.26,
+   "wall_s": 7.37,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P006",
+  "kind": "op",
+  "facit": "38",
+  "gammal": "74",
+  "FULL": {
+   "svar": "38",
+   "beräknade_tokens": 344,
+   "gen_tokens": 109,
+   "cpu_s": 27.85,
+   "wall_s": 7.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "74",
+   "beräknade_tokens": 95,
+   "gen_tokens": 122,
+   "cpu_s": 25.74,
+   "wall_s": 6.48,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "38",
+   "beräknade_tokens": 45,
+   "gen_tokens": 109,
+   "cpu_s": 22.68,
+   "wall_s": 5.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "38",
+   "beräknade_tokens": 50,
+   "gen_tokens": 109,
+   "cpu_s": 21.32,
+   "wall_s": 5.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "38",
+   "beräknade_tokens": 68,
+   "gen_tokens": 109,
+   "cpu_s": 23.2,
+   "wall_s": 5.83,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "38",
+   "beräknade_tokens": 66,
+   "gen_tokens": 134,
+   "cpu_s": 27.72,
+   "wall_s": 7.01,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P007",
+  "kind": "control",
+  "facit": "34",
+  "gammal": "34",
+  "FULL": {
+   "svar": "32",
+   "beräknade_tokens": 381,
+   "gen_tokens": 167,
+   "cpu_s": 39.29,
+   "wall_s": 9.99,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "38",
+   "beräknade_tokens": 95,
+   "gen_tokens": 140,
+   "cpu_s": 29.16,
+   "wall_s": 7.39,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "32",
+   "beräknade_tokens": 46,
+   "gen_tokens": 167,
+   "cpu_s": 35.39,
+   "wall_s": 8.92,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "36",
+   "beräknade_tokens": 61,
+   "gen_tokens": 140,
+   "cpu_s": 30.04,
+   "wall_s": 7.57,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "32",
+   "beräknade_tokens": 53,
+   "gen_tokens": 167,
+   "cpu_s": 36.33,
+   "wall_s": 9.18,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "38",
+   "beräknade_tokens": 69,
+   "gen_tokens": 140,
+   "cpu_s": 27.98,
+   "wall_s": 7.04,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P008",
+  "kind": "control",
+  "facit": "24",
+  "gammal": "24",
+  "FULL": {
+   "svar": "24",
+   "beräknade_tokens": 383,
+   "gen_tokens": 119,
+   "cpu_s": 29.68,
+   "wall_s": 7.52,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "24",
+   "beräknade_tokens": 93,
+   "gen_tokens": 92,
+   "cpu_s": 17.31,
+   "wall_s": 4.34,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "24",
+   "beräknade_tokens": 46,
+   "gen_tokens": 119,
+   "cpu_s": 24.71,
+   "wall_s": 6.24,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "24",
+   "beräknade_tokens": 62,
+   "gen_tokens": 119,
+   "cpu_s": 23.32,
+   "wall_s": 5.88,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "24",
+   "beräknade_tokens": 54,
+   "gen_tokens": 119,
+   "cpu_s": 25.08,
+   "wall_s": 6.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "24",
+   "beräknade_tokens": 69,
+   "gen_tokens": 157,
+   "cpu_s": 31.77,
+   "wall_s": 7.99,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P009",
+  "kind": "default",
+  "facit": "111",
+  "gammal": "108",
+  "FULL": {
+   "svar": "115",
+   "beräknade_tokens": 324,
+   "gen_tokens": 160,
+   "cpu_s": 31.26,
+   "wall_s": 7.89,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "108",
+   "beräknade_tokens": 96,
+   "gen_tokens": 151,
+   "cpu_s": 28.65,
+   "wall_s": 7.22,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "108",
+   "beräknade_tokens": 46,
+   "gen_tokens": 152,
+   "cpu_s": 30.81,
+   "wall_s": 7.74,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE_NBR": {
+   "svar": "115",
+   "beräknade_tokens": 57,
+   "gen_tokens": 160,
+   "cpu_s": 29.65,
+   "wall_s": 7.44,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "115",
+   "beräknade_tokens": 58,
+   "gen_tokens": 160,
+   "cpu_s": 32.1,
+   "wall_s": 8.1,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "116",
+   "beräknade_tokens": 73,
+   "gen_tokens": 164,
+   "cpu_s": 33.79,
+   "wall_s": 8.51,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P010",
+  "kind": "default",
+  "facit": "81",
+  "gammal": "80",
+  "FULL": {
+   "svar": "81",
+   "beräknade_tokens": 321,
+   "gen_tokens": 135,
+   "cpu_s": 32.03,
+   "wall_s": 8.09,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "81",
+   "beräknade_tokens": 95,
+   "gen_tokens": 139,
+   "cpu_s": 28.81,
+   "wall_s": 7.28,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "81",
+   "beräknade_tokens": 47,
+   "gen_tokens": 166,
+   "cpu_s": 33.97,
+   "wall_s": 8.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "81",
+   "beräknade_tokens": 56,
+   "gen_tokens": 135,
+   "cpu_s": 26.96,
+   "wall_s": 6.83,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "81",
+   "beräknade_tokens": 60,
+   "gen_tokens": 135,
+   "cpu_s": 23.51,
+   "wall_s": 5.9,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "81",
+   "beräknade_tokens": 76,
+   "gen_tokens": 146,
+   "cpu_s": 30.37,
+   "wall_s": 7.64,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P011",
+  "kind": "control",
+  "facit": "38",
+  "gammal": "38",
+  "FULL": {
+   "svar": "38",
+   "beräknade_tokens": 306,
+   "gen_tokens": 163,
+   "cpu_s": 34.23,
+   "wall_s": 8.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "38",
+   "beräknade_tokens": 98,
+   "gen_tokens": 163,
+   "cpu_s": 34.35,
+   "wall_s": 8.67,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "38",
+   "beräknade_tokens": 49,
+   "gen_tokens": 166,
+   "cpu_s": 34.73,
+   "wall_s": 8.78,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "38",
+   "beräknade_tokens": 58,
+   "gen_tokens": 163,
+   "cpu_s": 34.08,
+   "wall_s": 8.6,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "38",
+   "beräknade_tokens": 76,
+   "gen_tokens": 163,
+   "cpu_s": 33.46,
+   "wall_s": 8.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "38",
+   "beräknade_tokens": 78,
+   "gen_tokens": 163,
+   "cpu_s": 33.07,
+   "wall_s": 8.32,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P012",
+  "kind": "const",
+  "facit": "-2",
+  "gammal": "-4",
+  "FULL": {
+   "svar": "-2",
+   "beräknade_tokens": 305,
+   "gen_tokens": 127,
+   "cpu_s": 30.24,
+   "wall_s": 7.66,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-2",
+   "beräknade_tokens": 91,
+   "gen_tokens": 127,
+   "cpu_s": 26.95,
+   "wall_s": 6.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-2",
+   "beräknade_tokens": 44,
+   "gen_tokens": 127,
+   "cpu_s": 26.84,
+   "wall_s": 6.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-2",
+   "beräknade_tokens": 58,
+   "gen_tokens": 123,
+   "cpu_s": 24.48,
+   "wall_s": 6.17,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-2",
+   "beräknade_tokens": 73,
+   "gen_tokens": 127,
+   "cpu_s": 28.49,
+   "wall_s": 7.19,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-2",
+   "beräknade_tokens": 65,
+   "gen_tokens": 127,
+   "cpu_s": 26.86,
+   "wall_s": 6.78,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P013",
+  "kind": "control",
+  "facit": "20",
+  "gammal": "20",
+  "FULL": {
+   "svar": "20",
+   "beräknade_tokens": 405,
+   "gen_tokens": 171,
+   "cpu_s": 43.75,
+   "wall_s": 11.13,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "20",
+   "beräknade_tokens": 94,
+   "gen_tokens": 171,
+   "cpu_s": 37.18,
+   "wall_s": 9.44,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "20",
+   "beräknade_tokens": 46,
+   "gen_tokens": 171,
+   "cpu_s": 36.09,
+   "wall_s": 9.09,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "20",
+   "beräknade_tokens": 62,
+   "gen_tokens": 171,
+   "cpu_s": 34.32,
+   "wall_s": 8.63,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "20",
+   "beräknade_tokens": 54,
+   "gen_tokens": 171,
+   "cpu_s": 36.92,
+   "wall_s": 9.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "20",
+   "beräknade_tokens": 69,
+   "gen_tokens": 140,
+   "cpu_s": 29.28,
+   "wall_s": 7.42,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P014",
+  "kind": "op",
+  "facit": "10",
+  "gammal": "28",
+  "FULL": {
+   "svar": "10",
+   "beräknade_tokens": 378,
+   "gen_tokens": 132,
+   "cpu_s": 32.59,
+   "wall_s": 8.28,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "28",
+   "beräknade_tokens": 95,
+   "gen_tokens": 141,
+   "cpu_s": 26.44,
+   "wall_s": 6.64,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "10",
+   "beräknade_tokens": 46,
+   "gen_tokens": 192,
+   "cpu_s": 34.23,
+   "wall_s": 8.6,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "10",
+   "beräknade_tokens": 51,
+   "gen_tokens": 132,
+   "cpu_s": 26.52,
+   "wall_s": 6.67,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "10",
+   "beräknade_tokens": 71,
+   "gen_tokens": 156,
+   "cpu_s": 32.85,
+   "wall_s": 8.25,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "10",
+   "beräknade_tokens": 71,
+   "gen_tokens": 168,
+   "cpu_s": 32.68,
+   "wall_s": 8.24,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P015",
+  "kind": "const",
+  "facit": "38",
+  "gammal": "22",
+  "FULL": {
+   "svar": "38",
+   "beräknade_tokens": 340,
+   "gen_tokens": 127,
+   "cpu_s": 32.1,
+   "wall_s": 8.19,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "38",
+   "beräknade_tokens": 91,
+   "gen_tokens": 128,
+   "cpu_s": 28.15,
+   "wall_s": 7.11,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "38",
+   "beräknade_tokens": 44,
+   "gen_tokens": 127,
+   "cpu_s": 27.45,
+   "wall_s": 6.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "38",
+   "beräknade_tokens": 50,
+   "gen_tokens": 128,
+   "cpu_s": 25.9,
+   "wall_s": 6.55,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "38",
+   "beräknade_tokens": 68,
+   "gen_tokens": 127,
+   "cpu_s": 27.26,
+   "wall_s": 6.86,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "38",
+   "beräknade_tokens": 65,
+   "gen_tokens": 134,
+   "cpu_s": 29.47,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P016",
+  "kind": "const",
+  "facit": "38",
+  "gammal": "39",
+  "FULL": {
+   "svar": "39",
+   "beräknade_tokens": 339,
+   "gen_tokens": 139,
+   "cpu_s": 32.08,
+   "wall_s": 8.12,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "IR": {
+   "svar": "39",
+   "beräknade_tokens": 93,
+   "gen_tokens": 135,
+   "cpu_s": 29.32,
+   "wall_s": 7.4,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "39",
+   "beräknade_tokens": 44,
+   "gen_tokens": 139,
+   "cpu_s": 28.58,
+   "wall_s": 7.22,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE_NBR": {
+   "svar": "39",
+   "beräknade_tokens": 51,
+   "gen_tokens": 139,
+   "cpu_s": 26.0,
+   "wall_s": 6.54,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE_DEP": {
+   "svar": "39",
+   "beräknade_tokens": 58,
+   "gen_tokens": 139,
+   "cpu_s": 29.32,
+   "wall_s": 7.39,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE_HINT": {
+   "svar": "39",
+   "beräknade_tokens": 65,
+   "gen_tokens": 135,
+   "cpu_s": 29.89,
+   "wall_s": 7.56,
+   "korrekt": false,
+   "inaktuell": true
+  }
+ },
+ {
+  "id": "P017",
+  "kind": "control",
+  "facit": "8",
+  "gammal": "8",
+  "FULL": {
+   "svar": "8",
+   "beräknade_tokens": 394,
+   "gen_tokens": 128,
+   "cpu_s": 33.96,
+   "wall_s": 8.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "8",
+   "beräknade_tokens": 96,
+   "gen_tokens": 128,
+   "cpu_s": 28.21,
+   "wall_s": 7.13,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "8",
+   "beräknade_tokens": 46,
+   "gen_tokens": 128,
+   "cpu_s": 29.62,
+   "wall_s": 7.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "8",
+   "beräknade_tokens": 61,
+   "gen_tokens": 128,
+   "cpu_s": 28.13,
+   "wall_s": 7.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "8",
+   "beräknade_tokens": 53,
+   "gen_tokens": 128,
+   "cpu_s": 29.2,
+   "wall_s": 7.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "8",
+   "beräknade_tokens": 69,
+   "gen_tokens": 128,
+   "cpu_s": 28.38,
+   "wall_s": 7.18,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P018",
+  "kind": "control",
+  "facit": "46",
+  "gammal": "46",
+  "FULL": {
+   "svar": "46",
+   "beräknade_tokens": 325,
+   "gen_tokens": 148,
+   "cpu_s": 38.03,
+   "wall_s": 9.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "46",
+   "beräknade_tokens": 96,
+   "gen_tokens": 133,
+   "cpu_s": 30.36,
+   "wall_s": 7.71,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "46",
+   "beräknade_tokens": 46,
+   "gen_tokens": 133,
+   "cpu_s": 27.7,
+   "wall_s": 6.99,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "46",
+   "beräknade_tokens": 62,
+   "gen_tokens": 148,
+   "cpu_s": 32.02,
+   "wall_s": 8.06,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "46",
+   "beräknade_tokens": 54,
+   "gen_tokens": 133,
+   "cpu_s": 27.49,
+   "wall_s": 6.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "46",
+   "beräknade_tokens": 69,
+   "gen_tokens": 133,
+   "cpu_s": 26.63,
+   "wall_s": 6.69,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P019",
+  "kind": "op",
+  "facit": "7",
+  "gammal": "47",
+  "FULL": {
+   "svar": "7",
+   "beräknade_tokens": 378,
+   "gen_tokens": 148,
+   "cpu_s": 38.15,
+   "wall_s": 9.74,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "47",
+   "beräknade_tokens": 94,
+   "gen_tokens": 142,
+   "cpu_s": 30.36,
+   "wall_s": 7.65,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "7",
+   "beräknade_tokens": 45,
+   "gen_tokens": 154,
+   "cpu_s": 33.32,
+   "wall_s": 8.45,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "7",
+   "beräknade_tokens": 50,
+   "gen_tokens": 123,
+   "cpu_s": 27.66,
+   "wall_s": 6.97,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "7",
+   "beräknade_tokens": 86,
+   "gen_tokens": 154,
+   "cpu_s": 33.38,
+   "wall_s": 8.39,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "7",
+   "beräknade_tokens": 66,
+   "gen_tokens": 156,
+   "cpu_s": 30.29,
+   "wall_s": 7.62,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P020",
+  "kind": "control",
+  "facit": "-7",
+  "gammal": "-7",
+  "FULL": {
+   "svar": "-7",
+   "beräknade_tokens": 330,
+   "gen_tokens": 141,
+   "cpu_s": 28.09,
+   "wall_s": 7.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-7",
+   "beräknade_tokens": 98,
+   "gen_tokens": 126,
+   "cpu_s": 26.67,
+   "wall_s": 6.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-7",
+   "beräknade_tokens": 49,
+   "gen_tokens": 141,
+   "cpu_s": 28.66,
+   "wall_s": 7.23,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-7",
+   "beräknade_tokens": 58,
+   "gen_tokens": 141,
+   "cpu_s": 31.73,
+   "wall_s": 8.04,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-7",
+   "beräknade_tokens": 96,
+   "gen_tokens": 141,
+   "cpu_s": 30.5,
+   "wall_s": 7.67,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-7",
+   "beräknade_tokens": 78,
+   "gen_tokens": 165,
+   "cpu_s": 35.94,
+   "wall_s": 9.06,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P021",
+  "kind": "default",
+  "facit": "30",
+  "gammal": "27",
+  "FULL": {
+   "svar": "30",
+   "beräknade_tokens": 418,
+   "gen_tokens": 140,
+   "cpu_s": 36.85,
+   "wall_s": 9.44,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "30",
+   "beräknade_tokens": 97,
+   "gen_tokens": 135,
+   "cpu_s": 27.96,
+   "wall_s": 7.05,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "30",
+   "beräknade_tokens": 47,
+   "gen_tokens": 135,
+   "cpu_s": 28.84,
+   "wall_s": 7.28,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "30",
+   "beräknade_tokens": 57,
+   "gen_tokens": 135,
+   "cpu_s": 29.34,
+   "wall_s": 7.4,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "30",
+   "beräknade_tokens": 60,
+   "gen_tokens": 140,
+   "cpu_s": 30.43,
+   "wall_s": 7.69,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "30",
+   "beräknade_tokens": 76,
+   "gen_tokens": 143,
+   "cpu_s": 31.91,
+   "wall_s": 8.04,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P022",
+  "kind": "default",
+  "facit": "12",
+  "gammal": "11",
+  "FULL": {
+   "svar": "12",
+   "beräknade_tokens": 359,
+   "gen_tokens": 177,
+   "cpu_s": 42.67,
+   "wall_s": 10.84,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "12",
+   "beräknade_tokens": 95,
+   "gen_tokens": 136,
+   "cpu_s": 32.15,
+   "wall_s": 8.16,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "12",
+   "beräknade_tokens": 46,
+   "gen_tokens": 136,
+   "cpu_s": 30.55,
+   "wall_s": 7.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "12",
+   "beräknade_tokens": 56,
+   "gen_tokens": 136,
+   "cpu_s": 27.38,
+   "wall_s": 6.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "12",
+   "beräknade_tokens": 58,
+   "gen_tokens": 136,
+   "cpu_s": 28.0,
+   "wall_s": 7.04,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "12",
+   "beräknade_tokens": 73,
+   "gen_tokens": 136,
+   "cpu_s": 28.44,
+   "wall_s": 7.17,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P023",
+  "kind": "op",
+  "facit": "27",
+  "gammal": "106",
+  "FULL": {
+   "svar": "27",
+   "beräknade_tokens": 320,
+   "gen_tokens": 139,
+   "cpu_s": 33.05,
+   "wall_s": 8.35,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "106",
+   "beräknade_tokens": 96,
+   "gen_tokens": 138,
+   "cpu_s": 28.8,
+   "wall_s": 7.24,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "27",
+   "beräknade_tokens": 47,
+   "gen_tokens": 134,
+   "cpu_s": 26.84,
+   "wall_s": 6.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "27",
+   "beräknade_tokens": 56,
+   "gen_tokens": 139,
+   "cpu_s": 29.12,
+   "wall_s": 7.31,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "27",
+   "beräknade_tokens": 73,
+   "gen_tokens": 139,
+   "cpu_s": 30.51,
+   "wall_s": 7.68,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "27",
+   "beräknade_tokens": 72,
+   "gen_tokens": 138,
+   "cpu_s": 30.2,
+   "wall_s": 7.6,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P024",
+  "kind": "control",
+  "facit": "25",
+  "gammal": "25",
+  "FULL": {
+   "svar": "25",
+   "beräknade_tokens": 380,
+   "gen_tokens": 141,
+   "cpu_s": 36.38,
+   "wall_s": 9.25,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "25",
+   "beräknade_tokens": 96,
+   "gen_tokens": 141,
+   "cpu_s": 34.06,
+   "wall_s": 8.68,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "25",
+   "beräknade_tokens": 47,
+   "gen_tokens": 166,
+   "cpu_s": 35.27,
+   "wall_s": 8.94,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "25",
+   "beräknade_tokens": 62,
+   "gen_tokens": 141,
+   "cpu_s": 29.89,
+   "wall_s": 7.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "25",
+   "beräknade_tokens": 54,
+   "gen_tokens": 166,
+   "cpu_s": 33.17,
+   "wall_s": 8.38,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "25",
+   "beräknade_tokens": 71,
+   "gen_tokens": 163,
+   "cpu_s": 35.36,
+   "wall_s": 8.92,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P025",
+  "kind": "op",
+  "facit": "15",
+  "gammal": "23",
+  "FULL": {
+   "svar": "15",
+   "beräknade_tokens": 344,
+   "gen_tokens": 164,
+   "cpu_s": 38.14,
+   "wall_s": 9.63,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "23",
+   "beräknade_tokens": 95,
+   "gen_tokens": 165,
+   "cpu_s": 33.35,
+   "wall_s": 8.37,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "15",
+   "beräknade_tokens": 45,
+   "gen_tokens": 160,
+   "cpu_s": 30.74,
+   "wall_s": 7.72,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "15",
+   "beräknade_tokens": 50,
+   "gen_tokens": 124,
+   "cpu_s": 25.5,
+   "wall_s": 6.45,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "15",
+   "beräknade_tokens": 68,
+   "gen_tokens": 160,
+   "cpu_s": 31.68,
+   "wall_s": 7.97,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "15",
+   "beräknade_tokens": 66,
+   "gen_tokens": 161,
+   "cpu_s": 32.5,
+   "wall_s": 8.17,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P026",
+  "kind": "op",
+  "facit": "1",
+  "gammal": "127",
+  "FULL": {
+   "svar": "1",
+   "beräknade_tokens": 397,
+   "gen_tokens": 129,
+   "cpu_s": 30.32,
+   "wall_s": 7.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "129",
+   "beräknade_tokens": 94,
+   "gen_tokens": 161,
+   "cpu_s": 32.96,
+   "wall_s": 8.3,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "1",
+   "beräknade_tokens": 45,
+   "gen_tokens": 129,
+   "cpu_s": 25.35,
+   "wall_s": 6.37,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "1",
+   "beräknade_tokens": 50,
+   "gen_tokens": 129,
+   "cpu_s": 28.4,
+   "wall_s": 7.2,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "1",
+   "beräknade_tokens": 68,
+   "gen_tokens": 129,
+   "cpu_s": 27.18,
+   "wall_s": 6.91,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "1",
+   "beräknade_tokens": 66,
+   "gen_tokens": 131,
+   "cpu_s": 26.59,
+   "wall_s": 6.69,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P027",
+  "kind": "control",
+  "facit": "13",
+  "gammal": "13",
+  "FULL": {
+   "svar": "13",
+   "beräknade_tokens": 324,
+   "gen_tokens": 136,
+   "cpu_s": 33.03,
+   "wall_s": 8.47,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "13",
+   "beräknade_tokens": 95,
+   "gen_tokens": 159,
+   "cpu_s": 31.06,
+   "wall_s": 7.85,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "13",
+   "beräknade_tokens": 46,
+   "gen_tokens": 136,
+   "cpu_s": 25.33,
+   "wall_s": 6.39,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "13",
+   "beräknade_tokens": 61,
+   "gen_tokens": 179,
+   "cpu_s": 34.88,
+   "wall_s": 8.78,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "13",
+   "beräknade_tokens": 53,
+   "gen_tokens": 136,
+   "cpu_s": 26.89,
+   "wall_s": 6.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "13",
+   "beräknade_tokens": 69,
+   "gen_tokens": 136,
+   "cpu_s": 26.77,
+   "wall_s": 6.79,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P028",
+  "kind": "default",
+  "facit": "14",
+  "gammal": "12",
+  "FULL": {
+   "svar": "14",
+   "beräknade_tokens": 307,
+   "gen_tokens": 167,
+   "cpu_s": 36.51,
+   "wall_s": 9.21,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "12",
+   "beräknade_tokens": 96,
+   "gen_tokens": 163,
+   "cpu_s": 33.17,
+   "wall_s": 8.33,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "14",
+   "beräknade_tokens": 46,
+   "gen_tokens": 167,
+   "cpu_s": 31.52,
+   "wall_s": 7.93,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "14",
+   "beräknade_tokens": 58,
+   "gen_tokens": 167,
+   "cpu_s": 33.54,
+   "wall_s": 8.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "14",
+   "beräknade_tokens": 58,
+   "gen_tokens": 167,
+   "cpu_s": 31.52,
+   "wall_s": 7.91,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "14",
+   "beräknade_tokens": 73,
+   "gen_tokens": 167,
+   "cpu_s": 32.93,
+   "wall_s": 8.28,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P029",
+  "kind": "op",
+  "facit": "10",
+  "gammal": "80",
+  "FULL": {
+   "svar": "10",
+   "beräknade_tokens": 395,
+   "gen_tokens": 127,
+   "cpu_s": 31.9,
+   "wall_s": 8.18,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "81",
+   "beräknade_tokens": 95,
+   "gen_tokens": 142,
+   "cpu_s": 26.11,
+   "wall_s": 6.59,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "10",
+   "beräknade_tokens": 45,
+   "gen_tokens": 160,
+   "cpu_s": 32.29,
+   "wall_s": 8.12,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "10",
+   "beräknade_tokens": 50,
+   "gen_tokens": 127,
+   "cpu_s": 25.8,
+   "wall_s": 6.49,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "10",
+   "beräknade_tokens": 68,
+   "gen_tokens": 127,
+   "cpu_s": 26.81,
+   "wall_s": 6.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "10",
+   "beräknade_tokens": 66,
+   "gen_tokens": 127,
+   "cpu_s": 28.63,
+   "wall_s": 7.27,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P030",
+  "kind": "control",
+  "facit": "30",
+  "gammal": "30",
+  "FULL": {
+   "svar": "20",
+   "beräknade_tokens": 359,
+   "gen_tokens": 157,
+   "cpu_s": 39.2,
+   "wall_s": 10.02,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "30",
+   "beräknade_tokens": 95,
+   "gen_tokens": 141,
+   "cpu_s": 29.42,
+   "wall_s": 7.41,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "28",
+   "beräknade_tokens": 46,
+   "gen_tokens": 157,
+   "cpu_s": 31.59,
+   "wall_s": 7.96,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "28",
+   "beräknade_tokens": 61,
+   "gen_tokens": 157,
+   "cpu_s": 31.18,
+   "wall_s": 7.85,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "28",
+   "beräknade_tokens": 53,
+   "gen_tokens": 157,
+   "cpu_s": 32.15,
+   "wall_s": 8.14,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "30",
+   "beräknade_tokens": 69,
+   "gen_tokens": 141,
+   "cpu_s": 30.03,
+   "wall_s": 7.55,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P031",
+  "kind": "control",
+  "facit": "24",
+  "gammal": "24",
+  "FULL": {
+   "svar": "24",
+   "beräknade_tokens": 305,
+   "gen_tokens": 140,
+   "cpu_s": 30.05,
+   "wall_s": 7.59,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "24",
+   "beräknade_tokens": 94,
+   "gen_tokens": 136,
+   "cpu_s": 25.32,
+   "wall_s": 6.35,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "24",
+   "beräknade_tokens": 46,
+   "gen_tokens": 143,
+   "cpu_s": 28.48,
+   "wall_s": 7.19,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "24",
+   "beräknade_tokens": 61,
+   "gen_tokens": 140,
+   "cpu_s": 31.61,
+   "wall_s": 8.01,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "24",
+   "beräknade_tokens": 53,
+   "gen_tokens": 143,
+   "cpu_s": 30.7,
+   "wall_s": 7.74,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "24",
+   "beräknade_tokens": 69,
+   "gen_tokens": 136,
+   "cpu_s": 30.64,
+   "wall_s": 7.72,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P032",
+  "kind": "default",
+  "facit": "73",
+  "gammal": "70",
+  "FULL": {
+   "svar": "73",
+   "beräknade_tokens": 414,
+   "gen_tokens": 175,
+   "cpu_s": 43.04,
+   "wall_s": 10.94,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "73",
+   "beräknade_tokens": 95,
+   "gen_tokens": 150,
+   "cpu_s": 30.54,
+   "wall_s": 7.7,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "73",
+   "beräknade_tokens": 46,
+   "gen_tokens": 170,
+   "cpu_s": 36.02,
+   "wall_s": 9.14,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "73",
+   "beräknade_tokens": 56,
+   "gen_tokens": 151,
+   "cpu_s": 30.93,
+   "wall_s": 7.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "73",
+   "beräknade_tokens": 58,
+   "gen_tokens": 142,
+   "cpu_s": 22.95,
+   "wall_s": 5.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "73",
+   "beräknade_tokens": 73,
+   "gen_tokens": 150,
+   "cpu_s": 31.64,
+   "wall_s": 7.96,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P033",
+  "kind": "const",
+  "facit": "27",
+  "gammal": "24",
+  "FULL": {
+   "svar": "27",
+   "beräknade_tokens": 347,
+   "gen_tokens": 168,
+   "cpu_s": 40.53,
+   "wall_s": 10.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "27",
+   "beräknade_tokens": 92,
+   "gen_tokens": 128,
+   "cpu_s": 25.57,
+   "wall_s": 6.43,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "27",
+   "beräknade_tokens": 45,
+   "gen_tokens": 168,
+   "cpu_s": 35.13,
+   "wall_s": 8.89,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "27",
+   "beräknade_tokens": 53,
+   "gen_tokens": 168,
+   "cpu_s": 34.74,
+   "wall_s": 8.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "27",
+   "beräknade_tokens": 69,
+   "gen_tokens": 168,
+   "cpu_s": 37.14,
+   "wall_s": 9.39,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "19",
+   "beräknade_tokens": 68,
+   "gen_tokens": 256,
+   "cpu_s": 54.66,
+   "wall_s": 13.79,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P034",
+  "kind": "const",
+  "facit": "86",
+  "gammal": "83",
+  "FULL": {
+   "svar": "82",
+   "beräknade_tokens": 418,
+   "gen_tokens": 111,
+   "cpu_s": 32.17,
+   "wall_s": 8.31,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "86",
+   "beräknade_tokens": 91,
+   "gen_tokens": 134,
+   "cpu_s": 29.63,
+   "wall_s": 7.47,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "82",
+   "beräknade_tokens": 45,
+   "gen_tokens": 111,
+   "cpu_s": 24.64,
+   "wall_s": 6.24,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "82",
+   "beräknade_tokens": 52,
+   "gen_tokens": 111,
+   "cpu_s": 23.63,
+   "wall_s": 5.96,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "82",
+   "beräknade_tokens": 59,
+   "gen_tokens": 111,
+   "cpu_s": 24.38,
+   "wall_s": 6.15,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "86",
+   "beräknade_tokens": 68,
+   "gen_tokens": 143,
+   "cpu_s": 28.94,
+   "wall_s": 7.28,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P035",
+  "kind": "const",
+  "facit": "21",
+  "gammal": "23",
+  "FULL": {
+   "svar": "21",
+   "beräknade_tokens": 380,
+   "gen_tokens": 136,
+   "cpu_s": 33.57,
+   "wall_s": 8.57,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "17",
+   "beräknade_tokens": 91,
+   "gen_tokens": 153,
+   "cpu_s": 33.05,
+   "wall_s": 8.35,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "21",
+   "beräknade_tokens": 44,
+   "gen_tokens": 140,
+   "cpu_s": 28.38,
+   "wall_s": 7.16,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "21",
+   "beräknade_tokens": 50,
+   "gen_tokens": 136,
+   "cpu_s": 27.48,
+   "wall_s": 6.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "21",
+   "beräknade_tokens": 69,
+   "gen_tokens": 136,
+   "cpu_s": 26.81,
+   "wall_s": 6.76,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "21",
+   "beräknade_tokens": 65,
+   "gen_tokens": 136,
+   "cpu_s": 27.69,
+   "wall_s": 6.98,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P036",
+  "kind": "default",
+  "facit": "15",
+  "gammal": "12",
+  "FULL": {
+   "svar": "15",
+   "beräknade_tokens": 417,
+   "gen_tokens": 139,
+   "cpu_s": 36.62,
+   "wall_s": 9.44,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "15",
+   "beräknade_tokens": 95,
+   "gen_tokens": 95,
+   "cpu_s": 19.92,
+   "wall_s": 5.03,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "15",
+   "beräknade_tokens": 46,
+   "gen_tokens": 139,
+   "cpu_s": 29.57,
+   "wall_s": 7.47,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "15",
+   "beräknade_tokens": 56,
+   "gen_tokens": 139,
+   "cpu_s": 30.96,
+   "wall_s": 7.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "15",
+   "beräknade_tokens": 58,
+   "gen_tokens": 160,
+   "cpu_s": 33.88,
+   "wall_s": 8.54,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "15",
+   "beräknade_tokens": 73,
+   "gen_tokens": 95,
+   "cpu_s": 21.42,
+   "wall_s": 5.42,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P037",
+  "kind": "op",
+  "facit": "11",
+  "gammal": "5",
+  "FULL": {
+   "svar": "11",
+   "beräknade_tokens": 399,
+   "gen_tokens": 104,
+   "cpu_s": 30.22,
+   "wall_s": 7.78,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "5",
+   "beräknade_tokens": 97,
+   "gen_tokens": 184,
+   "cpu_s": 38.22,
+   "wall_s": 9.62,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "11",
+   "beräknade_tokens": 47,
+   "gen_tokens": 156,
+   "cpu_s": 33.44,
+   "wall_s": 8.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "11",
+   "beräknade_tokens": 56,
+   "gen_tokens": 164,
+   "cpu_s": 34.99,
+   "wall_s": 8.83,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "11",
+   "beräknade_tokens": 73,
+   "gen_tokens": 114,
+   "cpu_s": 24.53,
+   "wall_s": 6.18,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "11",
+   "beräknade_tokens": 72,
+   "gen_tokens": 141,
+   "cpu_s": 29.55,
+   "wall_s": 7.44,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P038",
+  "kind": "const",
+  "facit": "8",
+  "gammal": "11",
+  "FULL": {
+   "svar": "8",
+   "beräknade_tokens": 359,
+   "gen_tokens": 157,
+   "cpu_s": 37.55,
+   "wall_s": 9.52,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "8",
+   "beräknade_tokens": 93,
+   "gen_tokens": 178,
+   "cpu_s": 37.7,
+   "wall_s": 9.52,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-4",
+   "beräknade_tokens": 45,
+   "gen_tokens": 152,
+   "cpu_s": 30.64,
+   "wall_s": 7.7,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "8",
+   "beräknade_tokens": 51,
+   "gen_tokens": 161,
+   "cpu_s": 33.27,
+   "wall_s": 8.37,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "8",
+   "beräknade_tokens": 69,
+   "gen_tokens": 158,
+   "cpu_s": 33.04,
+   "wall_s": 8.34,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "8",
+   "beräknade_tokens": 67,
+   "gen_tokens": 88,
+   "cpu_s": 19.77,
+   "wall_s": 4.97,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P039",
+  "kind": "op",
+  "facit": "8",
+  "gammal": "26",
+  "FULL": {
+   "svar": "8",
+   "beräknade_tokens": 345,
+   "gen_tokens": 133,
+   "cpu_s": 34.1,
+   "wall_s": 8.64,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "26",
+   "beräknade_tokens": 95,
+   "gen_tokens": 145,
+   "cpu_s": 33.86,
+   "wall_s": 8.55,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "8",
+   "beräknade_tokens": 45,
+   "gen_tokens": 132,
+   "cpu_s": 31.95,
+   "wall_s": 8.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "8",
+   "beräknade_tokens": 50,
+   "gen_tokens": 133,
+   "cpu_s": 31.46,
+   "wall_s": 7.94,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "8",
+   "beräknade_tokens": 68,
+   "gen_tokens": 133,
+   "cpu_s": 32.3,
+   "wall_s": 8.16,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "8",
+   "beräknade_tokens": 66,
+   "gen_tokens": 133,
+   "cpu_s": 29.89,
+   "wall_s": 7.55,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P040",
+  "kind": "op",
+  "facit": "11",
+  "gammal": "19",
+  "FULL": {
+   "svar": "11",
+   "beräknade_tokens": 329,
+   "gen_tokens": 143,
+   "cpu_s": 34.74,
+   "wall_s": 8.86,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "19",
+   "beräknade_tokens": 95,
+   "gen_tokens": 143,
+   "cpu_s": 33.16,
+   "wall_s": 8.48,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "11",
+   "beräknade_tokens": 47,
+   "gen_tokens": 143,
+   "cpu_s": 30.72,
+   "wall_s": 7.77,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "11",
+   "beräknade_tokens": 56,
+   "gen_tokens": 143,
+   "cpu_s": 32.16,
+   "wall_s": 8.11,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "11",
+   "beräknade_tokens": 73,
+   "gen_tokens": 143,
+   "cpu_s": 31.17,
+   "wall_s": 7.83,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "11",
+   "beräknade_tokens": 72,
+   "gen_tokens": 138,
+   "cpu_s": 30.01,
+   "wall_s": 7.57,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P041",
+  "kind": "default",
+  "facit": "80",
+  "gammal": "79",
+  "FULL": {
+   "svar": "85",
+   "beräknade_tokens": 416,
+   "gen_tokens": 149,
+   "cpu_s": 40.03,
+   "wall_s": 10.24,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "80",
+   "beräknade_tokens": 96,
+   "gen_tokens": 166,
+   "cpu_s": 36.7,
+   "wall_s": 9.26,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "85",
+   "beräknade_tokens": 47,
+   "gen_tokens": 149,
+   "cpu_s": 33.42,
+   "wall_s": 8.45,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "85",
+   "beräknade_tokens": 57,
+   "gen_tokens": 178,
+   "cpu_s": 38.53,
+   "wall_s": 9.7,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "85",
+   "beräknade_tokens": 60,
+   "gen_tokens": 149,
+   "cpu_s": 33.65,
+   "wall_s": 8.46,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "85",
+   "beräknade_tokens": 76,
+   "gen_tokens": 153,
+   "cpu_s": 32.4,
+   "wall_s": 8.16,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P042",
+  "kind": "control",
+  "facit": "-28",
+  "gammal": "-28",
+  "FULL": {
+   "svar": "-28",
+   "beräknade_tokens": 377,
+   "gen_tokens": 141,
+   "cpu_s": 36.98,
+   "wall_s": 9.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-28",
+   "beräknade_tokens": 95,
+   "gen_tokens": 141,
+   "cpu_s": 30.64,
+   "wall_s": 7.72,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-28",
+   "beräknade_tokens": 46,
+   "gen_tokens": 141,
+   "cpu_s": 30.77,
+   "wall_s": 7.74,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-28",
+   "beräknade_tokens": 61,
+   "gen_tokens": 141,
+   "cpu_s": 29.69,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-28",
+   "beräknade_tokens": 53,
+   "gen_tokens": 141,
+   "cpu_s": 29.96,
+   "wall_s": 7.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-28",
+   "beräknade_tokens": 69,
+   "gen_tokens": 141,
+   "cpu_s": 27.18,
+   "wall_s": 6.86,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P043",
+  "kind": "default",
+  "facit": "10",
+  "gammal": "8",
+  "FULL": {
+   "svar": "10",
+   "beräknade_tokens": 339,
+   "gen_tokens": 189,
+   "cpu_s": 43.05,
+   "wall_s": 10.93,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "10",
+   "beräknade_tokens": 95,
+   "gen_tokens": 190,
+   "cpu_s": 38.61,
+   "wall_s": 9.73,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "10",
+   "beräknade_tokens": 46,
+   "gen_tokens": 190,
+   "cpu_s": 39.36,
+   "wall_s": 9.93,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "10",
+   "beräknade_tokens": 56,
+   "gen_tokens": 198,
+   "cpu_s": 41.57,
+   "wall_s": 10.63,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "10",
+   "beräknade_tokens": 76,
+   "gen_tokens": 208,
+   "cpu_s": 43.63,
+   "wall_s": 10.98,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "12",
+   "beräknade_tokens": 73,
+   "gen_tokens": 118,
+   "cpu_s": 25.36,
+   "wall_s": 6.38,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P044",
+  "kind": "control",
+  "facit": "43",
+  "gammal": "43",
+  "FULL": {
+   "svar": "43",
+   "beräknade_tokens": 345,
+   "gen_tokens": 208,
+   "cpu_s": 46.08,
+   "wall_s": 11.62,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "43",
+   "beräknade_tokens": 96,
+   "gen_tokens": 206,
+   "cpu_s": 42.85,
+   "wall_s": 10.8,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "43",
+   "beräknade_tokens": 47,
+   "gen_tokens": 208,
+   "cpu_s": 43.13,
+   "wall_s": 10.89,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "43",
+   "beräknade_tokens": 62,
+   "gen_tokens": 229,
+   "cpu_s": 45.77,
+   "wall_s": 11.53,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "43",
+   "beräknade_tokens": 54,
+   "gen_tokens": 208,
+   "cpu_s": 44.55,
+   "wall_s": 11.21,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "43",
+   "beräknade_tokens": 71,
+   "gen_tokens": 173,
+   "cpu_s": 36.99,
+   "wall_s": 9.31,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P045",
+  "kind": "op",
+  "facit": "24",
+  "gammal": "14",
+  "FULL": {
+   "svar": "24",
+   "beräknade_tokens": 307,
+   "gen_tokens": 128,
+   "cpu_s": 31.86,
+   "wall_s": 8.09,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "14",
+   "beräknade_tokens": 94,
+   "gen_tokens": 202,
+   "cpu_s": 42.22,
+   "wall_s": 10.61,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "24",
+   "beräknade_tokens": 45,
+   "gen_tokens": 160,
+   "cpu_s": 32.0,
+   "wall_s": 8.04,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "24",
+   "beräknade_tokens": 50,
+   "gen_tokens": 163,
+   "cpu_s": 35.53,
+   "wall_s": 8.95,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "24",
+   "beräknade_tokens": 68,
+   "gen_tokens": 163,
+   "cpu_s": 33.99,
+   "wall_s": 8.58,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "24",
+   "beräknade_tokens": 66,
+   "gen_tokens": 141,
+   "cpu_s": 30.1,
+   "wall_s": 7.59,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P046",
+  "kind": "const",
+  "facit": "41",
+  "gammal": "47",
+  "FULL": {
+   "svar": "41",
+   "beräknade_tokens": 396,
+   "gen_tokens": 221,
+   "cpu_s": 53.26,
+   "wall_s": 13.58,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "41",
+   "beräknade_tokens": 93,
+   "gen_tokens": 196,
+   "cpu_s": 42.72,
+   "wall_s": 10.78,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "41",
+   "beräknade_tokens": 44,
+   "gen_tokens": 214,
+   "cpu_s": 44.23,
+   "wall_s": 11.15,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "41",
+   "beräknade_tokens": 50,
+   "gen_tokens": 214,
+   "cpu_s": 45.28,
+   "wall_s": 11.4,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "41",
+   "beräknade_tokens": 88,
+   "gen_tokens": 210,
+   "cpu_s": 44.77,
+   "wall_s": 11.27,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "41",
+   "beräknade_tokens": 65,
+   "gen_tokens": 236,
+   "cpu_s": 46.94,
+   "wall_s": 11.81,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P047",
+  "kind": "op",
+  "facit": "10",
+  "gammal": "18",
+  "FULL": {
+   "svar": "10",
+   "beräknade_tokens": 340,
+   "gen_tokens": 115,
+   "cpu_s": 27.05,
+   "wall_s": 6.87,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "18",
+   "beräknade_tokens": 95,
+   "gen_tokens": 142,
+   "cpu_s": 29.95,
+   "wall_s": 7.55,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "10",
+   "beräknade_tokens": 47,
+   "gen_tokens": 138,
+   "cpu_s": 29.49,
+   "wall_s": 7.44,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "10",
+   "beräknade_tokens": 56,
+   "gen_tokens": 115,
+   "cpu_s": 25.27,
+   "wall_s": 6.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "10",
+   "beräknade_tokens": 73,
+   "gen_tokens": 115,
+   "cpu_s": 25.49,
+   "wall_s": 6.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "10",
+   "beräknade_tokens": 72,
+   "gen_tokens": 115,
+   "cpu_s": 24.04,
+   "wall_s": 6.05,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P048",
+  "kind": "op",
+  "facit": "-14",
+  "gammal": "34",
+  "FULL": {
+   "svar": "-14",
+   "beräknade_tokens": 324,
+   "gen_tokens": 113,
+   "cpu_s": 27.89,
+   "wall_s": 7.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "34",
+   "beräknade_tokens": 93,
+   "gen_tokens": 128,
+   "cpu_s": 25.52,
+   "wall_s": 6.41,
+   "korrekt": false,
+   "inaktuell": true
+  },
+  "REUSE": {
+   "svar": "-14",
+   "beräknade_tokens": 45,
+   "gen_tokens": 113,
+   "cpu_s": 25.66,
+   "wall_s": 6.49,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-14",
+   "beräknade_tokens": 50,
+   "gen_tokens": 113,
+   "cpu_s": 24.92,
+   "wall_s": 6.31,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-14",
+   "beräknade_tokens": 68,
+   "gen_tokens": 99,
+   "cpu_s": 23.66,
+   "wall_s": 5.99,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-14",
+   "beräknade_tokens": 66,
+   "gen_tokens": 147,
+   "cpu_s": 31.13,
+   "wall_s": 7.87,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P049",
+  "kind": "control",
+  "facit": "18",
+  "gammal": "18",
+  "FULL": {
+   "svar": "18",
+   "beräknade_tokens": 385,
+   "gen_tokens": 187,
+   "cpu_s": 44.82,
+   "wall_s": 11.42,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "18",
+   "beräknade_tokens": 93,
+   "gen_tokens": 187,
+   "cpu_s": 35.69,
+   "wall_s": 8.95,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "18",
+   "beräknade_tokens": 46,
+   "gen_tokens": 187,
+   "cpu_s": 32.53,
+   "wall_s": 8.17,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "18",
+   "beräknade_tokens": 62,
+   "gen_tokens": 187,
+   "cpu_s": 40.27,
+   "wall_s": 10.18,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "18",
+   "beräknade_tokens": 54,
+   "gen_tokens": 187,
+   "cpu_s": 39.29,
+   "wall_s": 9.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "18",
+   "beräknade_tokens": 69,
+   "gen_tokens": 138,
+   "cpu_s": 29.41,
+   "wall_s": 7.4,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P050",
+  "kind": "control",
+  "facit": "53",
+  "gammal": "53",
+  "FULL": {
+   "svar": "53",
+   "beräknade_tokens": 414,
+   "gen_tokens": 210,
+   "cpu_s": 49.67,
+   "wall_s": 12.62,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "53",
+   "beräknade_tokens": 95,
+   "gen_tokens": 202,
+   "cpu_s": 42.07,
+   "wall_s": 10.59,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "53",
+   "beräknade_tokens": 46,
+   "gen_tokens": 190,
+   "cpu_s": 31.44,
+   "wall_s": 7.88,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "53",
+   "beräknade_tokens": 61,
+   "gen_tokens": 216,
+   "cpu_s": 44.99,
+   "wall_s": 11.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "53",
+   "beräknade_tokens": 53,
+   "gen_tokens": 190,
+   "cpu_s": 38.81,
+   "wall_s": 9.75,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "53",
+   "beräknade_tokens": 69,
+   "gen_tokens": 91,
+   "cpu_s": 17.26,
+   "wall_s": 4.34,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P051",
+  "kind": "const",
+  "facit": "-6",
+  "gammal": "-7",
+  "FULL": {
+   "svar": "-6",
+   "beräknade_tokens": 307,
+   "gen_tokens": 165,
+   "cpu_s": 32.32,
+   "wall_s": 8.16,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-6",
+   "beräknade_tokens": 94,
+   "gen_tokens": 160,
+   "cpu_s": 34.16,
+   "wall_s": 8.66,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-6",
+   "beräknade_tokens": 46,
+   "gen_tokens": 165,
+   "cpu_s": 34.41,
+   "wall_s": 8.68,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-6",
+   "beräknade_tokens": 53,
+   "gen_tokens": 165,
+   "cpu_s": 33.82,
+   "wall_s": 8.52,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-6",
+   "beräknade_tokens": 61,
+   "gen_tokens": 165,
+   "cpu_s": 37.57,
+   "wall_s": 9.49,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-6",
+   "beräknade_tokens": 71,
+   "gen_tokens": 135,
+   "cpu_s": 29.85,
+   "wall_s": 7.48,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P052",
+  "kind": "default",
+  "facit": "38",
+  "gammal": "35",
+  "FULL": {
+   "svar": "42",
+   "beräknade_tokens": 305,
+   "gen_tokens": 145,
+   "cpu_s": 36.39,
+   "wall_s": 9.27,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "42",
+   "beräknade_tokens": 96,
+   "gen_tokens": 149,
+   "cpu_s": 31.45,
+   "wall_s": 7.89,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "42",
+   "beräknade_tokens": 46,
+   "gen_tokens": 145,
+   "cpu_s": 31.96,
+   "wall_s": 8.06,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "42",
+   "beräknade_tokens": 57,
+   "gen_tokens": 145,
+   "cpu_s": 30.55,
+   "wall_s": 7.7,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "42",
+   "beräknade_tokens": 58,
+   "gen_tokens": 145,
+   "cpu_s": 32.31,
+   "wall_s": 8.14,
+   "korrekt": false,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "42",
+   "beräknade_tokens": 73,
+   "gen_tokens": 127,
+   "cpu_s": 27.8,
+   "wall_s": 6.99,
+   "korrekt": false,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P053",
+  "kind": "const",
+  "facit": "61",
+  "gammal": "53",
+  "FULL": {
+   "svar": "61",
+   "beräknade_tokens": 319,
+   "gen_tokens": 135,
+   "cpu_s": 33.54,
+   "wall_s": 8.58,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "61",
+   "beräknade_tokens": 93,
+   "gen_tokens": 168,
+   "cpu_s": 35.84,
+   "wall_s": 9.0,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "61",
+   "beräknade_tokens": 44,
+   "gen_tokens": 128,
+   "cpu_s": 27.87,
+   "wall_s": 6.99,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "61",
+   "beräknade_tokens": 50,
+   "gen_tokens": 145,
+   "cpu_s": 31.37,
+   "wall_s": 7.92,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "61",
+   "beräknade_tokens": 68,
+   "gen_tokens": 145,
+   "cpu_s": 32.19,
+   "wall_s": 8.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "61",
+   "beräknade_tokens": 65,
+   "gen_tokens": 91,
+   "cpu_s": 21.09,
+   "wall_s": 5.33,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P054",
+  "kind": "control",
+  "facit": "13",
+  "gammal": "13",
+  "FULL": {
+   "svar": "13",
+   "beräknade_tokens": 341,
+   "gen_tokens": 126,
+   "cpu_s": 32.98,
+   "wall_s": 8.41,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "13",
+   "beräknade_tokens": 97,
+   "gen_tokens": 126,
+   "cpu_s": 28.94,
+   "wall_s": 7.32,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "13",
+   "beräknade_tokens": 50,
+   "gen_tokens": 126,
+   "cpu_s": 28.81,
+   "wall_s": 7.27,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "13",
+   "beräknade_tokens": 58,
+   "gen_tokens": 126,
+   "cpu_s": 26.63,
+   "wall_s": 6.69,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "13",
+   "beräknade_tokens": 111,
+   "gen_tokens": 126,
+   "cpu_s": 29.64,
+   "wall_s": 7.45,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "13",
+   "beräknade_tokens": 81,
+   "gen_tokens": 126,
+   "cpu_s": 29.86,
+   "wall_s": 7.55,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P055",
+  "kind": "const",
+  "facit": "10",
+  "gammal": "11",
+  "FULL": {
+   "svar": "10",
+   "beräknade_tokens": 417,
+   "gen_tokens": 136,
+   "cpu_s": 35.36,
+   "wall_s": 9.01,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "10",
+   "beräknade_tokens": 92,
+   "gen_tokens": 136,
+   "cpu_s": 29.36,
+   "wall_s": 7.41,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "10",
+   "beräknade_tokens": 44,
+   "gen_tokens": 136,
+   "cpu_s": 30.83,
+   "wall_s": 7.79,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "10",
+   "beräknade_tokens": 56,
+   "gen_tokens": 136,
+   "cpu_s": 29.85,
+   "wall_s": 7.51,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "10",
+   "beräknade_tokens": 73,
+   "gen_tokens": 136,
+   "cpu_s": 29.57,
+   "wall_s": 7.46,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "10",
+   "beräknade_tokens": 65,
+   "gen_tokens": 120,
+   "cpu_s": 26.56,
+   "wall_s": 6.69,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P056",
+  "kind": "control",
+  "facit": "7",
+  "gammal": "7",
+  "FULL": {
+   "svar": "7",
+   "beräknade_tokens": 326,
+   "gen_tokens": 131,
+   "cpu_s": 32.0,
+   "wall_s": 8.13,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "7",
+   "beräknade_tokens": 96,
+   "gen_tokens": 131,
+   "cpu_s": 28.21,
+   "wall_s": 7.1,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "7",
+   "beräknade_tokens": 47,
+   "gen_tokens": 131,
+   "cpu_s": 26.65,
+   "wall_s": 6.71,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "7",
+   "beräknade_tokens": 62,
+   "gen_tokens": 131,
+   "cpu_s": 28.2,
+   "wall_s": 7.07,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "7",
+   "beräknade_tokens": 54,
+   "gen_tokens": 131,
+   "cpu_s": 26.86,
+   "wall_s": 6.76,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "7",
+   "beräknade_tokens": 71,
+   "gen_tokens": 140,
+   "cpu_s": 25.04,
+   "wall_s": 6.29,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P057",
+  "kind": "const",
+  "facit": "-8",
+  "gammal": "-2",
+  "FULL": {
+   "svar": "-8",
+   "beräknade_tokens": 342,
+   "gen_tokens": 163,
+   "cpu_s": 39.14,
+   "wall_s": 9.95,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-8",
+   "beräknade_tokens": 92,
+   "gen_tokens": 108,
+   "cpu_s": 25.43,
+   "wall_s": 6.45,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-8",
+   "beräknade_tokens": 44,
+   "gen_tokens": 168,
+   "cpu_s": 36.12,
+   "wall_s": 9.11,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-8",
+   "beräknade_tokens": 59,
+   "gen_tokens": 168,
+   "cpu_s": 35.39,
+   "wall_s": 8.89,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-8",
+   "beräknade_tokens": 73,
+   "gen_tokens": 160,
+   "cpu_s": 33.14,
+   "wall_s": 8.36,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-8",
+   "beräknade_tokens": 65,
+   "gen_tokens": 110,
+   "cpu_s": 23.74,
+   "wall_s": 5.97,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P058",
+  "kind": "default",
+  "facit": "12",
+  "gammal": "9",
+  "FULL": {
+   "svar": "12",
+   "beräknade_tokens": 324,
+   "gen_tokens": 137,
+   "cpu_s": 31.92,
+   "wall_s": 8.12,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "12",
+   "beräknade_tokens": 96,
+   "gen_tokens": 117,
+   "cpu_s": 26.28,
+   "wall_s": 6.64,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "12",
+   "beräknade_tokens": 46,
+   "gen_tokens": 113,
+   "cpu_s": 24.61,
+   "wall_s": 6.24,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "12",
+   "beräknade_tokens": 56,
+   "gen_tokens": 112,
+   "cpu_s": 26.4,
+   "wall_s": 6.65,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "12",
+   "beräknade_tokens": 58,
+   "gen_tokens": 139,
+   "cpu_s": 31.1,
+   "wall_s": 7.83,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "12",
+   "beräknade_tokens": 73,
+   "gen_tokens": 116,
+   "cpu_s": 25.32,
+   "wall_s": 6.36,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ },
+ {
+  "id": "P059",
+  "kind": "const",
+  "facit": "-9",
+  "gammal": "-1",
+  "FULL": {
+   "svar": "-9",
+   "beräknade_tokens": 393,
+   "gen_tokens": 167,
+   "cpu_s": 44.08,
+   "wall_s": 11.27,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "IR": {
+   "svar": "-9",
+   "beräknade_tokens": 91,
+   "gen_tokens": 165,
+   "cpu_s": 35.59,
+   "wall_s": 9.04,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE": {
+   "svar": "-9",
+   "beräknade_tokens": 44,
+   "gen_tokens": 167,
+   "cpu_s": 34.89,
+   "wall_s": 8.78,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_NBR": {
+   "svar": "-9",
+   "beräknade_tokens": 50,
+   "gen_tokens": 167,
+   "cpu_s": 29.51,
+   "wall_s": 7.4,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_DEP": {
+   "svar": "-9",
+   "beräknade_tokens": 68,
+   "gen_tokens": 145,
+   "cpu_s": 27.99,
+   "wall_s": 7.03,
+   "korrekt": true,
+   "inaktuell": false
+  },
+  "REUSE_HINT": {
+   "svar": "-9",
+   "beräknade_tokens": 65,
+   "gen_tokens": 137,
+   "cpu_s": 30.31,
+   "wall_s": 7.63,
+   "korrekt": true,
+   "inaktuell": false
+  }
+ }
+]
