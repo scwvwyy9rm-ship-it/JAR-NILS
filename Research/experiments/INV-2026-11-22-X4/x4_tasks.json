@@ -1,0 +1,878 @@
+[
+ {
+  "id": "P000",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 4\nDELTA = 9\nGAMMA = 3\n\ndef unused_kappa_0(x):\n    y = x * 3\n    if y > 24:\n        y = y - 3\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 15:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 23:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 9\n    if y > 23:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x + THETA\n\ndef zeta(x, step=4):\n    return x * DELTA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = kappa(7)\n    v = zeta(v)\n    v = v + GAMMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 4\nDELTA = 9\nGAMMA = 2\n\ndef unused_kappa_0(x):\n    y = x * 3\n    if y > 24:\n        y = y - 3\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 15:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 23:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 9\n    if y > 23:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x + THETA\n\ndef zeta(x, step=4):\n    return x * DELTA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = kappa(7)\n    v = zeta(v)\n    v = v + GAMMA\n    return v\n\nprint(main())\n",
+  "answer": "105",
+  "old_answer": "106",
+  "patch_hex": "43524730e906856281754f28be19a44ffcc447dc52d7554c28b2d78e822ef9789aff8d1d694501b5f0dca0f0d8cc19127ef81bf2a2c8cedc3881fe2d54498d3077d1377b7d67f802010102010a47414d4d41203d20320a38",
+  "old_cid": "b5f0dca0f0d8cc19127ef81bf2a2c8cedc3881fe2d54498d3077d1377b7d67f8",
+  "changed_idents": [
+   "GAMMA"
+  ]
+ },
+ {
+  "id": "P001",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 6\nSIGMA = 2\nBETA = 4\n\ndef unused_kappa_0(x):\n    y = x * 2\n    if y > 23:\n        y = y - 2\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 8\n    if y > 46:\n        y = y - 8\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 2\n    if y > 34:\n        y = y - 2\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 4\n    if y > 48:\n        y = y - 4\n    return y\n\ndef kappa(x):\n    return x + THETA\n\ndef lambda_(x, step=2):\n    return x + SIGMA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_rho_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = kappa(1)\n    v = lambda_(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 6\nSIGMA = 2\nBETA = 4\n\ndef unused_kappa_0(x):\n    y = x * 3\n    if y > 23:\n        y = y - 2\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 8\n    if y > 46:\n        y = y - 8\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 2\n    if y > 34:\n        y = y - 2\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 4\n    if y > 48:\n        y = y - 4\n    return y\n\ndef kappa(x):\n    return x + THETA\n\ndef lambda_(x, step=2):\n    return x + SIGMA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_rho_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = kappa(1)\n    v = lambda_(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "15",
+  "old_answer": "15",
+  "patch_hex": "43524730ea06c6a6f9359af93ee94160023844d6a74601ac1e099722594e184a59543259a14b010dca05b65303dcf83567568773eddbc3dbbc70852f8265ec6afeeecaf8ce81f502010105010e2020202079203d2078202a20330a35",
+  "old_cid": "0dca05b65303dcf83567568773eddbc3dbbc70852f8265ec6afeeecaf8ce81f5",
+  "changed_idents": []
+ },
+ {
+  "id": "P002",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "KAPPA = 7\nBETA = 6\nALPHA = 4\n\ndef unused_delta_0(x):\n    y = x * 9\n    if y > 46:\n        y = y - 9\n    return y\n\ndef unused_delta_1(x):\n    y = x * 7\n    if y > 50:\n        y = y - 7\n    return y\n\ndef unused_delta_2(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_delta_3(x):\n    y = x * 8\n    if y > 34:\n        y = y - 8\n    return y\n\ndef delta(x):\n    return x - KAPPA\n\ndef omega(x, step=1):\n    return x * BETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_zeta_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_zeta_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = delta(8)\n    v = omega(v)\n    v = v + ALPHA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "KAPPA = 7\nBETA = 6\nALPHA = 4\n\ndef unused_delta_0(x):\n    y = x * 9\n    if y > 46:\n        y = y - 9\n    return y\n\ndef unused_delta_1(x):\n    y = x * 7\n    if y > 50:\n        y = y - 7\n    return y\n\ndef unused_delta_2(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_delta_3(x):\n    y = x * 8\n    if y > 34:\n        y = y - 8\n    return y\n\ndef delta(x):\n    return x - KAPPA\n\ndef omega(x, step=2):\n    return x * BETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_zeta_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_zeta_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = delta(8)\n    v = omega(v)\n    v = v + ALPHA\n    return v\n\nprint(main())\n",
+  "answer": "12",
+  "old_answer": "11",
+  "patch_hex": "435247309806ec7e4d821d7cc9201a9f4f2c3bbcedc1c0b35c704b0de8db8e90e275b51c3c1301b69c1c720cfc7bb587169480fd27a4862866d16fd0786f6193f7a50adc9fbcc30201011f0116646566206f6d65676128782c20737465703d32293a0a15",
+  "old_cid": "b69c1c720cfc7bb587169480fd27a4862866d16fd0786f6193f7a50adc9fbcc3",
+  "changed_idents": [
+   "omega"
+  ]
+ },
+ {
+  "id": "P003",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ALPHA = 2\nTHETA = 9\nDELTA = 3\n\ndef unused_rho_0(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef unused_rho_3(x):\n    y = x * 9\n    if y > 28:\n        y = y - 9\n    return y\n\ndef unused_rho_4(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_rho_5(x):\n    y = x * 8\n    if y > 30:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x + ALPHA\n\ndef zeta(x, step=1):\n    return x * THETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_lambda__3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(2)\n    v = zeta(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ALPHA = 2\nTHETA = 9\nDELTA = 3\n\ndef unused_rho_0(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef unused_rho_3(x):\n    y = x * 9\n    if y > 28:\n        y = y - 9\n    return y\n\ndef unused_rho_4(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_rho_5(x):\n    y = x * 9\n    if y > 30:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x + ALPHA\n\ndef zeta(x, step=1):\n    return x * THETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_lambda__3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(2)\n    v = zeta(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "40",
+  "old_answer": "40",
+  "patch_hex": "43524730bc07411b005a824fee924347a8d611e1472f95e4998e4e0e8b0e79741ddbf6df7670014acbdf67c8e5d22da52f3bf599be6642d294ac941dfd941ba5acc88ca674f9f402010123010e2020202079203d2078202a20390a1d",
+  "old_cid": "4acbdf67c8e5d22da52f3bf599be6642d294ac941dfd941ba5acc88ca674f9f4",
+  "changed_idents": []
+ },
+ {
+  "id": "P004",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "BETA = 5\nALPHA = 3\nSIGMA = 5\n\ndef unused_kappa_0(x):\n    y = x * 5\n    if y > 38:\n        y = y - 5\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 11:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 3\n    if y > 39:\n        y = y - 3\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 2\n    if y > 11:\n        y = y - 2\n    return y\n\ndef kappa(x):\n    return x + BETA\n\ndef delta(x, step=4):\n    return x * ALPHA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = kappa(4)\n    v = delta(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "BETA = 5\nALPHA = 3\nSIGMA = 5\n\ndef unused_kappa_0(x):\n    y = x * 5\n    if y > 38:\n        y = y - 5\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 11:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 3\n    if y > 39:\n        y = y - 3\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 2\n    if y > 11:\n        y = y - 2\n    return y\n\ndef kappa(x):\n    return x + BETA\n\ndef delta(x, step=6):\n    return x * ALPHA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = kappa(4)\n    v = delta(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "36",
+  "patch_hex": "435247309a055b548aa378319289ed5c1d9eb95da82081494849b2d87691d216266bcf2b109d01703c3e4ddd64ece50d6ad0dbec29b42ed926e7f3b8f192c1019e3d78219fb7310201011f01166465662064656c746128782c20737465703d36293a0a0f",
+  "old_cid": "703c3e4ddd64ece50d6ad0dbec29b42ed926e7f3b8f192c1019e3d78219fb731",
+  "changed_idents": [
+   "delta"
+  ]
+ },
+ {
+  "id": "P005",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ALPHA = 9\nDELTA = 4\nRHO = 3\n\ndef unused_sigma_0(x):\n    y = x * 3\n    if y > 32:\n        y = y - 3\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 9\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 5\n    if y > 10:\n        y = y - 5\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 8\n    if y > 18:\n        y = y - 8\n    return y\n\ndef unused_sigma_4(x):\n    y = x * 4\n    if y > 44:\n        y = y - 4\n    return y\n\ndef sigma(x):\n    return x + ALPHA\n\ndef theta(x, step=1):\n    return x * DELTA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_gamma_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = sigma(9)\n    v = theta(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ALPHA = 9\nDELTA = 4\nRHO = 3\n\ndef unused_sigma_0(x):\n    y = x * 3\n    if y > 32:\n        y = y - 3\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 9\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 5\n    if y > 10:\n        y = y - 5\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 8\n    if y > 18:\n        y = y - 8\n    return y\n\ndef unused_sigma_4(x):\n    y = x * 4\n    if y > 44:\n        y = y - 4\n    return y\n\ndef sigma(x):\n    return x + ALPHA\n\ndef theta(x, step=1):\n    return x * DELTA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_1(s):\n    return s.strip().upper() + \"lambda_\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_gamma_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = sigma(9)\n    v = theta(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "answer": "76",
+  "old_answer": "76",
+  "patch_hex": "43524730f206e54277ecd18ca0f71feeb1752cf4ddd491df564512afae26d1b602efae76b4270111ab193b52c889711556139f7c99a888c4d5e3a82865c0fd2f7e5a97f0b282f40201012c01292020202072657475726e20732e737472697028292e75707065722829202b20226c616d6264615f220a0e",
+  "old_cid": "11ab193b52c889711556139f7c99a888c4d5e3a82865c0fd2f7e5a97f0b282f4",
+  "changed_idents": [
+   "lambda_",
+   "strip",
+   "upper"
+  ]
+ },
+ {
+  "id": "P006",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 2\nZETA = 9\nOMEGA = 1\n\ndef unused_kappa_0(x):\n    y = x * 9\n    if y > 30:\n        y = y - 9\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 43:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 4\n    if y > 48:\n        y = y - 4\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 41:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 9\n    if y > 50:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x + TAU\n\ndef rho(x, step=1):\n    return x * ZETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = kappa(6)\n    v = rho(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 2\nZETA = 9\nOMEGA = 1\n\ndef unused_kappa_0(x):\n    y = x * 9\n    if y > 30:\n        y = y - 9\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 6\n    if y > 43:\n        y = y - 6\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 4\n    if y > 48:\n        y = y - 4\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 41:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 9\n    if y > 50:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x - TAU\n\ndef rho(x, step=1):\n    return x * ZETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = kappa(6)\n    v = rho(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "74",
+  "patch_hex": "43524730ec054994b82029d8e7f39431d0f9986c2ea49dd425793523fdc9e63f4aeadf3c462a015b823b93fb3098e6aff1f328c997d4972b4daabdc1a935f2ff323076d31b26930201012301132020202072657475726e2078202d205441550a11",
+  "old_cid": "5b823b93fb3098e6aff1f328c997d4972b4daabdc1a935f2ff323076d31b2693",
+  "changed_idents": [
+   "TAU"
+  ]
+ },
+ {
+  "id": "P007",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "OMEGA = 4\nSIGMA = 4\nLAMBDA_ = 2\n\ndef unused_tau_0(x):\n    y = x * 6\n    if y > 42:\n        y = y - 6\n    return y\n\ndef unused_tau_1(x):\n    y = x * 6\n    if y > 38:\n        y = y - 6\n    return y\n\ndef unused_tau_2(x):\n    y = x * 6\n    if y > 10:\n        y = y - 6\n    return y\n\ndef unused_tau_3(x):\n    y = x * 5\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_tau_4(x):\n    y = x * 7\n    if y > 35:\n        y = y - 7\n    return y\n\ndef tau(x):\n    return x + OMEGA\n\ndef zeta(x, step=4):\n    return x * SIGMA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = tau(3)\n    v = zeta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "OMEGA = 4\nSIGMA = 4\nLAMBDA_ = 2\n\ndef unused_tau_0(x):\n    y = x * 6\n    if y > 42:\n        y = y - 6\n    return y\n\ndef unused_tau_1(x):\n    y = x * 7\n    if y > 38:\n        y = y - 6\n    return y\n\ndef unused_tau_2(x):\n    y = x * 6\n    if y > 10:\n        y = y - 6\n    return y\n\ndef unused_tau_3(x):\n    y = x * 5\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_tau_4(x):\n    y = x * 7\n    if y > 35:\n        y = y - 7\n    return y\n\ndef tau(x):\n    return x + OMEGA\n\ndef zeta(x, step=4):\n    return x * SIGMA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = tau(3)\n    v = zeta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "34",
+  "old_answer": "34",
+  "patch_hex": "43524730df06d0e06c432d0d1b2bdf6a1b32e2753a03be70074b899c8fbdb5a3427a7cdf197401ef08c34dafd121a8f1754d80b2bd3ee1dd4cc58aaa353e04075c52405aaf57250201010b010e2020202079203d2078202a20370a2f",
+  "old_cid": "ef08c34dafd121a8f1754d80b2bd3ee1dd4cc58aaa353e04075c52405aaf5725",
+  "changed_idents": []
+ },
+ {
+  "id": "P008",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 3\nOMEGA = 3\nTAU = 2\n\ndef unused_kappa_0(x):\n    y = x * 7\n    if y > 37:\n        y = y - 7\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 3\n    if y > 20:\n        y = y - 3\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 7\n    if y > 20:\n        y = y - 7\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 9\n    if y > 33:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x - THETA\n\ndef lambda_(x, step=4):\n    return x * OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = kappa(9)\n    v = lambda_(v)\n    v = v + TAU\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 3\nOMEGA = 3\nTAU = 2\n\ndef unused_kappa_0(x):\n    y = x * 7\n    if y > 37:\n        y = y - 7\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 3\n    if y > 20:\n        y = y - 3\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 7\n    if y > 20:\n        y = y - 7\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 9\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 9\n    if y > 33:\n        y = y - 9\n    return y\n\ndef kappa(x):\n    return x - THETA\n\ndef lambda_(x, step=4):\n    return x * OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = kappa(9)\n    v = lambda_(v)\n    v = v + TAU\n    return v\n\nprint(main())\n",
+  "answer": "24",
+  "old_answer": "24",
+  "patch_hex": "43524730c606a8db21bfff0a51959f86cc5287e92dc024d7532324ce2bee3a04907ae22fd70d01880aecfc07af8dafacb0bde8fbd43bfba91e4fbf34e989b1615c809fb88852ec0201011d010e2020202079203d2078202a20390a1d",
+  "old_cid": "880aecfc07af8dafacb0bde8fbd43bfba91e4fbf34e989b1615c809fb88852ec",
+  "changed_idents": []
+ },
+ {
+  "id": "P009",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 3\nOMEGA = 9\nLAMBDA_ = 5\n\ndef unused_tau_0(x):\n    y = x * 7\n    if y > 15:\n        y = y - 7\n    return y\n\ndef unused_tau_1(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_tau_2(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_tau_3(x):\n    y = x * 4\n    if y > 43:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + DELTA\n\ndef beta(x, step=4):\n    return x * OMEGA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = tau(8)\n    v = beta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 3\nOMEGA = 9\nLAMBDA_ = 5\n\ndef unused_tau_0(x):\n    y = x * 7\n    if y > 15:\n        y = y - 7\n    return y\n\ndef unused_tau_1(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_tau_2(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_tau_3(x):\n    y = x * 4\n    if y > 43:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + DELTA\n\ndef beta(x, step=7):\n    return x * OMEGA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = tau(8)\n    v = beta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "111",
+  "old_answer": "108",
+  "patch_hex": "43524730d50550ba937375e115e3694f4ec8c181bd007d5c88a75a12fcfa5f8c845f8ea2fa660114a6d505448ef6a921205b99f9b2bffd2c04ec8b30bc6a156bd2b8729761b6c80201011f0115646566206265746128782c20737465703d37293a0a12",
+  "old_cid": "14a6d505448ef6a921205b99f9b2bffd2c04ec8b30bc6a156bd2b8729761b6c8",
+  "changed_idents": [
+   "beta"
+  ]
+ },
+ {
+  "id": "P010",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 7\nALPHA = 8\nTAU = 5\n\ndef unused_beta_0(x):\n    y = x * 2\n    if y > 28:\n        y = y - 2\n    return y\n\ndef unused_beta_1(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_beta_2(x):\n    y = x * 8\n    if y > 33:\n        y = y - 8\n    return y\n\ndef unused_beta_3(x):\n    y = x * 3\n    if y > 19:\n        y = y - 3\n    return y\n\ndef beta(x):\n    return x + THETA\n\ndef lambda_(x, step=3):\n    return x * ALPHA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = beta(2)\n    v = lambda_(v)\n    v = v + TAU\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 7\nALPHA = 8\nTAU = 5\n\ndef unused_beta_0(x):\n    y = x * 2\n    if y > 28:\n        y = y - 2\n    return y\n\ndef unused_beta_1(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_beta_2(x):\n    y = x * 8\n    if y > 33:\n        y = y - 8\n    return y\n\ndef unused_beta_3(x):\n    y = x * 3\n    if y > 19:\n        y = y - 3\n    return y\n\ndef beta(x):\n    return x + THETA\n\ndef lambda_(x, step=4):\n    return x * ALPHA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = beta(2)\n    v = lambda_(v)\n    v = v + TAU\n    return v\n\nprint(main())\n",
+  "answer": "81",
+  "old_answer": "80",
+  "patch_hex": "43524730d805494b1785775da177c3a46781b0120752eecb52b60be79dea5866c8814a49a3d9019ebbc799c8a81682657171532e5c8979532887ba8f9f8f56013be5ee5bee68860201011f0118646566206c616d6264615f28782c20737465703d34293a0a12",
+  "old_cid": "9ebbc799c8a81682657171532e5c8979532887ba8f9f8f56013be5ee5bee6886",
+  "changed_idents": [
+   "lambda_"
+  ]
+ },
+ {
+  "id": "P011",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "OMEGA = 4\nTHETA = 4\nDELTA = 5\n\ndef unused_alpha_0(x):\n    y = x * 4\n    if y > 35:\n        y = y - 4\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 4\n    if y > 26:\n        y = y - 4\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 6\n    if y > 40:\n        y = y - 6\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 5\n    if y > 13:\n        y = y - 5\n    return y\n\ndef alpha(x):\n    return x + OMEGA\n\ndef zeta(x, step=1):\n    return x * THETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = alpha(4)\n    v = zeta(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "OMEGA = 4\nTHETA = 4\nDELTA = 5\n\ndef unused_alpha_0(x):\n    y = x * 4\n    if y > 35:\n        y = y - 4\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 4\n    if y > 26:\n        y = y - 4\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 6\n    if y > 40:\n        y = y - 6\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 5\n    if y > 13:\n        y = y - 5\n    return y\n\ndef alpha(x):\n    return x + OMEGA\n\ndef zeta(x, step=1):\n    return x * THETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().upper() + \"theta\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = alpha(4)\n    v = zeta(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "38",
+  "patch_hex": "435247309c050b9b70986cdc8e94f2361a708059643ee9a79b2d0480d2e36108cd5a3c33cca001075a1ec5911016b69b6aa06b57848dc6d8d0c08e4f15fb5eb577afc8ae27455e0201012301272020202072657475726e20732e737472697028292e75707065722829202b20227468657461220a0b",
+  "old_cid": "075a1ec5911016b69b6aa06b57848dc6d8d0c08e4f15fb5eb577afc8ae27455e",
+  "changed_idents": [
+   "strip",
+   "theta",
+   "upper"
+  ]
+ },
+ {
+  "id": "P012",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ALPHA = 8\nSIGMA = 4\nLAMBDA_ = 3\n\ndef unused_delta_0(x):\n    y = x * 6\n    if y > 46:\n        y = y - 6\n    return y\n\ndef unused_delta_1(x):\n    y = x * 8\n    if y > 28:\n        y = y - 8\n    return y\n\ndef unused_delta_2(x):\n    y = x * 4\n    if y > 26:\n        y = y - 4\n    return y\n\ndef unused_delta_3(x):\n    y = x * 2\n    if y > 15:\n        y = y - 2\n    return y\n\ndef delta(x):\n    return x - ALPHA\n\ndef gamma(x, step=1):\n    return x * SIGMA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef main():\n    v = delta(6)\n    v = gamma(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ALPHA = 8\nSIGMA = 3\nLAMBDA_ = 3\n\ndef unused_delta_0(x):\n    y = x * 6\n    if y > 46:\n        y = y - 6\n    return y\n\ndef unused_delta_1(x):\n    y = x * 8\n    if y > 28:\n        y = y - 8\n    return y\n\ndef unused_delta_2(x):\n    y = x * 4\n    if y > 26:\n        y = y - 4\n    return y\n\ndef unused_delta_3(x):\n    y = x * 2\n    if y > 15:\n        y = y - 2\n    return y\n\ndef delta(x):\n    return x - ALPHA\n\ndef gamma(x, step=1):\n    return x * SIGMA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef main():\n    v = delta(6)\n    v = gamma(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "-2",
+  "old_answer": "-4",
+  "patch_hex": "43524730a405c9e4897d500b56ea52c7c9b2f7530d4fa038d1be21ae2317d813a048cc6199f801ea86e1fcc50eb0ab0c0f1d3f8198e0cf92af84d0d826d0e7bb0fc9887f44980f02010101010a5349474d41203d20330a2d",
+  "old_cid": "ea86e1fcc50eb0ab0c0f1d3f8198e0cf92af84d0d826d0e7bb0fc9887f44980f",
+  "changed_idents": [
+   "SIGMA"
+  ]
+ },
+ {
+  "id": "P013",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "LAMBDA_ = 9\nTHETA = 4\nOMEGA = 1\n\ndef unused_zeta_0(x):\n    y = x * 9\n    if y > 31:\n        y = y - 9\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 7\n    if y > 28:\n        y = y - 7\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 6\n    if y > 40:\n        y = y - 6\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 2\n    if y > 36:\n        y = y - 2\n    return y\n\ndef unused_zeta_4(x):\n    y = x * 3\n    if y > 18:\n        y = y - 3\n    return y\n\ndef unused_zeta_5(x):\n    y = x * 2\n    if y > 33:\n        y = y - 2\n    return y\n\ndef zeta(x):\n    return x + LAMBDA_\n\ndef gamma(x, step=2):\n    return x + THETA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = zeta(4)\n    v = gamma(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "LAMBDA_ = 9\nTHETA = 4\nOMEGA = 1\n\ndef unused_zeta_0(x):\n    y = x * 9\n    if y > 31:\n        y = y - 9\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 7\n    if y > 28:\n        y = y - 7\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 6\n    if y > 40:\n        y = y - 6\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 2\n    if y > 36:\n        y = y - 2\n    return y\n\ndef unused_zeta_4(x):\n    y = x * 4\n    if y > 18:\n        y = y - 3\n    return y\n\ndef unused_zeta_5(x):\n    y = x * 2\n    if y > 33:\n        y = y - 2\n    return y\n\ndef zeta(x):\n    return x + LAMBDA_\n\ndef gamma(x, step=2):\n    return x + THETA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = zeta(4)\n    v = gamma(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "20",
+  "old_answer": "20",
+  "patch_hex": "4352473083074fc9af5306cae056ef98d0eea298a5c7d1316848bc1eaab8d9514df5dd1d112501be6b1baa5044fc364c2115c6b72330a730ae9df06d18c400860ff4e2b58e9b400201011d010e2020202079203d2078202a20340a20",
+  "old_cid": "be6b1baa5044fc364c2115c6b72330a730ae9df06d18c400860ff4e2b58e9b40",
+  "changed_idents": []
+ },
+ {
+  "id": "P014",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "LAMBDA_ = 9\nDELTA = 7\nZETA = 2\n\ndef unused_beta_0(x):\n    y = x * 6\n    if y > 20:\n        y = y - 6\n    return y\n\ndef unused_beta_1(x):\n    y = x * 9\n    if y > 29:\n        y = y - 9\n    return y\n\ndef unused_beta_2(x):\n    y = x * 4\n    if y > 46:\n        y = y - 4\n    return y\n\ndef unused_beta_3(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_beta_4(x):\n    y = x * 9\n    if y > 31:\n        y = y - 9\n    return y\n\ndef unused_beta_5(x):\n    y = x * 9\n    if y > 33:\n        y = y - 9\n    return y\n\ndef beta(x):\n    return x + LAMBDA_\n\ndef sigma(x, step=2):\n    return x + DELTA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = beta(8)\n    v = sigma(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "LAMBDA_ = 9\nDELTA = 7\nZETA = 2\n\ndef unused_beta_0(x):\n    y = x * 6\n    if y > 20:\n        y = y - 6\n    return y\n\ndef unused_beta_1(x):\n    y = x * 9\n    if y > 29:\n        y = y - 9\n    return y\n\ndef unused_beta_2(x):\n    y = x * 4\n    if y > 46:\n        y = y - 4\n    return y\n\ndef unused_beta_3(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_beta_4(x):\n    y = x * 9\n    if y > 31:\n        y = y - 9\n    return y\n\ndef unused_beta_5(x):\n    y = x * 9\n    if y > 33:\n        y = y - 9\n    return y\n\ndef beta(x):\n    return x - LAMBDA_\n\ndef sigma(x, step=2):\n    return x + DELTA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = beta(8)\n    v = sigma(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "answer": "10",
+  "old_answer": "28",
+  "patch_hex": "43524730c2064ea590fe8b120c9a1bd285123941cc3362abc911c7f97b87c7e3b1d7eaef620901aa662f6791d1ffc01040dc236ac42e836c31799919372603fda2c01ea7732f1e0201012901172020202072657475726e2078202d204c414d4244415f0a11",
+  "old_cid": "aa662f6791d1ffc01040dc236ac42e836c31799919372603fda2c01ea7732f1e",
+  "changed_idents": [
+   "LAMBDA_"
+  ]
+ },
+ {
+  "id": "P015",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "BETA = 7\nSIGMA = 8\nTHETA = 3\n\ndef unused_rho_0(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_rho_1(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_rho_2(x):\n    y = x * 2\n    if y > 31:\n        y = y - 2\n    return y\n\ndef unused_rho_3(x):\n    y = x * 5\n    if y > 11:\n        y = y - 5\n    return y\n\ndef rho(x):\n    return x - BETA\n\ndef gamma(x, step=3):\n    return x * SIGMA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_tau_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = rho(9)\n    v = gamma(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "BETA = 5\nSIGMA = 8\nTHETA = 3\n\ndef unused_rho_0(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_rho_1(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_rho_2(x):\n    y = x * 2\n    if y > 31:\n        y = y - 2\n    return y\n\ndef unused_rho_3(x):\n    y = x * 5\n    if y > 11:\n        y = y - 5\n    return y\n\ndef rho(x):\n    return x - BETA\n\ndef gamma(x, step=3):\n    return x * SIGMA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_tau_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = rho(9)\n    v = gamma(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "22",
+  "patch_hex": "4352473084060e2d0e5e484c83d0871670a1b5e4346f6eac6ce746dba67a21ca7243a2afed6c01862f1fed35679c7f3e0439246439c1a67fb84cfcb248b5aa2dddeba009ab0ac202010100010942455441203d20350a34",
+  "old_cid": "862f1fed35679c7f3e0439246439c1a67fb84cfcb248b5aa2dddeba009ab0ac2",
+  "changed_idents": [
+   "BETA"
+  ]
+ },
+ {
+  "id": "P016",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 3\nBETA = 5\nSIGMA = 3\n\ndef unused_rho_0(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 12:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 30:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 8\n    if y > 17:\n        y = y - 8\n    return y\n\ndef unused_rho_4(x):\n    y = x * 5\n    if y > 41:\n        y = y - 5\n    return y\n\ndef rho(x):\n    return x + TAU\n\ndef alpha(x, step=1):\n    return x * BETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = rho(4)\n    v = alpha(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 3\nBETA = 5\nSIGMA = 2\n\ndef unused_rho_0(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 12:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 30:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 8\n    if y > 17:\n        y = y - 8\n    return y\n\ndef unused_rho_4(x):\n    y = x * 5\n    if y > 41:\n        y = y - 5\n    return y\n\ndef rho(x):\n    return x + TAU\n\ndef alpha(x, step=1):\n    return x * BETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = rho(4)\n    v = alpha(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "39",
+  "patch_hex": "43524730de05d34531a1b267331419271e452e8a29a90e4d8b20323809fab580c48bcd4df5810139835a247996a7d2c2ff1acf29a957d3417e5a0f5f61c7bf5602afcbb880d5aa02010102010a5349474d41203d20320a32",
+  "old_cid": "39835a247996a7d2c2ff1acf29a957d3417e5a0f5f61c7bf5602afcbb880d5aa",
+  "changed_idents": [
+   "SIGMA"
+  ]
+ },
+ {
+  "id": "P017",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "BETA = 7\nOMEGA = 2\nZETA = 3\n\ndef unused_rho_0(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_rho_1(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_rho_2(x):\n    y = x * 4\n    if y > 28:\n        y = y - 4\n    return y\n\ndef unused_rho_3(x):\n    y = x * 2\n    if y > 48:\n        y = y - 2\n    return y\n\ndef unused_rho_4(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_rho_5(x):\n    y = x * 3\n    if y > 22:\n        y = y - 3\n    return y\n\ndef rho(x):\n    return x - BETA\n\ndef theta(x, step=2):\n    return x + OMEGA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = rho(8)\n    v = theta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "BETA = 7\nOMEGA = 2\nZETA = 3\n\ndef unused_rho_0(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_rho_1(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_rho_2(x):\n    y = x * 4\n    if y > 28:\n        y = y - 4\n    return y\n\ndef unused_rho_3(x):\n    y = x * 2\n    if y > 48:\n        y = y - 2\n    return y\n\ndef unused_rho_4(x):\n    y = x * 4\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_rho_5(x):\n    y = x * 3\n    if y > 22:\n        y = y - 3\n    return y\n\ndef rho(x):\n    return x - BETA\n\ndef theta(x, step=2):\n    return x + OMEGA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = rho(8)\n    v = theta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "answer": "8",
+  "old_answer": "8",
+  "patch_hex": "43524730f70647b8797b01ab45725344b6bc3f801d1a42c47996793f81e0f7d106120bf2bd6c0123877027c5db8722a18bc326af189a2ba1c2db894c252feb7df2c474ddd6fef30201011d010e2020202079203d2078202a20340a20",
+  "old_cid": "23877027c5db8722a18bc326af189a2ba1c2db894c252feb7df2c474ddd6fef3",
+  "changed_idents": []
+ },
+ {
+  "id": "P018",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 4\nZETA = 4\nBETA = 2\n\ndef unused_omega_0(x):\n    y = x * 3\n    if y > 30:\n        y = y - 3\n    return y\n\ndef unused_omega_1(x):\n    y = x * 5\n    if y > 20:\n        y = y - 5\n    return y\n\ndef unused_omega_2(x):\n    y = x * 4\n    if y > 42:\n        y = y - 4\n    return y\n\ndef unused_omega_3(x):\n    y = x * 7\n    if y > 37:\n        y = y - 7\n    return y\n\ndef omega(x):\n    return x + TAU\n\ndef gamma(x, step=4):\n    return x * ZETA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = omega(6)\n    v = gamma(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 4\nZETA = 4\nBETA = 2\n\ndef unused_omega_0(x):\n    y = x * 3\n    if y > 30:\n        y = y - 3\n    return y\n\ndef unused_omega_1(x):\n    y = x * 5\n    if y > 20:\n        y = y - 5\n    return y\n\ndef unused_omega_2(x):\n    y = x * 5\n    if y > 42:\n        y = y - 4\n    return y\n\ndef unused_omega_3(x):\n    y = x * 7\n    if y > 37:\n        y = y - 7\n    return y\n\ndef omega(x):\n    return x + TAU\n\ndef gamma(x, step=4):\n    return x * ZETA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_rho_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = omega(6)\n    v = gamma(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "46",
+  "old_answer": "46",
+  "patch_hex": "43524730d2050b11fbbc66125096690e35b5d95c9d4896633819cd278193bbf0eadd5cf4b169014b51001806dfa8d6da3c1908226f2a1bfffd78598ff6e766e7db11f22ce2366b02010111010e2020202079203d2078202a20350a20",
+  "old_cid": "4b51001806dfa8d6da3c1908226f2a1bfffd78598ff6e766e7db11f22ce2366b",
+  "changed_idents": []
+ },
+ {
+  "id": "P019",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 5\nGAMMA = 4\nKAPPA = 4\n\ndef unused_rho_0(x):\n    y = x * 7\n    if y > 42:\n        y = y - 7\n    return y\n\ndef unused_rho_1(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 38:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef unused_rho_4(x):\n    y = x * 6\n    if y > 14:\n        y = y - 6\n    return y\n\ndef rho(x):\n    return x + THETA\n\ndef sigma(x, step=3):\n    return x * GAMMA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_lambda__3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(5)\n    v = sigma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 5\nGAMMA = 4\nKAPPA = 4\n\ndef unused_rho_0(x):\n    y = x * 7\n    if y > 42:\n        y = y - 7\n    return y\n\ndef unused_rho_1(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 38:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef unused_rho_4(x):\n    y = x * 6\n    if y > 14:\n        y = y - 6\n    return y\n\ndef rho(x):\n    return x - THETA\n\ndef sigma(x, step=3):\n    return x * GAMMA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_lambda__3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(5)\n    v = sigma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "7",
+  "old_answer": "47",
+  "patch_hex": "43524730ea06d6ebfde52e95fc77294d74ee72d101900420e778da349a3c4de82fc0715372d601459509dad9d75611c0767c003ffae934048f8f02a14b3603681028b69f9003c80201012301152020202072657475726e2078202d2054484554410a17",
+  "old_cid": "459509dad9d75611c0767c003ffae934048f8f02a14b3603681028b69f9003c8",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P020",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "BETA = 8\nTAU = 2\nDELTA = 2\n\ndef unused_zeta_0(x):\n    y = x * 5\n    if y > 15:\n        y = y - 5\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 5\n    if y > 28:\n        y = y - 5\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 6\n    if y > 45:\n        y = y - 6\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 8\n    if y > 50:\n        y = y - 8\n    return y\n\ndef zeta(x):\n    return x - BETA\n\ndef rho(x, step=3):\n    return x * TAU + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_kappa_2(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = zeta(2)\n    v = rho(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "BETA = 8\nTAU = 2\nDELTA = 2\n\ndef unused_zeta_0(x):\n    y = x * 5\n    if y > 15:\n        y = y - 5\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 5\n    if y > 28:\n        y = y - 5\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 6\n    if y > 45:\n        y = y - 6\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 8\n    if y > 50:\n        y = y - 8\n    return y\n\ndef zeta(x):\n    return x - BETA\n\ndef rho(x, step=3):\n    return x * TAU + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_kappa_2(s):\n    return s.strip().upper() + \"gamma\"\n\ndef main():\n    v = zeta(2)\n    v = rho(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "-7",
+  "old_answer": "-7",
+  "patch_hex": "43524730cc05211be380fb02ed0716eb19342b85e0a196e6e2cacdbbd142fb79e6f60d6de58001184c3b76067750f14ff0283a3dbf3a444ddd675e86a25344eead079016cdedec0201012901272020202072657475726e20732e737472697028292e75707065722829202b202267616d6d61220a08",
+  "old_cid": "184c3b76067750f14ff0283a3dbf3a444ddd675e86a25344eead079016cdedec",
+  "changed_idents": [
+   "gamma",
+   "strip",
+   "upper"
+  ]
+ },
+ {
+  "id": "P021",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 7\nDELTA = 5\nOMEGA = 5\n\ndef unused_alpha_0(x):\n    y = x * 6\n    if y > 31:\n        y = y - 6\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 5\n    if y > 43:\n        y = y - 5\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 3\n    if y > 49:\n        y = y - 3\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 7\n    if y > 34:\n        y = y - 7\n    return y\n\ndef unused_alpha_5(x):\n    y = x * 8\n    if y > 40:\n        y = y - 8\n    return y\n\ndef alpha(x):\n    return x + TAU\n\ndef lambda_(x, step=1):\n    return x + DELTA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_kappa_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_kappa_3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = alpha(9)\n    v = lambda_(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 7\nDELTA = 5\nOMEGA = 5\n\ndef unused_alpha_0(x):\n    y = x * 6\n    if y > 31:\n        y = y - 6\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 5\n    if y > 43:\n        y = y - 5\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 3\n    if y > 49:\n        y = y - 3\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 7\n    if y > 34:\n        y = y - 7\n    return y\n\ndef unused_alpha_5(x):\n    y = x * 8\n    if y > 40:\n        y = y - 8\n    return y\n\ndef alpha(x):\n    return x + TAU\n\ndef lambda_(x, step=4):\n    return x + DELTA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_kappa_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_kappa_3(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = alpha(9)\n    v = lambda_(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "30",
+  "old_answer": "27",
+  "patch_hex": "43524730c2078890281ddc2738e1b77ac7505e507ec1cfb0f822c71ed17f1b6b5e8ed917e4ac015f632b375f87c939bfe9baff30924c9d14110ce720a0db528863e91c581b81300201012b0118646566206c616d6264615f28782c20737465703d34293a0a15",
+  "old_cid": "5f632b375f87c939bfe9baff30924c9d14110ce720a0db528863e91c581b8130",
+  "changed_idents": [
+   "lambda_"
+  ]
+ },
+ {
+  "id": "P022",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 6\nTAU = 7\nTHETA = 3\n\ndef unused_rho_0(x):\n    y = x * 9\n    if y > 32:\n        y = y - 9\n    return y\n\ndef unused_rho_1(x):\n    y = x * 9\n    if y > 17:\n        y = y - 9\n    return y\n\ndef unused_rho_2(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 16:\n        y = y - 7\n    return y\n\ndef unused_rho_4(x):\n    y = x * 7\n    if y > 32:\n        y = y - 7\n    return y\n\ndef rho(x):\n    return x - DELTA\n\ndef kappa(x, step=2):\n    return x + TAU + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = rho(5)\n    v = kappa(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 6\nTAU = 7\nTHETA = 3\n\ndef unused_rho_0(x):\n    y = x * 9\n    if y > 32:\n        y = y - 9\n    return y\n\ndef unused_rho_1(x):\n    y = x * 9\n    if y > 17:\n        y = y - 9\n    return y\n\ndef unused_rho_2(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 16:\n        y = y - 7\n    return y\n\ndef unused_rho_4(x):\n    y = x * 7\n    if y > 32:\n        y = y - 7\n    return y\n\ndef rho(x):\n    return x - DELTA\n\ndef kappa(x, step=3):\n    return x + TAU + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = rho(5)\n    v = kappa(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "answer": "12",
+  "old_answer": "11",
+  "patch_hex": "43524730a006cad52007c36c605792a09d1190448c5ca73a0fad15ac0a48a997a33710e7b2a2015bdc9a8c486e489f788661786d64e6849322b2e8598a7a6f206e648a2f75eadd020101250116646566206b6170706128782c20737465703d33293a0a12",
+  "old_cid": "5bdc9a8c486e489f788661786d64e6849322b2e8598a7a6f206e648a2f75eadd",
+  "changed_idents": [
+   "kappa"
+  ]
+ },
+ {
+  "id": "P023",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ALPHA = 4\nZETA = 9\nBETA = 5\n\ndef unused_rho_0(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_rho_1(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef unused_rho_2(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 27:\n        y = y - 7\n    return y\n\ndef rho(x):\n    return x + ALPHA\n\ndef delta(x, step=2):\n    return x * ZETA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(7)\n    v = delta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ALPHA = 4\nZETA = 9\nBETA = 5\n\ndef unused_rho_0(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_rho_1(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef unused_rho_2(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 27:\n        y = y - 7\n    return y\n\ndef rho(x):\n    return x + ALPHA\n\ndef delta(x, step=2):\n    return x + ZETA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = rho(7)\n    v = delta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "27",
+  "old_answer": "106",
+  "patch_hex": "43524730c9054e0edf98d98eead46da84d63acbe22d04617f56e4fe659f6b470a89448e90986012d87cd4ecf0575c06f0964d0f33792ee6c4746d414c0361881e561374c04834902010120011b2020202072657475726e2078202b205a455441202b20737465700a11",
+  "old_cid": "2d87cd4ecf0575c06f0964d0f33792ee6c4746d414c0361881e561374c048349",
+  "changed_idents": [
+   "ZETA"
+  ]
+ },
+ {
+  "id": "P024",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "BETA = 8\nLAMBDA_ = 5\nDELTA = 1\n\ndef unused_theta_0(x):\n    y = x * 5\n    if y > 47:\n        y = y - 5\n    return y\n\ndef unused_theta_1(x):\n    y = x * 8\n    if y > 15:\n        y = y - 8\n    return y\n\ndef unused_theta_2(x):\n    y = x * 9\n    if y > 28:\n        y = y - 9\n    return y\n\ndef unused_theta_3(x):\n    y = x * 8\n    if y > 10:\n        y = y - 8\n    return y\n\ndef unused_theta_4(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_theta_5(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef theta(x):\n    return x + BETA\n\ndef omega(x, step=2):\n    return x + LAMBDA_ + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = theta(9)\n    v = omega(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "BETA = 8\nLAMBDA_ = 5\nDELTA = 1\n\ndef unused_theta_0(x):\n    y = x * 5\n    if y > 47:\n        y = y - 5\n    return y\n\ndef unused_theta_1(x):\n    y = x * 8\n    if y > 15:\n        y = y - 8\n    return y\n\ndef unused_theta_2(x):\n    y = x * 10\n    if y > 28:\n        y = y - 9\n    return y\n\ndef unused_theta_3(x):\n    y = x * 8\n    if y > 10:\n        y = y - 8\n    return y\n\ndef unused_theta_4(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_theta_5(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef theta(x):\n    return x + BETA\n\ndef omega(x, step=2):\n    return x + LAMBDA_ + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = theta(9)\n    v = omega(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "25",
+  "old_answer": "25",
+  "patch_hex": "43524730c906545e53f700c0e2b839224a6d7e6ed0a45d37c05176a7b21b7c96c8e5f2ca397001f2347f62e85c876ceff2fa683f5d089de6479bb4a77e7e049f03dc9e4bf8ff7e02010111010f2020202079203d2078202a2031300a29",
+  "old_cid": "f2347f62e85c876ceff2fa683f5d089de6479bb4a77e7e049f03dc9e4bf8ff7e",
+  "changed_idents": []
+ },
+ {
+  "id": "P025",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 4\nGAMMA = 4\nRHO = 5\n\ndef unused_omega_0(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_omega_1(x):\n    y = x * 3\n    if y > 44:\n        y = y - 3\n    return y\n\ndef unused_omega_2(x):\n    y = x * 8\n    if y > 40:\n        y = y - 8\n    return y\n\ndef unused_omega_3(x):\n    y = x * 5\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_omega_4(x):\n    y = x * 3\n    if y > 12:\n        y = y - 3\n    return y\n\ndef omega(x):\n    return x + ZETA\n\ndef kappa(x, step=2):\n    return x + GAMMA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = omega(8)\n    v = kappa(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 4\nGAMMA = 4\nRHO = 5\n\ndef unused_omega_0(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_omega_1(x):\n    y = x * 3\n    if y > 44:\n        y = y - 3\n    return y\n\ndef unused_omega_2(x):\n    y = x * 8\n    if y > 40:\n        y = y - 8\n    return y\n\ndef unused_omega_3(x):\n    y = x * 5\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_omega_4(x):\n    y = x * 3\n    if y > 12:\n        y = y - 3\n    return y\n\ndef omega(x):\n    return x - ZETA\n\ndef kappa(x, step=2):\n    return x + GAMMA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = omega(8)\n    v = kappa(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "answer": "15",
+  "old_answer": "23",
+  "patch_hex": "43524730ec050aa1018fd73de16be8ef27b967bf163ecd105c459954ed7bec0ad03d47463ef301965d1f1ba515b4f666cacb4ed6a1b4df805548f2881f51683f1505cfcc5658f70201012301142020202072657475726e2078202d205a4554410a11",
+  "old_cid": "965d1f1ba515b4f666cacb4ed6a1b4df805548f2881f51683f1505cfcc5658f7",
+  "changed_idents": [
+   "ZETA"
+  ]
+ },
+ {
+  "id": "P026",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 9\nALPHA = 7\nBETA = 5\n\ndef unused_gamma_0(x):\n    y = x * 5\n    if y > 32:\n        y = y - 5\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 6\n    if y > 48:\n        y = y - 6\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 8\n    if y > 21:\n        y = y - 8\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 5\n    if y > 35:\n        y = y - 5\n    return y\n\ndef unused_gamma_4(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_gamma_5(x):\n    y = x * 2\n    if y > 17:\n        y = y - 2\n    return y\n\ndef gamma(x):\n    return x + TAU\n\ndef zeta(x, step=3):\n    return x * ALPHA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = gamma(8)\n    v = zeta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 9\nALPHA = 7\nBETA = 5\n\ndef unused_gamma_0(x):\n    y = x * 5\n    if y > 32:\n        y = y - 5\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 6\n    if y > 48:\n        y = y - 6\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 8\n    if y > 21:\n        y = y - 8\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 5\n    if y > 35:\n        y = y - 5\n    return y\n\ndef unused_gamma_4(x):\n    y = x * 8\n    if y > 25:\n        y = y - 8\n    return y\n\ndef unused_gamma_5(x):\n    y = x * 2\n    if y > 17:\n        y = y - 2\n    return y\n\ndef gamma(x):\n    return x - TAU\n\ndef zeta(x, step=3):\n    return x * ALPHA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = gamma(8)\n    v = zeta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "1",
+  "old_answer": "127",
+  "patch_hex": "43524730fe06b5a70e2e0174c7d35f95fcd4e84b8adc66eb142e53d35f12f6d879e0907e820b0145dc45b54775ec448cb7da89d51d33b2af4f33337feee54d71fd9a9f838570fc0201012901132020202072657475726e2078202d205441550a14",
+  "old_cid": "45dc45b54775ec448cb7da89d51d33b2af4f33337feee54d71fd9a9f838570fc",
+  "changed_idents": [
+   "TAU"
+  ]
+ },
+ {
+  "id": "P027",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 6\nGAMMA = 4\nKAPPA = 2\n\ndef unused_sigma_0(x):\n    y = x * 5\n    if y > 22:\n        y = y - 5\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 4\n    if y > 11:\n        y = y - 4\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 3\n    if y > 24:\n        y = y - 3\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 9\n    if y > 42:\n        y = y - 9\n    return y\n\ndef sigma(x):\n    return x - ZETA\n\ndef alpha(x, step=4):\n    return x + GAMMA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = sigma(9)\n    v = alpha(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 6\nGAMMA = 4\nKAPPA = 2\n\ndef unused_sigma_0(x):\n    y = x * 6\n    if y > 22:\n        y = y - 5\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 4\n    if y > 11:\n        y = y - 4\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 3\n    if y > 24:\n        y = y - 3\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 9\n    if y > 42:\n        y = y - 9\n    return y\n\ndef sigma(x):\n    return x - ZETA\n\ndef alpha(x, step=4):\n    return x + GAMMA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = sigma(9)\n    v = alpha(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "13",
+  "old_answer": "13",
+  "patch_hex": "43524730d6055aa2d04fadcb73595e11b53dc402a76b506f9f19d98ebdaa632039f813c7a4c201271e0c5d404a78531e9c4ad5030d644b11529593631d734ae2e0ee872927c8d102010105010e2020202079203d2078202a20360a2c",
+  "old_cid": "271e0c5d404a78531e9c4ad5030d644b11529593631d734ae2e0ee872927c8d1",
+  "changed_idents": []
+ },
+ {
+  "id": "P028",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 5\nLAMBDA_ = 3\nALPHA = 4\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 21:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 3\n    if y > 50:\n        y = y - 3\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 9\n    if y > 48:\n        y = y - 9\n    return y\n\ndef gamma(x):\n    return x - DELTA\n\ndef beta(x, step=1):\n    return x + LAMBDA_ + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = gamma(9)\n    v = beta(v)\n    v = v + ALPHA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 5\nLAMBDA_ = 3\nALPHA = 4\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 21:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 3\n    if y > 50:\n        y = y - 3\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 9\n    if y > 48:\n        y = y - 9\n    return y\n\ndef gamma(x):\n    return x - DELTA\n\ndef beta(x, step=3):\n    return x + LAMBDA_ + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = gamma(9)\n    v = beta(v)\n    v = v + ALPHA\n    return v\n\nprint(main())\n",
+  "answer": "14",
+  "old_answer": "12",
+  "patch_hex": "43524730a205d0b8bae0a68d6f47fda5514a7838ac39c706a413d6979daeef9dc8461f9372840150391b38031e716a4ffa8285f958a5b742fc781b2be716390c1e604f9cee2bf10201011f0115646566206265746128782c20737465703d33293a0a0f",
+  "old_cid": "50391b38031e716a4ffa8285f958a5b742fc781b2be716390c1e604f9cee2bf1",
+  "changed_idents": [
+   "beta"
+  ]
+ },
+ {
+  "id": "P029",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 5\nKAPPA = 7\nOMEGA = 2\n\ndef unused_beta_0(x):\n    y = x * 4\n    if y > 28:\n        y = y - 4\n    return y\n\ndef unused_beta_1(x):\n    y = x * 7\n    if y > 20:\n        y = y - 7\n    return y\n\ndef unused_beta_2(x):\n    y = x * 8\n    if y > 16:\n        y = y - 8\n    return y\n\ndef unused_beta_3(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_beta_4(x):\n    y = x * 7\n    if y > 41:\n        y = y - 7\n    return y\n\ndef unused_beta_5(x):\n    y = x * 6\n    if y > 15:\n        y = y - 6\n    return y\n\ndef beta(x):\n    return x + DELTA\n\ndef alpha(x, step=1):\n    return x * KAPPA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = beta(6)\n    v = alpha(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 5\nKAPPA = 7\nOMEGA = 2\n\ndef unused_beta_0(x):\n    y = x * 4\n    if y > 28:\n        y = y - 4\n    return y\n\ndef unused_beta_1(x):\n    y = x * 7\n    if y > 20:\n        y = y - 7\n    return y\n\ndef unused_beta_2(x):\n    y = x * 8\n    if y > 16:\n        y = y - 8\n    return y\n\ndef unused_beta_3(x):\n    y = x * 6\n    if y > 30:\n        y = y - 6\n    return y\n\ndef unused_beta_4(x):\n    y = x * 7\n    if y > 41:\n        y = y - 7\n    return y\n\ndef unused_beta_5(x):\n    y = x * 6\n    if y > 15:\n        y = y - 6\n    return y\n\ndef beta(x):\n    return x - DELTA\n\ndef alpha(x, step=1):\n    return x * KAPPA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = beta(6)\n    v = alpha(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "10",
+  "old_answer": "80",
+  "patch_hex": "43524730ff06629d5470c753e58a71cae06873df21fd13e9f187664bdd3af922088409829af7016452e4d38cd234cdea98462f0029a4f6c5f0b210a58422540bccbfc6e11eeafa0201012901152020202072657475726e2078202d2044454c54410a14",
+  "old_cid": "6452e4d38cd234cdea98462f0029a4f6c5f0b210a58422540bccbfc6e11eeafa",
+  "changed_idents": [
+   "DELTA"
+  ]
+ },
+ {
+  "id": "P030",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 8\nZETA = 8\nOMEGA = 4\n\ndef unused_tau_0(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_tau_1(x):\n    y = x * 2\n    if y > 46:\n        y = y - 2\n    return y\n\ndef unused_tau_2(x):\n    y = x * 9\n    if y > 44:\n        y = y - 9\n    return y\n\ndef unused_tau_3(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_tau_4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef tau(x):\n    return x + SIGMA\n\ndef theta(x, step=3):\n    return x + ZETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = tau(7)\n    v = theta(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 8\nZETA = 8\nOMEGA = 4\n\ndef unused_tau_0(x):\n    y = x * 4\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_tau_1(x):\n    y = x * 2\n    if y > 46:\n        y = y - 2\n    return y\n\ndef unused_tau_2(x):\n    y = x * 9\n    if y > 44:\n        y = y - 9\n    return y\n\ndef unused_tau_3(x):\n    y = x * 7\n    if y > 22:\n        y = y - 7\n    return y\n\ndef unused_tau_4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef tau(x):\n    return x + SIGMA\n\ndef theta(x, step=3):\n    return x + ZETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = tau(7)\n    v = theta(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "30",
+  "old_answer": "30",
+  "patch_hex": "43524730aa06f2ddf900857b9e8979748865a4e3b0d302f0415b287407008ef5a97689d16b5a010406386d30bd75521b838125e7025daefce621da2f95ae5309083df89062231902010105010e2020202079203d2078202a20340a32",
+  "old_cid": "0406386d30bd75521b838125e7025daefce621da2f95ae5309083df890622319",
+  "changed_idents": []
+ },
+ {
+  "id": "P031",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 7\nLAMBDA_ = 8\nSIGMA = 4\n\ndef unused_alpha_0(x):\n    y = x * 2\n    if y > 43:\n        y = y - 2\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 6\n    if y > 29:\n        y = y - 6\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 8\n    if y > 36:\n        y = y - 8\n    return y\n\ndef alpha(x):\n    return x + DELTA\n\ndef tau(x, step=4):\n    return x + LAMBDA_ + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = alpha(1)\n    v = tau(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 7\nLAMBDA_ = 8\nSIGMA = 4\n\ndef unused_alpha_0(x):\n    y = x * 3\n    if y > 43:\n        y = y - 2\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 6\n    if y > 29:\n        y = y - 6\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 8\n    if y > 36:\n        y = y - 8\n    return y\n\ndef alpha(x):\n    return x + DELTA\n\ndef tau(x, step=4):\n    return x + LAMBDA_ + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef main():\n    v = alpha(1)\n    v = tau(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "answer": "24",
+  "old_answer": "24",
+  "patch_hex": "435247309e05468ffffcb39bf3f21160d2dbad5c9010f90ce046c74abf4673a891e99163cb0501f954f1447101ae7fccc6c44a9a932b50ea1e88546e0a92453902730badb7111702010105010e2020202079203d2078202a20330a29",
+  "old_cid": "f954f1447101ae7fccc6c44a9a932b50ea1e88546e0a92453902730badb71117",
+  "changed_idents": []
+ },
+ {
+  "id": "P032",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 9\nZETA = 5\nLAMBDA_ = 3\n\ndef unused_tau_0(x):\n    y = x * 8\n    if y > 50:\n        y = y - 8\n    return y\n\ndef unused_tau_1(x):\n    y = x * 7\n    if y > 46:\n        y = y - 7\n    return y\n\ndef unused_tau_2(x):\n    y = x * 8\n    if y > 33:\n        y = y - 8\n    return y\n\ndef unused_tau_3(x):\n    y = x * 9\n    if y > 49:\n        y = y - 9\n    return y\n\ndef unused_tau_4(x):\n    y = x * 4\n    if y > 11:\n        y = y - 4\n    return y\n\ndef unused_tau_5(x):\n    y = x * 4\n    if y > 36:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + DELTA\n\ndef beta(x, step=2):\n    return x * ZETA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_gamma_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = tau(4)\n    v = beta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 9\nZETA = 5\nLAMBDA_ = 3\n\ndef unused_tau_0(x):\n    y = x * 8\n    if y > 50:\n        y = y - 8\n    return y\n\ndef unused_tau_1(x):\n    y = x * 7\n    if y > 46:\n        y = y - 7\n    return y\n\ndef unused_tau_2(x):\n    y = x * 8\n    if y > 33:\n        y = y - 8\n    return y\n\ndef unused_tau_3(x):\n    y = x * 9\n    if y > 49:\n        y = y - 9\n    return y\n\ndef unused_tau_4(x):\n    y = x * 4\n    if y > 11:\n        y = y - 4\n    return y\n\ndef unused_tau_5(x):\n    y = x * 4\n    if y > 36:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + DELTA\n\ndef beta(x, step=5):\n    return x * ZETA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_gamma_3(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = tau(4)\n    v = beta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "73",
+  "old_answer": "70",
+  "patch_hex": "43524730b407fa97427cdc2dff71d1bfd65cc18e579bc69ccbe32386ef12853fca94f69e7d0001f46b5d54c85c0866a220c0f8f3c2bc27947add0012a6d9c8c66afd2101408c810201012b0115646566206265746128782c20737465703d35293a0a15",
+  "old_cid": "f46b5d54c85c0866a220c0f8f3c2bc27947add0012a6d9c8c66afd2101408c81",
+  "changed_idents": [
+   "beta"
+  ]
+ },
+ {
+  "id": "P033",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "GAMMA = 6\nLAMBDA_ = 7\nKAPPA = 1\n\ndef unused_tau_0(x):\n    y = x * 5\n    if y > 33:\n        y = y - 5\n    return y\n\ndef unused_tau_1(x):\n    y = x * 3\n    if y > 32:\n        y = y - 3\n    return y\n\ndef unused_tau_2(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef unused_tau_3(x):\n    y = x * 4\n    if y > 47:\n        y = y - 4\n    return y\n\ndef unused_tau_4(x):\n    y = x * 4\n    if y > 44:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + GAMMA\n\ndef zeta(x, step=3):\n    return x + LAMBDA_ + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = tau(7)\n    v = zeta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "GAMMA = 9\nLAMBDA_ = 7\nKAPPA = 1\n\ndef unused_tau_0(x):\n    y = x * 5\n    if y > 33:\n        y = y - 5\n    return y\n\ndef unused_tau_1(x):\n    y = x * 3\n    if y > 32:\n        y = y - 3\n    return y\n\ndef unused_tau_2(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef unused_tau_3(x):\n    y = x * 4\n    if y > 47:\n        y = y - 4\n    return y\n\ndef unused_tau_4(x):\n    y = x * 4\n    if y > 44:\n        y = y - 4\n    return y\n\ndef tau(x):\n    return x + GAMMA\n\ndef zeta(x, step=3):\n    return x + LAMBDA_ + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"zeta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = tau(7)\n    v = zeta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "27",
+  "old_answer": "24",
+  "patch_hex": "43524730e7059818aa584c11146e81afa31360384ea5239ee0593a6afea2b440909e0ee7105d01aa2af53efd9bbef35cdd7fe31fd220805b88e7fbf7944840a95a92b42fabd7b302010100010a47414d4d41203d20390a34",
+  "old_cid": "aa2af53efd9bbef35cdd7fe31fd220805b88e7fbf7944840a95a92b42fabd7b3",
+  "changed_idents": [
+   "GAMMA"
+  ]
+ },
+ {
+  "id": "P034",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 9\nTAU = 7\nGAMMA = 4\n\ndef unused_kappa_0(x):\n    y = x * 7\n    if y > 38:\n        y = y - 7\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 4\n    if y > 38:\n        y = y - 4\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 7\n    if y > 31:\n        y = y - 7\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 10:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 6\n    if y > 31:\n        y = y - 6\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 7\n    if y > 26:\n        y = y - 7\n    return y\n\ndef kappa(x):\n    return x + SIGMA\n\ndef theta(x, step=2):\n    return x * TAU + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = kappa(2)\n    v = theta(v)\n    v = v + GAMMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 9\nTAU = 7\nGAMMA = 7\n\ndef unused_kappa_0(x):\n    y = x * 7\n    if y > 38:\n        y = y - 7\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 4\n    if y > 38:\n        y = y - 4\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 7\n    if y > 31:\n        y = y - 7\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 10:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 6\n    if y > 31:\n        y = y - 6\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 7\n    if y > 26:\n        y = y - 7\n    return y\n\ndef kappa(x):\n    return x + SIGMA\n\ndef theta(x, step=2):\n    return x * TAU + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = kappa(2)\n    v = theta(v)\n    v = v + GAMMA\n    return v\n\nprint(main())\n",
+  "answer": "86",
+  "old_answer": "83",
+  "patch_hex": "43524730be0796e8017e07270454de0ef77e717e7ecf09d65584b4d33a1a3405016f9c7863a901aadcc81cc21342f36d7113695f5effc3c5faa3d85424fccbd99db4631901152402010102010a47414d4d41203d20370a3e",
+  "old_cid": "aadcc81cc21342f36d7113695f5effc3c5faa3d85424fccbd99db46319011524",
+  "changed_idents": [
+   "GAMMA"
+  ]
+ },
+ {
+  "id": "P035",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "OMEGA = 7\nTHETA = 2\nBETA = 3\n\ndef unused_rho_0(x):\n    y = x * 8\n    if y > 35:\n        y = y - 8\n    return y\n\ndef unused_rho_1(x):\n    y = x * 8\n    if y > 48:\n        y = y - 8\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 44:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 4\n    if y > 16:\n        y = y - 4\n    return y\n\ndef unused_rho_4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x + OMEGA\n\ndef delta(x, step=4):\n    return x * THETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_kappa_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_kappa_3(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = rho(1)\n    v = delta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "OMEGA = 6\nTHETA = 2\nBETA = 3\n\ndef unused_rho_0(x):\n    y = x * 8\n    if y > 35:\n        y = y - 8\n    return y\n\ndef unused_rho_1(x):\n    y = x * 8\n    if y > 48:\n        y = y - 8\n    return y\n\ndef unused_rho_2(x):\n    y = x * 9\n    if y > 44:\n        y = y - 9\n    return y\n\ndef unused_rho_3(x):\n    y = x * 4\n    if y > 16:\n        y = y - 4\n    return y\n\ndef unused_rho_4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x + OMEGA\n\ndef delta(x, step=4):\n    return x * THETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_kappa_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_kappa_3(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = rho(1)\n    v = delta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "21",
+  "old_answer": "23",
+  "patch_hex": "43524730df06f44ad83406ebf957da3e771898e159ee50973361c61191da9bb2abd6013606c501d77c62eebb87fa76ed6f10ab7f98d7ce662c8283bc347423a899df0f0ccb836b02010100010a4f4d454741203d20360a3a",
+  "old_cid": "d77c62eebb87fa76ed6f10ab7f98d7ce662c8283bc347423a899df0f0ccb836b",
+  "changed_idents": [
+   "OMEGA"
+  ]
+ },
+ {
+  "id": "P036",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 6\nDELTA = 8\nRHO = 2\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 3\n    if y > 42:\n        y = y - 3\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 2\n    if y > 24:\n        y = y - 2\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_gamma_4(x):\n    y = x * 3\n    if y > 41:\n        y = y - 3\n    return y\n\ndef unused_gamma_5(x):\n    y = x * 5\n    if y > 36:\n        y = y - 5\n    return y\n\ndef gamma(x):\n    return x - ZETA\n\ndef alpha(x, step=4):\n    return x + DELTA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_omega_3(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = gamma(4)\n    v = alpha(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 6\nDELTA = 8\nRHO = 2\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 3\n    if y > 42:\n        y = y - 3\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 2\n    if y > 24:\n        y = y - 2\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_gamma_4(x):\n    y = x * 3\n    if y > 41:\n        y = y - 3\n    return y\n\ndef unused_gamma_5(x):\n    y = x * 5\n    if y > 36:\n        y = y - 5\n    return y\n\ndef gamma(x):\n    return x - ZETA\n\ndef alpha(x, step=7):\n    return x + DELTA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_omega_3(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = gamma(4)\n    v = alpha(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "answer": "15",
+  "old_answer": "12",
+  "patch_hex": "43524730be0753f27094d3d5c76c3d539a38fb0cd6942b1d8a513248f0b27f35939ccf08363101093738cba78992348c71f93534006e4d6c48ab11dcfaeb4af1cdaf15f92279340201012b011664656620616c70686128782c20737465703d37293a0a15",
+  "old_cid": "093738cba78992348c71f93534006e4d6c48ab11dcfaeb4af1cdaf15f9227934",
+  "changed_idents": [
+   "alpha"
+  ]
+ },
+ {
+  "id": "P037",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 6\nRHO = 6\nZETA = 3\n\ndef unused_kappa_0(x):\n    y = x * 9\n    if y > 27:\n        y = y - 9\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 8\n    if y > 37:\n        y = y - 8\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 5\n    if y > 43:\n        y = y - 5\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef kappa(x):\n    return x - SIGMA\n\ndef delta(x, step=2):\n    return x * RHO + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = kappa(6)\n    v = delta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 6\nRHO = 6\nZETA = 3\n\ndef unused_kappa_0(x):\n    y = x * 9\n    if y > 27:\n        y = y - 9\n    return y\n\ndef unused_kappa_1(x):\n    y = x * 8\n    if y > 37:\n        y = y - 8\n    return y\n\ndef unused_kappa_2(x):\n    y = x * 5\n    if y > 43:\n        y = y - 5\n    return y\n\ndef unused_kappa_3(x):\n    y = x * 5\n    if y > 19:\n        y = y - 5\n    return y\n\ndef unused_kappa_4(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_kappa_5(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef kappa(x):\n    return x - SIGMA\n\ndef delta(x, step=2):\n    return x + RHO + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = kappa(6)\n    v = delta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "answer": "11",
+  "old_answer": "5",
+  "patch_hex": "43524730fa06af4945551f571a7ad238ca3355e36c1d456506a3bc7f8101545f19500529f4f70153739461a774daf443255c2dc907742f2558bb4394f2cd8a2dae9afac3f519f30201012c011a2020202072657475726e2078202b2052484f202b20737465700a11",
+  "old_cid": "53739461a774daf443255c2dc907742f2558bb4394f2cd8a2dae9afac3f519f3",
+  "changed_idents": [
+   "RHO"
+  ]
+ },
+ {
+  "id": "P038",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 7\nOMEGA = 3\nDELTA = 4\n\ndef unused_theta_0(x):\n    y = x * 4\n    if y > 49:\n        y = y - 4\n    return y\n\ndef unused_theta_1(x):\n    y = x * 7\n    if y > 25:\n        y = y - 7\n    return y\n\ndef unused_theta_2(x):\n    y = x * 5\n    if y > 13:\n        y = y - 5\n    return y\n\ndef unused_theta_3(x):\n    y = x * 4\n    if y > 43:\n        y = y - 4\n    return y\n\ndef unused_theta_4(x):\n    y = x * 6\n    if y > 41:\n        y = y - 6\n    return y\n\ndef theta(x):\n    return x - ZETA\n\ndef sigma(x, step=2):\n    return x + OMEGA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = theta(9)\n    v = sigma(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 10\nOMEGA = 3\nDELTA = 4\n\ndef unused_theta_0(x):\n    y = x * 4\n    if y > 49:\n        y = y - 4\n    return y\n\ndef unused_theta_1(x):\n    y = x * 7\n    if y > 25:\n        y = y - 7\n    return y\n\ndef unused_theta_2(x):\n    y = x * 5\n    if y > 13:\n        y = y - 5\n    return y\n\ndef unused_theta_3(x):\n    y = x * 4\n    if y > 43:\n        y = y - 4\n    return y\n\ndef unused_theta_4(x):\n    y = x * 6\n    if y > 41:\n        y = y - 6\n    return y\n\ndef theta(x):\n    return x - ZETA\n\ndef sigma(x, step=2):\n    return x + OMEGA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = theta(9)\n    v = sigma(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "8",
+  "old_answer": "11",
+  "patch_hex": "43524730b206263c7e90045b53a5749f61d13f1beca81466c3aea30cd9056b491c50a28b3325017533a2aff8b6bb89c03d19a19b3efee983d2e6f4abe190a17769223b63a94a2e02010100010a5a455441203d2031300a37",
+  "old_cid": "7533a2aff8b6bb89c03d19a19b3efee983d2e6f4abe190a17769223b63a94a2e",
+  "changed_idents": [
+   "ZETA"
+  ]
+ },
+ {
+  "id": "P039",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 9\nOMEGA = 4\nLAMBDA_ = 3\n\ndef unused_sigma_0(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 9\n    if y > 45:\n        y = y - 9\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 2\n    if y > 34:\n        y = y - 2\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 7\n    if y > 28:\n        y = y - 7\n    return y\n\ndef sigma(x):\n    return x + THETA\n\ndef delta(x, step=1):\n    return x + OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = sigma(9)\n    v = delta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 9\nOMEGA = 4\nLAMBDA_ = 3\n\ndef unused_sigma_0(x):\n    y = x * 3\n    if y > 28:\n        y = y - 3\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 9\n    if y > 45:\n        y = y - 9\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 2\n    if y > 34:\n        y = y - 2\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 7\n    if y > 28:\n        y = y - 7\n    return y\n\ndef sigma(x):\n    return x - THETA\n\ndef delta(x, step=1):\n    return x + OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_beta_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = sigma(9)\n    v = delta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "8",
+  "old_answer": "26",
+  "patch_hex": "435247309f069b46edfc4cd4a5093702113db63ae1e6c70f49182ec919478862d0e657031899011e45e350211be32c54f8ac6ccc58ab9867472f48b5c43b1bf1b4de4551589d020201011d01152020202072657475726e2078202d2054484554410a17",
+  "old_cid": "1e45e350211be32c54f8ac6ccc58ab9867472f48b5c43b1bf1b4de4551589d02",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P040",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 7\nTHETA = 4\nKAPPA = 1\n\ndef unused_zeta_0(x):\n    y = x * 9\n    if y > 12:\n        y = y - 9\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 2\n    if y > 43:\n        y = y - 2\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 3\n    if y > 23:\n        y = y - 3\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 9\n    if y > 37:\n        y = y - 9\n    return y\n\ndef zeta(x):\n    return x + DELTA\n\ndef sigma(x, step=4):\n    return x + THETA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = zeta(3)\n    v = sigma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 7\nTHETA = 4\nKAPPA = 1\n\ndef unused_zeta_0(x):\n    y = x * 9\n    if y > 12:\n        y = y - 9\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 2\n    if y > 43:\n        y = y - 2\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 3\n    if y > 23:\n        y = y - 3\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 9\n    if y > 37:\n        y = y - 9\n    return y\n\ndef zeta(x):\n    return x + DELTA\n\ndef sigma(x, step=4):\n    return x - THETA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_alpha_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = zeta(3)\n    v = sigma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "11",
+  "old_answer": "19",
+  "patch_hex": "43524730d905047a2af38a2777e83b1d2011714372d80998ffc20df5e981d2b237c35de8201101bf4bd4387ec84da721d8c991452417969f384f7d85f797456470b1127af1e2c302010120011c2020202072657475726e2078202d205448455441202b20737465700a11",
+  "old_cid": "bf4bd4387ec84da721d8c991452417969f384f7d85f797456470b1127af1e2c3",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P041",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "GAMMA = 3\nRHO = 7\nBETA = 5\n\ndef unused_delta_0(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_delta_1(x):\n    y = x * 3\n    if y > 46:\n        y = y - 3\n    return y\n\ndef unused_delta_2(x):\n    y = x * 5\n    if y > 30:\n        y = y - 5\n    return y\n\ndef unused_delta_3(x):\n    y = x * 3\n    if y > 46:\n        y = y - 3\n    return y\n\ndef unused_delta_4(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_delta_5(x):\n    y = x * 6\n    if y > 26:\n        y = y - 6\n    return y\n\ndef delta(x):\n    return x + GAMMA\n\ndef zeta(x, step=4):\n    return x * RHO + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_tau_3(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = delta(7)\n    v = zeta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "GAMMA = 3\nRHO = 7\nBETA = 5\n\ndef unused_delta_0(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_delta_1(x):\n    y = x * 3\n    if y > 46:\n        y = y - 3\n    return y\n\ndef unused_delta_2(x):\n    y = x * 5\n    if y > 30:\n        y = y - 5\n    return y\n\ndef unused_delta_3(x):\n    y = x * 3\n    if y > 46:\n        y = y - 3\n    return y\n\ndef unused_delta_4(x):\n    y = x * 7\n    if y > 43:\n        y = y - 7\n    return y\n\ndef unused_delta_5(x):\n    y = x * 6\n    if y > 26:\n        y = y - 6\n    return y\n\ndef delta(x):\n    return x + GAMMA\n\ndef zeta(x, step=5):\n    return x * RHO + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_tau_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_tau_3(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = delta(7)\n    v = zeta(v)\n    v = v + BETA\n    return v\n\nprint(main())\n",
+  "answer": "80",
+  "old_answer": "79",
+  "patch_hex": "43524730b60732f1e4f098d23691693a96bcd096bf85ceb90db55a5fb8193a7946cc11e4c32f017014ff589f3cfc255ea1760c1d67f2ba953f7849ec0a4041d0ba52d85bc4e7b10201012b0115646566207a65746128782c20737465703d35293a0a15",
+  "old_cid": "7014ff589f3cfc255ea1760c1d67f2ba953f7849ec0a4041d0ba52d85bc4e7b1",
+  "changed_idents": [
+   "zeta"
+  ]
+ },
+ {
+  "id": "P042",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "TAU = 9\nSIGMA = 6\nLAMBDA_ = 5\n\ndef unused_delta_0(x):\n    y = x * 3\n    if y > 45:\n        y = y - 3\n    return y\n\ndef unused_delta_1(x):\n    y = x * 8\n    if y > 22:\n        y = y - 8\n    return y\n\ndef unused_delta_2(x):\n    y = x * 5\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_delta_3(x):\n    y = x * 3\n    if y > 50:\n        y = y - 3\n    return y\n\ndef unused_delta_4(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_delta_5(x):\n    y = x * 7\n    if y > 17:\n        y = y - 7\n    return y\n\ndef delta(x):\n    return x - TAU\n\ndef rho(x, step=3):\n    return x * SIGMA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"zeta\"\n\ndef main():\n    v = delta(3)\n    v = rho(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "TAU = 9\nSIGMA = 6\nLAMBDA_ = 5\n\ndef unused_delta_0(x):\n    y = x * 3\n    if y > 45:\n        y = y - 3\n    return y\n\ndef unused_delta_1(x):\n    y = x * 8\n    if y > 22:\n        y = y - 8\n    return y\n\ndef unused_delta_2(x):\n    y = x * 6\n    if y > 42:\n        y = y - 5\n    return y\n\ndef unused_delta_3(x):\n    y = x * 3\n    if y > 50:\n        y = y - 3\n    return y\n\ndef unused_delta_4(x):\n    y = x * 4\n    if y > 20:\n        y = y - 4\n    return y\n\ndef unused_delta_5(x):\n    y = x * 7\n    if y > 17:\n        y = y - 7\n    return y\n\ndef delta(x):\n    return x - TAU\n\ndef rho(x, step=3):\n    return x * SIGMA + step\n\ndef unused_alpha_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_alpha_1(s):\n    return s.strip().lower() + \"zeta\"\n\ndef main():\n    v = delta(3)\n    v = rho(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "-28",
+  "old_answer": "-28",
+  "patch_hex": "43524730c3066f3b4ef2811be859ea3a4f9d9f2836aa8bc93336d79de0aedd3a590bf009c9f201da826b305c8b1e691a513f94d2757dbd0c6cf3e7b4a21b56528b7b9895ea0fc802010111010e2020202079203d2078202a20360a29",
+  "old_cid": "da826b305c8b1e691a513f94d2757dbd0c6cf3e7b4a21b56528b7b9895ea0fc8",
+  "changed_idents": []
+ },
+ {
+  "id": "P043",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 4\nDELTA = 2\nZETA = 5\n\ndef unused_lambda__0(x):\n    y = x * 5\n    if y > 26:\n        y = y - 5\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 4\n    if y > 13:\n        y = y - 4\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 5\n    if y > 23:\n        y = y - 5\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 6\n    if y > 23:\n        y = y - 6\n    return y\n\ndef lambda_(x):\n    return x - SIGMA\n\ndef theta(x, step=4):\n    return x + DELTA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = lambda_(1)\n    v = theta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 4\nDELTA = 2\nZETA = 5\n\ndef unused_lambda__0(x):\n    y = x * 5\n    if y > 26:\n        y = y - 5\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 4\n    if y > 13:\n        y = y - 4\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 5\n    if y > 50:\n        y = y - 5\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 5\n    if y > 23:\n        y = y - 5\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 6\n    if y > 23:\n        y = y - 6\n    return y\n\ndef lambda_(x):\n    return x - SIGMA\n\ndef theta(x, step=6):\n    return x + DELTA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = lambda_(1)\n    v = theta(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "answer": "10",
+  "old_answer": "8",
+  "patch_hex": "4352473080066c42950be1b5a95ff4580e2db8a1e0968dfb33d8cc4f7b04810c2047e7ea30bd01d5574392f356cfe1454b8dc9a93c226050bc04f11d7d3726e3147d0e369c646a02010125011664656620746865746128782c20737465703d36293a0a0f",
+  "old_cid": "d5574392f356cfe1454b8dc9a93c226050bc04f11d7d3726e3147d0e369c646a",
+  "changed_idents": [
+   "theta"
+  ]
+ },
+ {
+  "id": "P044",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 9\nSIGMA = 3\nKAPPA = 2\n\ndef unused_lambda__0(x):\n    y = x * 6\n    if y > 37:\n        y = y - 6\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 10:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 9\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef lambda_(x):\n    return x + ZETA\n\ndef beta(x, step=2):\n    return x * SIGMA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = lambda_(4)\n    v = beta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 9\nSIGMA = 3\nKAPPA = 2\n\ndef unused_lambda__0(x):\n    y = x * 6\n    if y > 37:\n        y = y - 6\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 10:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 10\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef lambda_(x):\n    return x + ZETA\n\ndef beta(x, step=2):\n    return x * SIGMA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"sigma\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef main():\n    v = lambda_(4)\n    v = beta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "43",
+  "old_answer": "43",
+  "patch_hex": "43524730a90622b03d717ea4927f6e561cc469a732121bce7fd814beb6b553feb644d5f2ce07017b6fcd1ab664f9bf3105ddb5eb0a146bd8d7024b248d70af44d8386ef506f5f002010111010f2020202079203d2078202a2031300a23",
+  "old_cid": "7b6fcd1ab664f9bf3105ddb5eb0a146bd8d7024b248d70af44d8386ef506f5f0",
+  "changed_idents": []
+ },
+ {
+  "id": "P045",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 5\nRHO = 6\nZETA = 3\n\ndef unused_omega_0(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_omega_1(x):\n    y = x * 8\n    if y > 36:\n        y = y - 8\n    return y\n\ndef unused_omega_2(x):\n    y = x * 2\n    if y > 25:\n        y = y - 2\n    return y\n\ndef unused_omega_3(x):\n    y = x * 5\n    if y > 35:\n        y = y - 5\n    return y\n\ndef omega(x):\n    return x - SIGMA\n\ndef lambda_(x, step=4):\n    return x + RHO + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = omega(6)\n    v = lambda_(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 5\nRHO = 6\nZETA = 3\n\ndef unused_omega_0(x):\n    y = x * 2\n    if y > 39:\n        y = y - 2\n    return y\n\ndef unused_omega_1(x):\n    y = x * 8\n    if y > 36:\n        y = y - 8\n    return y\n\ndef unused_omega_2(x):\n    y = x * 2\n    if y > 25:\n        y = y - 2\n    return y\n\ndef unused_omega_3(x):\n    y = x * 5\n    if y > 35:\n        y = y - 5\n    return y\n\ndef omega(x):\n    return x + SIGMA\n\ndef lambda_(x, step=4):\n    return x + RHO + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = omega(6)\n    v = lambda_(v)\n    v = v + ZETA\n    return v\n\nprint(main())\n",
+  "answer": "24",
+  "old_answer": "14",
+  "patch_hex": "435247309a059230edc81b17ef35129a79324be5cc50162ce2d96facd79c88eac2d8034dd02a01c346019cc67308f7b61203a6d3a48dd2945a4b84ffc24644da4cb59840b367890201011d01152020202072657475726e2078202b205349474d410a11",
+  "old_cid": "c346019cc67308f7b61203a6d3a48dd2945a4b84ffc24644da4cb59840b36789",
+  "changed_idents": [
+   "SIGMA"
+  ]
+ },
+ {
+  "id": "P046",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ZETA = 6\nTHETA = 3\nKAPPA = 3\n\ndef unused_lambda__0(x):\n    y = x * 6\n    if y > 32:\n        y = y - 6\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 4\n    if y > 47:\n        y = y - 4\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 4\n    if y > 39:\n        y = y - 4\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 4\n    if y > 31:\n        y = y - 4\n    return y\n\ndef unused_lambda__5(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef lambda_(x):\n    return x + ZETA\n\ndef gamma(x, step=2):\n    return x * THETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_sigma_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = lambda_(8)\n    v = gamma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ZETA = 4\nTHETA = 3\nKAPPA = 3\n\ndef unused_lambda__0(x):\n    y = x * 6\n    if y > 32:\n        y = y - 6\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 4\n    if y > 47:\n        y = y - 4\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 4\n    if y > 39:\n        y = y - 4\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 4\n    if y > 31:\n        y = y - 4\n    return y\n\ndef unused_lambda__5(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef lambda_(x):\n    return x + ZETA\n\ndef gamma(x, step=2):\n    return x * THETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_sigma_2(s):\n    return s.strip().lower() + \"beta\"\n\ndef main():\n    v = lambda_(8)\n    v = gamma(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "41",
+  "old_answer": "47",
+  "patch_hex": "43524730960756838a2cb6fc1f8ee7e90beda80bea9c1f830dcdea7138f989b5f01b3ca0571c0171c4c6a44535539d32cf6e63da726ca881ace3090d6da0fb9a8866038706ed700201010001095a455441203d20340a3d",
+  "old_cid": "71c4c6a44535539d32cf6e63da726ca881ace3090d6da0fb9a8866038706ed70",
+  "changed_idents": [
+   "ZETA"
+  ]
+ },
+ {
+  "id": "P047",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 3\nTHETA = 4\nKAPPA = 1\n\ndef unused_alpha_0(x):\n    y = x * 2\n    if y > 37:\n        y = y - 2\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 7\n    if y > 36:\n        y = y - 7\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 6\n    if y > 16:\n        y = y - 6\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef alpha(x):\n    return x + SIGMA\n\ndef tau(x, step=1):\n    return x + THETA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = alpha(9)\n    v = tau(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 3\nTHETA = 4\nKAPPA = 1\n\ndef unused_alpha_0(x):\n    y = x * 2\n    if y > 37:\n        y = y - 2\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 7\n    if y > 36:\n        y = y - 7\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 6\n    if y > 16:\n        y = y - 6\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 3\n    if y > 35:\n        y = y - 3\n    return y\n\ndef alpha(x):\n    return x + SIGMA\n\ndef tau(x, step=1):\n    return x - THETA + step\n\ndef unused_rho_0(s):\n    return s.strip().lower() + \"kappa\"\n\ndef unused_rho_1(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = alpha(9)\n    v = tau(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "10",
+  "old_answer": "18",
+  "patch_hex": "43524730ec05aa4148124a7e763da09c1ff488304781633f00b0084a5176eda4d2438cf295b901d38aa943df676f29ea6755bf0e8d92679b1ad859dabd59e6bcfb397fa491e44302010126011c2020202072657475726e2078202d205448455441202b20737465700a0e",
+  "old_cid": "d38aa943df676f29ea6755bf0e8d92679b1ad859dabd59e6bcfb397fa491e443",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P048",
+  "kind": "op",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 4\nALPHA = 6\nKAPPA = 2\n\ndef unused_sigma_0(x):\n    y = x * 7\n    if y > 50:\n        y = y - 7\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 7\n    if y > 42:\n        y = y - 7\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 2\n    if y > 16:\n        y = y - 2\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 5\n    if y > 27:\n        y = y - 5\n    return y\n\ndef sigma(x):\n    return x + THETA\n\ndef delta(x, step=2):\n    return x * ALPHA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = sigma(1)\n    v = delta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 4\nALPHA = 6\nKAPPA = 2\n\ndef unused_sigma_0(x):\n    y = x * 7\n    if y > 50:\n        y = y - 7\n    return y\n\ndef unused_sigma_1(x):\n    y = x * 7\n    if y > 42:\n        y = y - 7\n    return y\n\ndef unused_sigma_2(x):\n    y = x * 2\n    if y > 16:\n        y = y - 2\n    return y\n\ndef unused_sigma_3(x):\n    y = x * 5\n    if y > 27:\n        y = y - 5\n    return y\n\ndef sigma(x):\n    return x - THETA\n\ndef delta(x, step=2):\n    return x * ALPHA + step\n\ndef unused_omega_0(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_omega_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_omega_2(s):\n    return s.strip().lower() + \"omega\"\n\ndef main():\n    v = sigma(1)\n    v = delta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "-14",
+  "old_answer": "34",
+  "patch_hex": "43524730df0512a7b4f51f4249df40a72fd3bcae2b7a3d48eff5a132f332ce6ed1b40a25b7bb0117f1afe2d7d27a77b21fac018615ffccbe18ecdffcbf94091b1ac69a41be02560201011d01152020202072657475726e2078202d2054484554410a14",
+  "old_cid": "17f1afe2d7d27a77b21fac018615ffccbe18ecdffcbf94091b1ac69a41be0256",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P049",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "KAPPA = 4\nBETA = 9\nTHETA = 3\n\ndef unused_zeta_0(x):\n    y = x * 2\n    if y > 25:\n        y = y - 2\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 3\n    if y > 33:\n        y = y - 3\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 2\n    if y > 20:\n        y = y - 2\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 8\n    if y > 26:\n        y = y - 8\n    return y\n\ndef unused_zeta_4(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_zeta_5(x):\n    y = x * 7\n    if y > 13:\n        y = y - 7\n    return y\n\ndef zeta(x):\n    return x + KAPPA\n\ndef delta(x, step=1):\n    return x + BETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = zeta(1)\n    v = delta(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "KAPPA = 4\nBETA = 9\nTHETA = 3\n\ndef unused_zeta_0(x):\n    y = x * 2\n    if y > 25:\n        y = y - 2\n    return y\n\ndef unused_zeta_1(x):\n    y = x * 3\n    if y > 33:\n        y = y - 3\n    return y\n\ndef unused_zeta_2(x):\n    y = x * 2\n    if y > 20:\n        y = y - 2\n    return y\n\ndef unused_zeta_3(x):\n    y = x * 8\n    if y > 26:\n        y = y - 8\n    return y\n\ndef unused_zeta_4(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_zeta_5(x):\n    y = x * 8\n    if y > 13:\n        y = y - 7\n    return y\n\ndef zeta(x):\n    return x + KAPPA\n\ndef delta(x, step=1):\n    return x + BETA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = zeta(1)\n    v = delta(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "answer": "18",
+  "old_answer": "18",
+  "patch_hex": "43524730c0064929e296471279ea4e69f432b9a0d7f640afd068b3c38270385b734213f7602101bde139be8c529e6429195f14dc410a33ba7a013e54a31fbf79b8f1684eea95dc02010123010e2020202079203d2078202a20380a17",
+  "old_cid": "bde139be8c529e6429195f14dc410a33ba7a013e54a31fbf79b8f1684eea95dc",
+  "changed_idents": []
+ },
+ {
+  "id": "P050",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "RHO = 4\nALPHA = 5\nKAPPA = 5\n\ndef unused_lambda__0(x):\n    y = x * 2\n    if y > 33:\n        y = y - 2\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 21:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 8\n    if y > 39:\n        y = y - 8\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 9\n    if y > 15:\n        y = y - 9\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 8\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_lambda__5(x):\n    y = x * 7\n    if y > 21:\n        y = y - 7\n    return y\n\ndef lambda_(x):\n    return x + RHO\n\ndef beta(x, step=3):\n    return x * ALPHA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"zeta\"\n\ndef main():\n    v = lambda_(5)\n    v = beta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "RHO = 4\nALPHA = 5\nKAPPA = 5\n\ndef unused_lambda__0(x):\n    y = x * 2\n    if y > 33:\n        y = y - 2\n    return y\n\ndef unused_lambda__1(x):\n    y = x * 7\n    if y > 21:\n        y = y - 7\n    return y\n\ndef unused_lambda__2(x):\n    y = x * 8\n    if y > 39:\n        y = y - 8\n    return y\n\ndef unused_lambda__3(x):\n    y = x * 9\n    if y > 15:\n        y = y - 9\n    return y\n\ndef unused_lambda__4(x):\n    y = x * 9\n    if y > 42:\n        y = y - 8\n    return y\n\ndef unused_lambda__5(x):\n    y = x * 7\n    if y > 21:\n        y = y - 7\n    return y\n\ndef lambda_(x):\n    return x + RHO\n\ndef beta(x, step=3):\n    return x * ALPHA + step\n\ndef unused_delta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_delta_1(s):\n    return s.strip().lower() + \"tau\"\n\ndef unused_delta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_delta_3(s):\n    return s.strip().lower() + \"zeta\"\n\ndef main():\n    v = lambda_(5)\n    v = beta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "53",
+  "old_answer": "53",
+  "patch_hex": "43524730cb0748ce368a939c93ae776dc8485ca87d9dc0340272a85d6cf4fe5bbf95138e2d62018c1dd16599b8b1d6160051e0a7ac3fed0bcdbf0c33b6645f3aadf96f94edd7eb0201011d010e2020202079203d2078202a20390a23",
+  "old_cid": "8c1dd16599b8b1d6160051e0a7ac3fed0bcdbf0c33b6645f3aadf96f94edd7eb",
+  "changed_idents": []
+ },
+ {
+  "id": "P051",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "DELTA = 8\nZETA = 6\nLAMBDA_ = 2\n\ndef unused_tau_0(x):\n    y = x * 2\n    if y > 32:\n        y = y - 2\n    return y\n\ndef unused_tau_1(x):\n    y = x * 9\n    if y > 21:\n        y = y - 9\n    return y\n\ndef unused_tau_2(x):\n    y = x * 8\n    if y > 27:\n        y = y - 8\n    return y\n\ndef unused_tau_3(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef tau(x):\n    return x - DELTA\n\ndef theta(x, step=3):\n    return x * ZETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = tau(6)\n    v = theta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "DELTA = 8\nZETA = 6\nLAMBDA_ = 3\n\ndef unused_tau_0(x):\n    y = x * 2\n    if y > 32:\n        y = y - 2\n    return y\n\ndef unused_tau_1(x):\n    y = x * 9\n    if y > 21:\n        y = y - 9\n    return y\n\ndef unused_tau_2(x):\n    y = x * 8\n    if y > 27:\n        y = y - 8\n    return y\n\ndef unused_tau_3(x):\n    y = x * 7\n    if y > 30:\n        y = y - 7\n    return y\n\ndef tau(x):\n    return x - DELTA\n\ndef theta(x, step=3):\n    return x * ZETA + step\n\ndef unused_kappa_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_kappa_1(s):\n    return s.strip().lower() + \"delta\"\n\ndef main():\n    v = tau(6)\n    v = theta(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "-6",
+  "old_answer": "-7",
+  "patch_hex": "435247309805ea2f992351b74bc445e3bf20db83174ac37328ee403990dbf21ce330fc259890016910fe6d02439111d8ce716c626ecef26e1cb51417d40f5d71efb0475cf781e802010102010c4c414d4244415f203d20330a2c",
+  "old_cid": "6910fe6d02439111d8ce716c626ecef26e1cb51417d40f5d71efb0475cf781e8",
+  "changed_idents": [
+   "LAMBDA_"
+  ]
+ },
+ {
+  "id": "P052",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "LAMBDA_ = 5\nOMEGA = 4\nTHETA = 2\n\ndef unused_gamma_0(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 9\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 2\n    if y > 47:\n        y = y - 2\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef gamma(x):\n    return x + LAMBDA_\n\ndef tau(x, step=1):\n    return x * OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = gamma(3)\n    v = tau(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "LAMBDA_ = 5\nOMEGA = 4\nTHETA = 2\n\ndef unused_gamma_0(x):\n    y = x * 6\n    if y > 39:\n        y = y - 6\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 9\n    if y > 11:\n        y = y - 9\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 2\n    if y > 47:\n        y = y - 2\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 9\n    if y > 16:\n        y = y - 9\n    return y\n\ndef gamma(x):\n    return x + LAMBDA_\n\ndef tau(x, step=4):\n    return x * OMEGA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = gamma(3)\n    v = tau(v)\n    v = v + THETA\n    return v\n\nprint(main())\n",
+  "answer": "38",
+  "old_answer": "35",
+  "patch_hex": "435247309e05d9406262ff30d5ab4164e78be249779306cd696420816ad9bcbb04e0eea74dde010661433b3f04347f15e59b8b769a507575654809b27dba7c802e6149fe062e320201011f01146465662074617528782c20737465703d34293a0a0f",
+  "old_cid": "0661433b3f04347f15e59b8b769a507575654809b27dba7c802e6149fe062e32",
+  "changed_idents": [
+   "tau"
+  ]
+ },
+ {
+  "id": "P053",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 5\nALPHA = 8\nDELTA = 2\n\ndef unused_beta_0(x):\n    y = x * 5\n    if y > 20:\n        y = y - 5\n    return y\n\ndef unused_beta_1(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_beta_2(x):\n    y = x * 4\n    if y > 13:\n        y = y - 4\n    return y\n\ndef unused_beta_3(x):\n    y = x * 3\n    if y > 22:\n        y = y - 3\n    return y\n\ndef beta(x):\n    return x + THETA\n\ndef kappa(x, step=3):\n    return x * ALPHA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = beta(1)\n    v = kappa(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 6\nALPHA = 8\nDELTA = 2\n\ndef unused_beta_0(x):\n    y = x * 5\n    if y > 20:\n        y = y - 5\n    return y\n\ndef unused_beta_1(x):\n    y = x * 4\n    if y > 50:\n        y = y - 4\n    return y\n\ndef unused_beta_2(x):\n    y = x * 4\n    if y > 13:\n        y = y - 4\n    return y\n\ndef unused_beta_3(x):\n    y = x * 3\n    if y > 22:\n        y = y - 3\n    return y\n\ndef beta(x):\n    return x + THETA\n\ndef kappa(x, step=3):\n    return x * ALPHA + step\n\ndef unused_gamma_0(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_gamma_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef unused_gamma_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = beta(1)\n    v = kappa(v)\n    v = v + DELTA\n    return v\n\nprint(main())\n",
+  "answer": "61",
+  "old_answer": "53",
+  "patch_hex": "43524730d9054c4b1625532b42016a1698affa4708dbd4281a82426ed2260a5a74f2f031d1880136c5774e4fe4560902f702834160ba3fc9d3d4735e250a2974e7ff4bb69df3c702010100010a5448455441203d20360a31",
+  "old_cid": "36c5774e4fe4560902f702834160ba3fc9d3d4735e250a2974e7ff4bb69df3c7",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P054",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "RHO = 5\nBETA = 6\nOMEGA = 5\n\ndef unused_tau_0(x):\n    y = x * 3\n    if y > 14:\n        y = y - 3\n    return y\n\ndef unused_tau_1(x):\n    y = x * 5\n    if y > 21:\n        y = y - 5\n    return y\n\ndef unused_tau_2(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_tau_3(x):\n    y = x * 3\n    if y > 21:\n        y = y - 3\n    return y\n\ndef tau(x):\n    return x - RHO\n\ndef sigma(x, step=2):\n    return x * BETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_lambda__3(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = tau(6)\n    v = sigma(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "RHO = 5\nBETA = 6\nOMEGA = 5\n\ndef unused_tau_0(x):\n    y = x * 3\n    if y > 14:\n        y = y - 3\n    return y\n\ndef unused_tau_1(x):\n    y = x * 5\n    if y > 21:\n        y = y - 5\n    return y\n\ndef unused_tau_2(x):\n    y = x * 5\n    if y > 48:\n        y = y - 5\n    return y\n\ndef unused_tau_3(x):\n    y = x * 3\n    if y > 21:\n        y = y - 3\n    return y\n\ndef tau(x):\n    return x - RHO\n\ndef sigma(x, step=2):\n    return x * BETA + step\n\ndef unused_lambda__0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_lambda__1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_lambda__2(s):\n    return s.strip().lower() + \"delta\"\n\ndef unused_lambda__3(s):\n    return s.strip().upper() + \"kappa\"\n\ndef main():\n    v = tau(6)\n    v = sigma(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "13",
+  "old_answer": "13",
+  "patch_hex": "4352473091069ade19d627f7eaa6df28c4336e3b2bc8461a29ac25bd858b1e41ddacfce8b00d01bc585ec17b687654658b4649fd61a31159e61fadd6b130db9b39d45ebd974aca0201012c01272020202072657475726e20732e737472697028292e75707065722829202b20226b61707061220a08",
+  "old_cid": "bc585ec17b687654658b4649fd61a31159e61fadd6b130db9b39d45ebd974aca",
+  "changed_idents": [
+   "kappa",
+   "strip",
+   "upper"
+  ]
+ },
+ {
+  "id": "P055",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "OMEGA = 6\nTHETA = 8\nSIGMA = 1\n\ndef unused_rho_0(x):\n    y = x * 2\n    if y > 19:\n        y = y - 2\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 8\n    if y > 17:\n        y = y - 8\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 17:\n        y = y - 7\n    return y\n\ndef unused_rho_4(x):\n    y = x * 5\n    if y > 21:\n        y = y - 5\n    return y\n\ndef unused_rho_5(x):\n    y = x * 8\n    if y > 22:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x - OMEGA\n\ndef beta(x, step=4):\n    return x + THETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_zeta_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_zeta_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = rho(4)\n    v = beta(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "OMEGA = 6\nTHETA = 7\nSIGMA = 1\n\ndef unused_rho_0(x):\n    y = x * 2\n    if y > 19:\n        y = y - 2\n    return y\n\ndef unused_rho_1(x):\n    y = x * 3\n    if y > 26:\n        y = y - 3\n    return y\n\ndef unused_rho_2(x):\n    y = x * 8\n    if y > 17:\n        y = y - 8\n    return y\n\ndef unused_rho_3(x):\n    y = x * 7\n    if y > 17:\n        y = y - 7\n    return y\n\ndef unused_rho_4(x):\n    y = x * 5\n    if y > 21:\n        y = y - 5\n    return y\n\ndef unused_rho_5(x):\n    y = x * 8\n    if y > 22:\n        y = y - 8\n    return y\n\ndef rho(x):\n    return x - OMEGA\n\ndef beta(x, step=4):\n    return x + THETA + step\n\ndef unused_zeta_0(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_zeta_1(s):\n    return s.strip().lower() + \"theta\"\n\ndef unused_zeta_2(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_zeta_3(s):\n    return s.strip().lower() + \"tau\"\n\ndef main():\n    v = rho(4)\n    v = beta(v)\n    v = v + SIGMA\n    return v\n\nprint(main())\n",
+  "answer": "10",
+  "old_answer": "11",
+  "patch_hex": "43524730b0074a3769b0fe195d4abaceb7d6c0f81fdd6a25d7a5c8790af4239aac4be7ed975a017e3a7fd63522022b1821dd29b91ee38dd7c7859427d97501391478427ce6a64a02010101010a5448455441203d20370a3f",
+  "old_cid": "7e3a7fd63522022b1821dd29b91ee38dd7c7859427d97501391478427ce6a64a",
+  "changed_idents": [
+   "THETA"
+  ]
+ },
+ {
+  "id": "P056",
+  "kind": "control",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "SIGMA = 9\nKAPPA = 4\nRHO = 3\n\ndef unused_theta_0(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef unused_theta_1(x):\n    y = x * 6\n    if y > 32:\n        y = y - 6\n    return y\n\ndef unused_theta_2(x):\n    y = x * 9\n    if y > 25:\n        y = y - 9\n    return y\n\ndef unused_theta_3(x):\n    y = x * 3\n    if y > 36:\n        y = y - 3\n    return y\n\ndef theta(x):\n    return x - SIGMA\n\ndef lambda_(x, step=4):\n    return x + KAPPA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = theta(5)\n    v = lambda_(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "new_excerpt": "SIGMA = 9\nKAPPA = 4\nRHO = 3\n\ndef unused_theta_0(x):\n    y = x * 3\n    if y > 48:\n        y = y - 3\n    return y\n\ndef unused_theta_1(x):\n    y = x * 6\n    if y > 32:\n        y = y - 6\n    return y\n\ndef unused_theta_2(x):\n    y = x * 10\n    if y > 25:\n        y = y - 9\n    return y\n\ndef unused_theta_3(x):\n    y = x * 3\n    if y > 36:\n        y = y - 3\n    return y\n\ndef theta(x):\n    return x - SIGMA\n\ndef lambda_(x, step=4):\n    return x + KAPPA + step\n\ndef unused_beta_0(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_beta_1(s):\n    return s.strip().lower() + \"rho\"\n\ndef unused_beta_2(s):\n    return s.strip().lower() + \"rho\"\n\ndef main():\n    v = theta(5)\n    v = lambda_(v)\n    v = v + RHO\n    return v\n\nprint(main())\n",
+  "answer": "7",
+  "old_answer": "7",
+  "patch_hex": "43524730db05614cc9f920453f23d9afe0a590f3ccaf6d1bd954e180ca4d8be8c0dbf492833e011f69cd4115ec7219e1c14013543019d8b85d9b8bd02b0302ce4bd8dd3312f0de02010111010f2020202079203d2078202a2031300a20",
+  "old_cid": "1f69cd4115ec7219e1c14013543019d8b85d9b8bd02b0302ce4bd8dd3312f0de",
+  "changed_idents": []
+ },
+ {
+  "id": "P057",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "LAMBDA_ = 5\nSIGMA = 4\nKAPPA = 2\n\ndef unused_alpha_0(x):\n    y = x * 5\n    if y > 15:\n        y = y - 5\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 3\n    if y > 25:\n        y = y - 3\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 42:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 3\n    if y > 13:\n        y = y - 3\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 3\n    if y > 11:\n        y = y - 3\n    return y\n\ndef alpha(x):\n    return x - LAMBDA_\n\ndef theta(x, step=4):\n    return x * SIGMA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = alpha(3)\n    v = theta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "LAMBDA_ = 5\nSIGMA = 7\nKAPPA = 2\n\ndef unused_alpha_0(x):\n    y = x * 5\n    if y > 15:\n        y = y - 5\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 3\n    if y > 25:\n        y = y - 3\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 42:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 3\n    if y > 13:\n        y = y - 3\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 3\n    if y > 11:\n        y = y - 3\n    return y\n\ndef alpha(x):\n    return x - LAMBDA_\n\ndef theta(x, step=4):\n    return x * SIGMA + step\n\ndef unused_tau_0(s):\n    return s.strip().lower() + \"omega\"\n\ndef unused_tau_1(s):\n    return s.strip().lower() + \"alpha\"\n\ndef main():\n    v = alpha(3)\n    v = theta(v)\n    v = v + KAPPA\n    return v\n\nprint(main())\n",
+  "answer": "-8",
+  "old_answer": "-2",
+  "patch_hex": "43524730f405d8b91bf59a18be21c4a2d104c87c2fa113296ab4660a24b38d6bca552ecd312801685cc5c7468439d08a1fa5b71d7633d621d84bb6cc4dcaf799c4a8244e644cc102010101010a5349474d41203d20370a33",
+  "old_cid": "685cc5c7468439d08a1fa5b71d7633d621d84bb6cc4dcaf799c4a8244e644cc1",
+  "changed_idents": [
+   "SIGMA"
+  ]
+ },
+ {
+  "id": "P058",
+  "kind": "default",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "ALPHA = 9\nZETA = 6\nLAMBDA_ = 4\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 2\n    if y > 42:\n        y = y - 2\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 7\n    if y > 41:\n        y = y - 7\n    return y\n\ndef gamma(x):\n    return x - ALPHA\n\ndef sigma(x, step=3):\n    return x + ZETA + step\n\ndef unused_theta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_theta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_theta_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = gamma(5)\n    v = sigma(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "new_excerpt": "ALPHA = 9\nZETA = 6\nLAMBDA_ = 4\n\ndef unused_gamma_0(x):\n    y = x * 3\n    if y > 34:\n        y = y - 3\n    return y\n\ndef unused_gamma_1(x):\n    y = x * 2\n    if y > 42:\n        y = y - 2\n    return y\n\ndef unused_gamma_2(x):\n    y = x * 5\n    if y > 34:\n        y = y - 5\n    return y\n\ndef unused_gamma_3(x):\n    y = x * 7\n    if y > 41:\n        y = y - 7\n    return y\n\ndef gamma(x):\n    return x - ALPHA\n\ndef sigma(x, step=6):\n    return x + ZETA + step\n\ndef unused_theta_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_theta_1(s):\n    return s.strip().lower() + \"lambda_\"\n\ndef unused_theta_2(s):\n    return s.strip().lower() + \"kappa\"\n\ndef main():\n    v = gamma(5)\n    v = sigma(v)\n    v = v + LAMBDA_\n    return v\n\nprint(main())\n",
+  "answer": "12",
+  "old_answer": "9",
+  "patch_hex": "43524730e2055109241a7e75dcfb4f8b3806d6476157cccdef83be069cc8365eed5c22710167011959b342f725ae8d2fea88372ceec98167103f1e4e5b47f82f0629a42d7c860b0201011f0116646566207369676d6128782c20737465703d36293a0a12",
+  "old_cid": "1959b342f725ae8d2fea88372ceec98167103f1e4e5b47f82f0629a42d7c860b",
+  "changed_idents": [
+   "sigma"
+  ]
+ },
+ {
+  "id": "P059",
+  "kind": "const",
+  "key": "file:prog.py",
+  "func": "main",
+  "old_excerpt": "THETA = 7\nDELTA = 4\nOMEGA = 3\n\ndef unused_alpha_0(x):\n    y = x * 8\n    if y > 24:\n        y = y - 8\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 8\n    if y > 32:\n        y = y - 8\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 33:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 4\n    if y > 36:\n        y = y - 4\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 2\n    if y > 50:\n        y = y - 2\n    return y\n\ndef unused_alpha_5(x):\n    y = x * 5\n    if y > 44:\n        y = y - 5\n    return y\n\ndef alpha(x):\n    return x - THETA\n\ndef rho(x, step=4):\n    return x * DELTA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_sigma_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = alpha(5)\n    v = rho(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "new_excerpt": "THETA = 9\nDELTA = 4\nOMEGA = 3\n\ndef unused_alpha_0(x):\n    y = x * 8\n    if y > 24:\n        y = y - 8\n    return y\n\ndef unused_alpha_1(x):\n    y = x * 8\n    if y > 32:\n        y = y - 8\n    return y\n\ndef unused_alpha_2(x):\n    y = x * 3\n    if y > 33:\n        y = y - 3\n    return y\n\ndef unused_alpha_3(x):\n    y = x * 4\n    if y > 36:\n        y = y - 4\n    return y\n\ndef unused_alpha_4(x):\n    y = x * 2\n    if y > 50:\n        y = y - 2\n    return y\n\ndef unused_alpha_5(x):\n    y = x * 5\n    if y > 44:\n        y = y - 5\n    return y\n\ndef alpha(x):\n    return x - THETA\n\ndef rho(x, step=4):\n    return x * DELTA + step\n\ndef unused_sigma_0(s):\n    return s.strip().lower() + \"beta\"\n\ndef unused_sigma_1(s):\n    return s.strip().lower() + \"gamma\"\n\ndef unused_sigma_2(s):\n    return s.strip().lower() + \"theta\"\n\ndef main():\n    v = alpha(5)\n    v = rho(v)\n    v = v + OMEGA\n    return v\n\nprint(main())\n",
+  "answer": "-9",
+  "old_answer": "-1",
+  "patch_hex": "4352473082079158590d8d90239aeffda46745589dcff9ca49119ce75f8e40b78d5356f04d0001f77270bc1b4420fdac0c865e61d3bde2dc16239248cc950740178e75d8dc71c402010100010a5448455441203d20390a3d",
+  "old_cid": "f77270bc1b4420fdac0c865e61d3bde2dc16239248cc950740178e75d8dc71c4",
+  "changed_idents": [
+   "THETA"
+  ]
+ }
+]
