@@ -18,6 +18,7 @@ Startomgång 21 november 2026. Ordinarie rapporter publiceras på fredagar kl. 1
 | --- | --- |
 | 2026-11-21 (extra startomgång) | [Första forskningsrapporten](2026-11-21.md) |
 | 2026-11-21 (repo-koppling) | [Forskning ↔ befintliga JAR-NILS-spår](2026-11-21-repo-crosswalk.md) |
+| 2026-11-27 | [Veckorapport – selektiv evidens och små agenter](2026-11-27.md) |
 
 ## Filformat
 
